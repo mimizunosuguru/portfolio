@@ -10,6 +10,7 @@ const Layout = (props) => (
   <div style={layoutStyle}>
     <Header/>
     {props.children}
+    <p>てすと</p>
   </div>
 )
 
