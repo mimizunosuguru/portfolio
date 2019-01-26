@@ -6,7 +6,7 @@ const Index = () => (
       <a>Index</a>
     </Link>
     <Link href="/about">
-      <a>About</a>
+      <a>a</a>
     </Link>
   </div>
 )

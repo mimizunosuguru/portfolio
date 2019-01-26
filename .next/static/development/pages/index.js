@@ -50,7 +50,7 @@ var Index = function Index() {
       lineNumber: 9
     },
     __self: this
-  }, "About")));
+  }, "a")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
