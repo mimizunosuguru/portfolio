@@ -1,9 +1,9 @@
 import Layout from "../components/Layout";
 
-const about = () => (
+const work = () => (
   <Layout>
-    <p>About</p>
+    <h1>Work</h1>
   </Layout>
 )
 
-export default about
+export default work
