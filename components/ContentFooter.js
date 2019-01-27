@@ -8,26 +8,14 @@ const styles = css`
     padding: 0 20px;
   }
   
-   section {
-    background: #fff;
-    padding: 50px;
-  }
-  
-  section.grey {
-    background: #F0F1F5;
-    padding: 50px;
-  }
-
-  .section__inner {
-    margin: 0 auto;
-    max-width: 980px;
+  .card__wrapper {
+    display: flex;  
   }
   
   .card {
     height: 300px;
     flex: 1;
     background: #FFFFFF;
-
     border: 1px solid #F0F1F5;
     border-radius: 8px;
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.08);
@@ -62,18 +50,19 @@ const styles = css`
     width: 100%;
     height: 100%;
     padding: 30px 35px;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
   }
     
   .card--history .card__cont  {
     background-image: url("/static/history.png");
-    background-size: auto 100%;
-    background-position: center;
+   
   }
   
   .card--work .card__cont  {
     background-image: url("/static/work.png");
-    background-size: auto 100%;
-    background-position: center;
+    
   }
   
   .card__inner span {
@@ -85,12 +74,43 @@ const styles = css`
     font-size: 50px;
     font-weight: bold;
   }
+  
+   @media (max-width: 767px) { 
+    .card__wrapper {
+      flex-direction: column;
+    }
+    
+    .card {
+      height: 200px;
+    }
+    
+    .card:hover {
+      box-shadow: 0 20px 20px rgba(0,0,0,.08);
+      transform: none;
+    }
+    
+    .card:first-child {
+      margin: 0 0 20px;
+    }
+    
+    .card:last-child {
+      margin: 0;
+    }
+    
+    .card__inner {
+      padding: 15px;
+    }
+    
+    .card__cont {
+      background-size: 100% auto;
+    }
+  }
 `
 
 const ContentFooter = () => (
   <section>
     <div className="section__inner">
-      <ul className="flex">
+      <ul className="card__wrapper">
         <li className="card card--history">
           <a className="card__inner">
             <div className="card__cont">
@@ -102,8 +122,8 @@ const ContentFooter = () => (
         <li className="card card--work">
           <a className="card__inner">
             <div className="card__cont">
-              <span>Read my</span>
-              <p>History</p>
+              <span>Show my</span>
+              <p>Work</p>
             </div>
           </a>
         </li>

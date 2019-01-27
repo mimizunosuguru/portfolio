@@ -2,22 +2,7 @@ import Layout from '../components/Layout'
 import ContentFooter from '../components/ContentFooter'
 import css from 'styled-jsx/css'
 
-const styles = css`
-  section {
-    background: #fff;
-    padding: 50px 50px 50px;
-  }
-  
-  section.grey {
-    background: #F0F1F5;
-    padding: 50px;
-  }
-
-  .section__inner {
-    margin: 0 auto;
-    max-width: 980px;
-  }
-  
+const styles = css`  
   .section__boxWrapper {
     display: flex;
   }
@@ -28,6 +13,7 @@ const styles = css`
     justify-content: center;
     width: 50%;
     height: 380px;
+    overflow: hidden;
   }
   
   .section__box.left {
@@ -57,8 +43,8 @@ const styles = css`
   }
   
   img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
   }
   
   .box__card {
@@ -109,13 +95,69 @@ const styles = css`
     border-bottom: 1px solid #000;
   }
   
-  .bio__listItem .item--position {
-    
+  .bio__listItem .item--position { 
   }
   
   .bio__listItem .item--place {
     margin-left: auto;
     text-align: right;
+  }
+  
+   @media (max-width: 767px) { 
+    h1 {
+      display: none;
+    }
+    
+    .section__box {
+      margin-top: 84px;
+    }
+    
+    .section__box.right {
+      padding-left: 20px;
+    }
+    
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .card__title h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    
+    h3 {
+      font-size: 20px;
+    }
+    
+    .box__card {
+      flex-direction: column-reverse;      
+      align-items: center;
+    }
+    
+    .box__card:first-child {
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    
+    .card__cont {
+      width: 100%;
+    }
+    
+    .bio__listItem {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+      padding: 10px 0;
+    }
+    
+    .bio__listItem div {
+      margin-bottom: 10px;
+    }
+    
+    .bio__listItem .item--place {
+      margin: 0;
+    }
   }
 `
 

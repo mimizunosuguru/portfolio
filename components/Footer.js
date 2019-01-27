@@ -14,7 +14,6 @@ const styles = css`
   
   p {
     color: #999999;
-    font-family: Lato;
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -29,6 +28,7 @@ const styles = css`
     color: #999999;
     font-size: 14px;
     font-weight: normal;
+    margin: 0;
   }
   
   button {

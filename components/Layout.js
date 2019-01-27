@@ -19,13 +19,27 @@ const Layout = (props) => (
     box-sizing: border-box;
   }
 
+  .Avenir {
+    font-family: 'avenir';
+  }
+
   body {
     background: #F0F1F5;
     font-family: 'Avenir', 'YuGothic';
   }
 
-  .Avenir {
-    font-family: 'avenir';
+  section {
+    background: #fff;
+    padding: 50px;
+  }
+
+  section.grey {
+    background: #F0F1F5;
+  }
+
+  .section__inner {
+    margin: 0 auto;
+    max-width: 980px;
   }
 
   .flex {
@@ -56,6 +70,12 @@ const Layout = (props) => (
   ul li {
     display: block;
     text-align: -webkit-match-parent;
+  }
+
+  @media (max-width: 767px) {
+    section {
+      padding: 20px;
+    }
   }
 `}</style>
   </Fragment>
