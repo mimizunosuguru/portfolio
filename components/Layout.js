@@ -1,15 +1,16 @@
 import React, { Fragment } from 'react'
 import css from 'styled-jsx/css'
 import  Header from './Header'
+import  Footer from './Footer'
 
 const Layout = (props) => (
   <Fragment>
-    {/* ヘッダー */}
     <Header/>
 
     {/* コンテンツ */}
     {props.children}
 
+    <Footer/>
     {/* グローバルCSS */}
     <style jsx global>{`
   * {

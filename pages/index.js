@@ -5,7 +5,7 @@ import css from 'styled-jsx/css'
 const styles = css`
   section {
     background: #fff;
-    padding: 134px 50px 50px;
+    padding: 50px 50px 50px;
   }
   
   section.grey {
@@ -31,6 +31,18 @@ const styles = css`
   }
   
   .section__box.left {
+  }
+  
+  .page__header {
+    padding: 0 50px;
+    background: #fff;
+  }
+  
+  h1 {
+    height: 84px;
+    line-height: 84px;
+    margin: 0 auto;
+    max-width: 980px;
   }
   
   h2 {
@@ -109,6 +121,11 @@ const styles = css`
 
 const Index = () => (
   <Layout>
+    <div className="page__header">
+      <h1>
+        mimizunoDesign
+      </h1>
+    </div>
     {/*Top*/}
     <section>
       <div className="section__inner">

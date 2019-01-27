@@ -85,14 +85,6 @@ const styles = css`
     font-size: 50px;
     font-weight: bold;
   }
-  
-  @media (max-width: 1020px) and (min-width: 768px) { 
-     section {
-      background: red;
-     }
-   }
-  
-  @media (max-width: 767px) { #css{width:auto;} }
 `
 
 const ContentFooter = () => (

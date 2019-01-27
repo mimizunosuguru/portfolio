@@ -14,6 +14,7 @@ const styles = css`
   }
   
   header {
+    z-index: 10;
     height: 84px;
     width: 100%;
     position: fixed;
@@ -22,8 +23,9 @@ const styles = css`
   
   .header__inner {
     display: flex;
-    margin: 0 110px;
-    height: 80px;
+    max-width: 980px;
+    margin: 0 auto;
+    height: 84px;
     font-size: 20px;
     align-items: center;
    }
@@ -37,9 +39,6 @@ const styles = css`
 const Header = () => (
   <header>
     <div className="header__inner">
-      <h1>
-        mimizunoDesign
-      </h1>
       <nav>
         <Link href="/index">
           <a>Top</a>
