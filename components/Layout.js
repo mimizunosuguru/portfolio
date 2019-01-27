@@ -15,19 +15,28 @@ const Layout = (props) => (
   * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   body {
     background: #F0F1F5;
+    font-family: 'Avenir', 'YuGothic';
   }
 
   .Avenir {
     font-family: 'avenir';
   }
 
+  .flex {
+    display: flex;
+  }
+
+  .ml-auto {
+    margin-left: auto;
+  }
+
   p {
     font-size: 16px;
-    font-family: 'YuGothic';
   }
 
   a {
@@ -41,6 +50,11 @@ const Layout = (props) => (
   a:visited {
     color: #000;
     text-decoration: none;
+  }
+
+  ul li {
+    display: block;
+    text-align: -webkit-match-parent;
   }
 `}</style>
   </Fragment>
