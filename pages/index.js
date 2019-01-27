@@ -109,7 +109,7 @@ const styles = css`
     }
     
     .section__box {
-      margin-top: 84px;
+      margin-top: 50px;
     }
     
     .section__box.right {

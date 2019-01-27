@@ -25,7 +25,7 @@ const styles = css`
     display: flex;
     max-width: 980px;
     margin: 0 auto;
-    height: 84px;
+    height: 100%;
     font-size: 20px;
     align-items: center;
    }
@@ -33,6 +33,16 @@ const styles = css`
   nav {
     margin-left: auto;
     font-family: 'Avenir', serif;
+  }
+  
+   @media (max-width: 767px) { 
+    h1 {
+      display: none;
+    }
+    
+    header {
+      height: 70px;
+    }
   }
 `
 
