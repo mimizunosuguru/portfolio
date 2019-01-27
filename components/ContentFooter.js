@@ -50,7 +50,7 @@ const styles = css`
     width: 100%;
     height: 100%;
     padding: 30px 35px;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -100,37 +100,44 @@ const styles = css`
     .card__inner {
       padding: 15px;
     }
-    
-    .card__cont {
-      background-size: 100% auto;
-    }
   }
 `
 
-const ContentFooter = () => (
-  <section>
-    <div className="section__inner">
-      <ul className="card__wrapper">
-        <li className="card card--history">
-          <a className="card__inner">
-            <div className="card__cont">
-              <span>Read my</span>
-              <p>History</p>
-            </div>
-          </a>
-        </li>
-        <li className="card card--work">
-          <a className="card__inner">
-            <div className="card__cont">
-              <span>Show my</span>
-              <p>Work</p>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <style jsx>{styles}</style>
-  </section>
-)
+export default class ContentFooter extends React.Component{
+  state = {
+    page: "test"
+  }
 
-export default ContentFooter
+  // work / page / storyで条件分岐
+  render () {
+    return (
+      this.props.pageStatus === 'top' ? (
+          <section>
+            <div className="section__inner">
+              <ul className="card__wrapper">
+                <li className="card card--history">
+                  <a className="card__inner">
+                    <div className="card__cont">
+                      <span>Read my</span>
+                      <p>History</p>
+                    </div>
+                  </a>
+                </li>
+                <li className="card card--work">
+                  <Link href="/work">
+                    <a className="card__inner">
+                      <div className="card__cont">
+                        <span>Show my</span>
+                        <p>Work</p>
+                      </div>
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <style jsx>{styles}</style>
+          </section>
+        ) : null
+    )
+  }
+}

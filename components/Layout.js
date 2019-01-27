@@ -50,6 +50,11 @@ const Layout = (props) => (
     margin-left: auto;
   }
 
+  .link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+
   p {
     font-size: 16px;
   }
@@ -60,6 +65,7 @@ const Layout = (props) => (
 
   a:hover {
     opacity: 0.6;
+    cursor: pointer;
   }
 
   a:visited {
