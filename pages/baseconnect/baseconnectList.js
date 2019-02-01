@@ -24,7 +24,7 @@ const styles = css`
   .heroImage {
     width: 100%;
     height: 600px;
-    background-image: url("/static/image/work/baseconnect-lp.png");
+    background-image: url("/static/image/work/baseconnect-list.png");
     background-size: cover;
     background-position: center;
   }
@@ -158,6 +158,7 @@ export default class LIST extends React.Component {
       <Layout>
         <div className="heroImage"/>
         <article>
+          {/*説明*/}
           <section className="section__top">
             <div className="page__title">
               <h2>Baseconnect LIST</h2>
@@ -188,6 +189,7 @@ export default class LIST extends React.Component {
               </li>
             </ul>
           </section>
+          {/*コンテンツ*/}
           <section className="section__content">
             <h3><span className="h3__inner">1. 検索条件の保存機能追加</span></h3>
             <p>ユーザーのヒアリングから、「検索条件の保存機能」が欲しいという要望が多かったため、機能を実装するに伴い、一部デザインの変更を行いました。</p>
@@ -199,7 +201,7 @@ export default class LIST extends React.Component {
             <p>新しい機能を追加するにあたって、「保存した検索条件の選択 / 編集」をナビゲーショバー下のコンポーネントに配置し、「該当社数」は一つ下の階層に下げました（画像右：After）</p>
 
             <div className="image__wrapper">
-              <img src="/static/image/work/lp/lp-capture1.png" alt=""/>
+              <img src="/static/image/work/list/list-capture1.png" alt=""/>
               <span className="image__caption">「ダッシュボード・掲示板」を想起させるグラフィックで表現</span>
             </div>
           </section>
