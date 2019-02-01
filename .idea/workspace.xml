@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="12cdee44-9f15-4803-b4c9-6877fc818a3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture7.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="197">
+              <caret line="332" column="34" selection-start-line="332" selection-start-column="34" selection-end-line="332" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -34,14 +35,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.section__box.left.jsx-3798670179</find>
-      <find>box__card</find>
-      <find>card__inner</find>
-      <find>github</find>
-      <find>section.jsx-846841000</find>
-      <find>img</find>
-      <find>bio__list</find>
-      <find>copyRight</find>
       <find>lato</find>
       <find>section__box</find>
       <find>bio__listItem</find>
@@ -52,7 +45,6 @@
       <find>background-size</find>
       <find>15</find>
       <find>articles</find>
-      <find>content</find>
       <find>thumbnail</find>
       <find>33</find>
       <find>pageTitle</find>
@@ -64,6 +56,15 @@
       <find>hero</find>
       <find>h3</find>
       <find>h3__inner</find>
+      <find>After</find>
+      <find>h5</find>
+      <find>サイドバー</find>
+      <find>課題</find>
+      <find>li</find>
+      <find>content</find>
+      <find>6.5</find>
+      <find>button</find>
+      <find>btn__wrapper</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,7 +94,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="720" />
+    <option name="width" value="1089" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -113,7 +114,18 @@
             <path>
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="baseconnect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
@@ -125,6 +137,36 @@
               <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="lp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,13 +227,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46952000" />
+    <option name="totallyTimeSpent" value="51124000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="720" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1089" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30277777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20018366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -225,32 +267,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="98" selection-start-line="98" selection-end-line="99" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="28" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/ContentFooter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1059">
-          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -269,16 +291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -347,21 +359,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="135" column="1" lean-forward="true" selection-start-line="6" selection-end-line="135" selection-end-column="1" />
+        <state relative-caret-position="328">
+          <caret line="185" column="14" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="82" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+        <state relative-caret-position="257">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/image/work/list/list-capture6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/ContentFooter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="33" selection-start-line="33" selection-end-line="49" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="332" column="34" selection-start-line="332" selection-start-column="34" selection-end-line="332" selection-end-column="34" />
         </state>
       </provider>
     </entry>
