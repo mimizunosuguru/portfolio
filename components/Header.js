@@ -1,7 +1,13 @@
 import Link from 'next/link'
-import css from 'styled-jsx/css'
+import styled from 'styled-components'
 
-const styles = css`
+const Head = styled.header `
+  z-index: 10;
+  height: 84px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+    
   a {
     font-color: black;
     padding: 0 20px;
@@ -13,14 +19,6 @@ const styles = css`
     font-family: 'Avenir',serif;
   }
   
-  header {
-    z-index: 10;
-    height: 84px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-  }
-  
   .header__inner {
     display: flex;
     max-width: 980px;
@@ -28,26 +26,24 @@ const styles = css`
     height: 100%;
     font-size: 20px;
     align-items: center;
-   }
+  }
   
   nav {
     margin-left: auto;
     font-family: 'Avenir', serif;
   }
   
-   @media (max-width: 767px) { 
+  @media (max-width: 767px) {
+    height: 70px;
+    
     h1 {
       display: none;
-    }
-    
-    header {
-      height: 70px;
     }
   }
 `
 
 const Header = () => (
-  <header>
+  <Head>
     <div className="header__inner">
       <nav>
         <Link href="/index">
@@ -61,8 +57,7 @@ const Header = () => (
         </Link>
       </nav>
     </div>
-    <style jsx>{styles}</style>
-  </header>
+  </Head>
 )
 
 export default Header

@@ -1,8 +1,8 @@
 import Layout from '../components/Layout'
 import ContentFooter from '../components/ContentFooter'
-import css from 'styled-jsx/css'
+import styled from 'styled-components';
 
-const styles = css`  
+const Article = styled.div`  
   .section__boxWrapper {
     display: flex;
   }
@@ -168,6 +168,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+        <Article>
         <div className="page__header">
           <h1>
             mimizunoDesign
@@ -243,7 +244,7 @@ export default class Index extends React.Component {
         </section>
 
         <ContentFooter pageStatus={this.state.pageStatus}/>
-        <style jsx>{styles}</style>
+        </Article>
       </Layout>
     )
   }

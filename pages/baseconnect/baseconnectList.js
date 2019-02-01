@@ -3,205 +3,7 @@ import Link from 'next/link'
 import Layout from "../../components/Layout";
 import ContentFooter from "../../components/ContentFooter";
 import React from "react";
-
-const styles = css`
-  section {
-    background: #F0F1F5;
-    padding: 0;
-  }
-  
-  p {
-    margin-bottom: 50px;
-  }
-  
-  .section__top {
-    max-width: 980px;
-    padding: 0 20px;
-    margin: 0 auto;
-    border-bottom: 1px solid #B5B6B7;
-  }
-  
-  .heroImage {
-    width: 100%;
-    height: 600px;
-    background-image: url("/static/image/work/baseconnect-list.png");
-    background-size: cover;
-    background-position: center;
-  }
-  
-  @media (max-width: 1020px) and (min-width: 768px) {
-    .heroImage {
-      height: 400px;
-    }  
-  }
-  
-  @media (max-width: 767px) {
-    .heroImage {
-      height: 300px;
-    }
-  }
-   
-   .page__title {
-      text-align: center;
-      margin: 40px;
-   }
-   
-  .page__title h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .page__title a {
-    font-size: 18px;
-    color: #999999;
-  }
-  
-  //==========================
-   // プロジェクト説明
-   //==========================
-  .page__descList .descList__item {
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-  }
-  
-  .page__descList .descList__item:nth-child(odd) {
-    padding-right: 20px;
-  }
-  
-  .page__descList .descList__item:nth-child(even) {
-    padding-left: 20px;
-  }
-  
-  .page__descList .descList__item .item__title {
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-
-  
-  @media (max-width: 767px) {
-    //スマホ以下
-    .page__descList .descList__item,
-    .page__descList .descList__item {
-      width: 100%;
-      padding: 0;
-    }
-    
-    .page__descList .descList__item:nth-child(even),
-    .page__descList .descList__item:nth-child(odd) {
-      padding: 0;
-    }
-    
-    .page__descList .descList__item .item__title {
-      text-align: center;
-    }
-  }
-  
-   //==========================
-   // 記事コンテンツ部分のスタイル
-   //==========================
-  .section__content {
-    padding: 50px 20px 0;
-    margin-bottom: 100px;
-  }
-  
-  //見出し
-  .section__content  h3 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-  
-  .section__content  h3 .h3__inner {
-    display: inline-block;
-    padding-bottom: 25px;
-    border-bottom: 4px solid #2DC1AF;
-  }
-
-  .section__content  h4 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 25px;
-    text-align: center;
-  }
-  
-  .section__content  h5 {
-    max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-weight: normal;
-    text-align: left;
-    color: #999999;
-  }
-
-  //テキスト
-  .section__content p {
-    max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-  }
-  
-  //リスト
-  .section__content ul {
-    max-width: 800px;
-    margin: 0 auto 40px;
-  }
-  
-  .section__content ul li {
-    margin-bottom: 10px;
-  }
-  
-  //ボタン
-  .section__content .btn__wrapper {
-    text-align: center;
-  }
-  
-  .section__content button {
-    border: 2px solid #999999;
-    margin: 0px 0px 20px 0px;
-    padding: 20px 50px 20px 50px;
-    background: none;
-    text-align: center;
-    color: #999999;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1;
-  }
-  
-  .section__content button:hover {
-    cursor: pointer;
-    background: #999999;
-    color: #fff;
-  }
-
-  //画像
-  .image__wrapper {
-    margin-bottom: 70px;
-  }
-
-  .image__wrapper img {
-    display: block;
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  
-  .image__wrapper.large img {
-    max-width: 1200px;
-  }
-
- .image__wrapper .image__caption {
-  display: block;
-  font-size: 15px;
-  color: #999999;
-  text-align: center;
-  margin: 30px auto;
- }
-`
+import scss from  "../../static/stylesheet/styles.scss";
 
 export default class LIST extends React.Component {
   state = {
@@ -215,7 +17,7 @@ export default class LIST extends React.Component {
         <article>
           {/*説明*/}
           <section className="section__top">
-            <div className="page__title">
+            <div className={scss.example}>
               <h2>Baseconnect LIST</h2>
               <a>https://sales.baseconnect.in/</a>
             </div>
@@ -307,7 +109,6 @@ export default class LIST extends React.Component {
               <img src="/static/image/work/list/list-capture7.png" alt=""/>
               <span className="image__caption">（レスポンシブデザインに対応させ、なるべく一覧性を欠かないように）</span>
             </div>
-
           </section>
 
           {/* コンテンツ3 */}
@@ -352,7 +153,204 @@ export default class LIST extends React.Component {
           {/* コンテンツ4 */}
         </article>
         <ContentFooter pageStatus={this.state.pageStatus}/>
-        <style jsx>{styles}</style>
+        <style>{`
+  section {
+    background: #F0F1F5;
+    padding: 0;
+  }
+
+  p {
+    margin-bottom: 50px;
+  }
+
+  .section__top {
+    max-width: 980px;
+    padding: 0 20px;
+    margin: 0 auto;
+    border-bottom: 1px solid #B5B6B7;
+  }
+
+  .heroImage {
+    width: 100%;
+    height: 600px;
+    background-image: url("/static/image/work/baseconnect-list.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (max-width: 1020px) and (min-width: 768px) {
+    .heroImage {
+      height: 400px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .heroImage {
+      height: 300px;
+    }
+  }
+
+   .page__title {
+      text-align: center;
+      margin: 40px;
+   }
+
+  .page__title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .page__title a {
+    font-size: 18px;
+    color: #999999;
+  }
+
+  //==========================
+   // プロジェクト説明
+   //==========================
+  .page__descList .descList__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+  }
+
+  .page__descList .descList__item:nth-child(odd) {
+    padding-right: 20px;
+  }
+
+  .page__descList .descList__item:nth-child(even) {
+    padding-left: 20px;
+  }
+
+  .page__descList .descList__item .item__title {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+
+  @media (max-width: 767px) {
+    //スマホ以下
+    .page__descList .descList__item,
+    .page__descList .descList__item {
+      width: 100%;
+      padding: 0;
+    }
+
+    .page__descList .descList__item:nth-child(even),
+    .page__descList .descList__item:nth-child(odd) {
+      padding: 0;
+    }
+
+    .page__descList .descList__item .item__title {
+      text-align: center;
+    }
+  }
+
+   //==========================
+   // 記事コンテンツ部分のスタイル
+   //==========================
+  .section__content {
+    padding: 50px 20px 0;
+    margin-bottom: 100px;
+  }
+
+  //見出し
+  .section__content  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .section__content  h3 .h3__inner {
+    display: inline-block;
+    padding-bottom: 25px;
+    border-bottom: 4px solid #2DC1AF;
+  }
+
+  .section__content  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .section__content  h5 {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    color: #999999;
+  }
+
+  //テキスト
+  .section__content p {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  //リスト
+  .section__content ul {
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+
+  .section__content ul li {
+    margin-bottom: 10px;
+  }
+
+  //ボタン
+  .section__content .btn__wrapper {
+    text-align: center;
+  }
+
+  .section__content button {
+    border: 2px solid #999999;
+    margin: 0px 0px 20px 0px;
+    padding: 20px 50px 20px 50px;
+    background: none;
+    text-align: center;
+    color: #999999;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .section__content button:hover {
+    cursor: pointer;
+    background: #999999;
+    color: #fff;
+  }
+
+  //画像
+  .image__wrapper {
+    margin-bottom: 70px;
+  }
+
+  .image__wrapper img {
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+  .image__wrapper.large img {
+    max-width: 1200px;
+  }
+
+ .image__wrapper .image__caption {
+  display: block;
+  font-size: 15px;
+  color: #999999;
+  text-align: center;
+  margin: 30px auto;
+ }
+`}</style>
       </Layout>
     )
   }

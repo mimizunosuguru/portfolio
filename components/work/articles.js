@@ -1,88 +1,4 @@
 import React, { Fragment } from 'react'
-import css from 'styled-jsx/css'
-
-const styles = css`
-  section {
-    background: #F0F1F5;
-    padding-bottom: 0;
-  }
-  
-  .section__title {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 32px;
-    margin-bottom: 15px;
-  }
-  
-  h3 {
-    font-size: 28px;
-    font-weight: bold;
-    border-left: 4px solid #000;
-    padding-left: 20px;
-    line-height: 40px;
-  }
-  
-  .content__list {
-    margin-top: 30px;
-  }
-  
-  .content__wrapper {
-    margin-bottom: 50px;
-  }
-  
-  .content__list .list__item {
-    display: inline-block;
-    vertical-align: top;
-    width: 33%;
-    padding-right: 25px;
-  }
- 
-  .content__thumbnail{
-    height: 200px;
-    margin-bottom: 15px;
-    background: grey;
-  }
-  
-  .content__thumbnail img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .content__title{
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .content__type{
-    font-size: 16px;
-    color: #999999;
-  }
-  
-  .showMore {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0;
-  }
-  
-  .showMore__text {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  @media (max-width: 767px) {
-    .content__list .list__item {
-      width: 100%;
-      margin-bottom: 20px;
-      padding: 0; 
-    }
-  }
-`
 
 export default class Articles extends React.Component {
   state = {
@@ -208,7 +124,88 @@ export default class Articles extends React.Component {
             </div>
           </div>
         </section>
-        <style jsx>{styles}</style>
+        <style>{`
+  section {
+    background: #F0F1F5;
+    padding-bottom: 0;
+  }
+
+  .section__title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: bold;
+    border-left: 4px solid #000;
+    padding-left: 20px;
+    line-height: 40px;
+  }
+
+  .content__list {
+    margin-top: 30px;
+  }
+
+  .content__wrapper {
+    margin-bottom: 50px;
+  }
+
+  .content__list .list__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    padding-right: 25px;
+  }
+
+  .content__thumbnail{
+    height: 200px;
+    margin-bottom: 15px;
+    background: grey;
+  }
+
+  .content__thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .content__title{
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .content__type{
+    font-size: 16px;
+    color: #999999;
+  }
+
+  .showMore {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+
+  .showMore__text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 767px) {
+    .content__list .list__item {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+  }
+`}</style>
       </Fragment>
     )
   }

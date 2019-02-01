@@ -4,137 +4,6 @@ import Layout from "../../components/Layout";
 import ContentFooter from "../../components/ContentFooter";
 import React from "react";
 
-const styles = css`
-  section {
-    background: #F0F1F5;
-    padding: 0;
-  }
-  
-  p {
-    margin-bottom: 50px;
-  }
-  
-  .section__top {
-    max-width: 980px;
-    padding: 0 20px;
-    margin: 0 auto;
-    border-bottom: 1px solid #B5B6B7;
-  }
-  
-  .heroImage {
-    width: 100%;
-    height: 600px;
-    background-image: url("/static/image/work/baseconnect-lp.png");
-    background-size: cover;
-    background-position: center;
-  }
-  
-  @media (max-width: 1020px) and (min-width: 768px) {
-    .heroImage {
-      height: 400px;
-    }  
-  }
-  
-  @media (max-width: 767px) {
-    .heroImage {
-      height: 300px;
-    }
-  }
-   
-   .page__title {
-      text-align: center;
-      margin: 40px;
-   }
-   
-  .page__title h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .page__title a {
-    font-size: 18px;
-    color: #999999;
-  }
-  
-  //プロジェクト説明
-  .page__descList .descList__item {
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-  }
-  
-  .page__descList .descList__item:nth-child(odd) {
-    padding-right: 20px;
-  }
-  
-  .page__descList .descList__item:nth-child(even) {
-    padding-left: 20px;
-  }
-  
-  .page__descList .descList__item .item__title {
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-
-  
-  @media (max-width: 767px) {
-    //スマホ以下
-    .page__descList .descList__item,
-    .page__descList .descList__item {
-      width: 100%;
-      padding: 0;
-    }
-    
-    .page__descList .descList__item:nth-child(even),
-    .page__descList .descList__item:nth-child(odd) {
-      padding: 0;
-    }
-    
-    .page__descList .descList__item .item__title {
-      text-align: center;
-    }
-  }
-  
-   //コンテンツ
-  .section__content {
-    padding: 50px 20px 0;
-    margin-bottom: 100px;
-  }
-  
-  .section__content  h4 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-  
-  .section__content p {
-    max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-  }
-  
-  .image__wrapper {
-    margin-bottom: 70px;
-  }
-  
-  .image__wrapper img {
-    display: block;
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-   .image__wrapper .image__caption {
-    display: block;
-    font-size: 15px;
-    color: #999999;
-    text-align: center;
-    margin: 30px auto;
-   }
-`
-
 export default class LP extends React.Component {
   state = {
     pageStatus: 'top'
@@ -211,7 +80,137 @@ export default class LP extends React.Component {
           </section>
         </article>
         <ContentFooter pageStatus={this.state.pageStatus}/>
-        <style jsx>{styles}</style>
+        <style>{`
+  section {
+    background: #F0F1F5;
+    padding: 0;
+  }
+
+  p {
+    margin-bottom: 50px;
+  }
+
+  .section__top {
+    max-width: 980px;
+    padding: 0 20px;
+    margin: 0 auto;
+    border-bottom: 1px solid #B5B6B7;
+  }
+
+  .heroImage {
+    width: 100%;
+    height: 600px;
+    background-image: url("/static/image/work/baseconnect-lp.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (max-width: 1020px) and (min-width: 768px) {
+    .heroImage {
+      height: 400px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .heroImage {
+      height: 300px;
+    }
+  }
+
+   .page__title {
+      text-align: center;
+      margin: 40px;
+   }
+
+  .page__title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .page__title a {
+    font-size: 18px;
+    color: #999999;
+  }
+
+  //プロジェクト説明
+  .page__descList .descList__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+  }
+
+  .page__descList .descList__item:nth-child(odd) {
+    padding-right: 20px;
+  }
+
+  .page__descList .descList__item:nth-child(even) {
+    padding-left: 20px;
+  }
+
+  .page__descList .descList__item .item__title {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+
+  @media (max-width: 767px) {
+    //スマホ以下
+    .page__descList .descList__item,
+    .page__descList .descList__item {
+      width: 100%;
+      padding: 0;
+    }
+
+    .page__descList .descList__item:nth-child(even),
+    .page__descList .descList__item:nth-child(odd) {
+      padding: 0;
+    }
+
+    .page__descList .descList__item .item__title {
+      text-align: center;
+    }
+  }
+
+   //コンテンツ
+  .section__content {
+    padding: 50px 20px 0;
+    margin-bottom: 100px;
+  }
+
+  .section__content  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .section__content p {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .image__wrapper {
+    margin-bottom: 70px;
+  }
+
+  .image__wrapper img {
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+   .image__wrapper .image__caption {
+    display: block;
+    font-size: 15px;
+    color: #999999;
+    text-align: center;
+    margin: 30px auto;
+   }
+`
+        }</style>
       </Layout>
     )
   }

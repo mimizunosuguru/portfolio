@@ -1,36 +1,28 @@
 import React, { Fragment } from 'react'
-import css from 'styled-jsx/css'
 import  Header from './Header'
 import  Footer from './Footer'
+import styled from 'styled-components';
 
-const Layout = (props) => (
-  <Fragment>
-    <Header/>
-
-    {/* コンテンツ */}
-    {props.children}
-
-    <Footer/>
-    {/* グローバルCSS */}
-    <style jsx global>{`
+const Body = styled.div`
+  background: #F0F1F5;
+  font-family: 'Avenir', 'YuGothic';
+  
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-  .Avenir {
-    font-family: 'avenir';
-  }
-
-  body {
-    background: #F0F1F5;
-    font-family: 'Avenir', 'YuGothic';
-  }
-
+  //indexに追加
   section {
     background: #fff;
     padding: 50px;
+  }
+  
+  @media (max-width: 767px) {
+    section {
+      padding: 20px;
+    }
   }
 
   section.grey {
@@ -40,14 +32,6 @@ const Layout = (props) => (
   .section__inner {
     margin: 0 auto;
     max-width: 980px;
-  }
-
-  .flex {
-    display: flex;
-  }
-
-  .ml-auto {
-    margin-left: auto;
   }
 
   .link:hover {
@@ -77,14 +61,14 @@ const Layout = (props) => (
     display: block;
     text-align: -webkit-match-parent;
   }
+`
 
-  @media (max-width: 767px) {
-    section {
-      padding: 20px;
-    }
-  }
-`}</style>
-  </Fragment>
+const Layout = (props) => (
+  <Body>
+    <Header/>
+    {props.children}
+    <Footer/>
+  </Body>
 )
 
 export default Layout

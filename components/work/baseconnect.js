@@ -1,100 +1,9 @@
 import React, { Fragment } from 'react'
-import css from 'styled-jsx/css'
 import Link from 'next/link'
+import styled from 'styled-components'
 
-const styles = css`
-  section {
-    background: #F0F1F5;
-    padding-bottom: 0;
-  }
-
-  .section__title {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  
-  .section__desc {
-    margin-bottom: 50px;
-  }
-  
-  h2 {
-    font-size: 32px;
-    margin-bottom: 15px;
-  }
-  
-  h4 {
-    color: #999999;
-    font-size: 15px;
-  }
-  
-  .content__list {
-    border-bottom: 1px solid #B5B6B7;
-  }
-  
-  .content__list .list__item {
-    display: inline-block;
-    width: 50%;
-    box-sizing: border-box;
-  }
-  
-  
-  .content__list .list__item:nth-child(odd) {
-    padding-right: 20px;
-    margin-bottom: 50px;
-  }
-  
-  .content__list .list__item:nth-child(even) {
-    padding-left: 20px;
-    margin-bottom: 50px;
-  }
-  
-  .content__thumbnail{
-    height: 270px;
-    margin-bottom: 15px;
-    background: grey;
-  }
-  
-  .content__thumbnail img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .content__title{
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .content__type{
-    font-size: 16px;
-    color: #999999;
-  }
-  
-  @media (max-width: 767px) {
-    section {
-      padding-top: 80px;
-    } 
-    
-    .content__list .list__item {
-      width: 100%;
-    }
-    
-    .content__list .list__item:nth-child(odd) {
-      padding: 0;
-      margin-bottom: 50px;
-    }
-  
-    .content__list .list__item:nth-child(even) {
-      padding: 0;
-      margin-bottom: 50px;
-    }
-    
-    .content__thumbnail{
-      height: 200px;
-     }
-  }
+const Thumnail = styled.div `
+  background: url(${props => props.src});
 `
 
 export default class Baseconnecct extends React.Component {
@@ -117,7 +26,8 @@ export default class Baseconnecct extends React.Component {
               <Link href="/baseconnect/baseconnectLp">
                 <li className="list__item link">
                   <div className="content__thumbnail">
-                    <img src="/static/image/work/baseconnect-lp.png" alt=""/>
+                    <Thumnail src="/static/image/work/baseconnect-lp.png"/>
+
                   </div>
                   <p className="content__title">Baseconnect LIST ランディングページ</p>
                   <span className="content__type">UIデザイン、コーディング</span>
@@ -144,7 +54,100 @@ export default class Baseconnecct extends React.Component {
             </ul>
           </div>
         </section>
-        <style jsx>{styles}</style>
+        <style>{`
+          section {
+            background: #F0F1F5;
+            padding-bottom: 0;
+          }
+
+          .section__title {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            text-align: center;
+          }
+
+          .section__desc {
+            margin-bottom: 50px;
+          }
+
+          h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+          }
+
+          h4 {
+            color: #999999;
+            font-size: 15px;
+          }
+
+          .content__list {
+            border-bottom: 1px solid #B5B6B7;
+          }
+
+          .content__list .list__item {
+            display: inline-block;
+            width: 50%;
+            box-sizing: border-box;
+          }
+
+
+          .content__list .list__item:nth-child(odd) {
+            padding-right: 20px;
+            margin-bottom: 50px;
+          }
+
+          .content__list .list__item:nth-child(even) {
+            padding-left: 20px;
+            margin-bottom: 50px;
+          }
+
+          .content__thumbnail{
+            height: 270px;
+            margin-bottom: 15px;
+            background: grey;
+          }
+
+          .content__thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+          .content__title{
+            margin-bottom: 5px;
+            font-size: 16px;
+            font-weight: bold;
+          }
+
+          .content__type{
+            font-size: 16px;
+            color: #999999;
+          }
+
+          @media (max-width: 767px) {
+            section {
+              padding-top: 80px;
+            }
+
+            .content__list .list__item {
+              width: 100%;
+            }
+
+            .content__list .list__item:nth-child(odd) {
+              padding: 0;
+              margin-bottom: 50px;
+            }
+
+            .content__list .list__item:nth-child(even) {
+              padding: 0;
+              margin-bottom: 50px;
+            }
+
+            .content__thumbnail{
+              height: 200px;
+             }
+          }
+        `}</style>
       </Fragment>
     )
   }
