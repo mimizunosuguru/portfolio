@@ -117,7 +117,7 @@ export default class Baseconnecct extends React.Component {
               <Link href="/baseconnect/baseconnectLp">
                 <li className="list__item link">
                   <div className="content__thumbnail">
-                    <img src="/static/work/baseconnect-lp.png" alt=""/>
+                    <img src="/static/image/work/baseconnect-lp.png" alt=""/>
                   </div>
                   <p className="content__title">Baseconnect LIST ランディングページ</p>
                   <span className="content__type">UIデザイン、コーディング</span>
@@ -126,7 +126,7 @@ export default class Baseconnecct extends React.Component {
               <Link href="/baseconnect/baseconnectList">
                 <li className="list__item link">
                   <div className="content__thumbnail">
-                    <img src="/static/work/baseconnect-list.png" alt=""/>
+                    <img src="/static/image/work/baseconnect-list.png" alt=""/>
                   </div>
                   <p className="content__title">Baseconnect LIST</p>
                   <span className="content__type">UI/UXデザイン、コーディング</span>
@@ -135,7 +135,7 @@ export default class Baseconnecct extends React.Component {
               <Link href="/baseconnect/baseconnectBootcamp">
                 <li className="list__item link">
                   <div className="content__thumbnail">
-                    <img src="/static/work/baseconnect-bootcamp.png" alt=""/>
+                    <img src="/static/image/work/baseconnect-bootcamp.png" alt=""/>
                   </div>
                   <p className="content__title">Design Bootcamp & Product Design</p>
                   <span className="content__type">イベント企画、プロダクトデザイン</span>

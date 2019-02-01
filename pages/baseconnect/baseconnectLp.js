@@ -133,7 +133,6 @@ const styles = css`
     text-align: center;
     margin: 30px auto;
    }
-  
 `
 
 export default class LP extends React.Component {

@@ -56,12 +56,12 @@ const styles = css`
   }
     
   .card--history .card__cont  {
-    background-image: url("/static/history.png");
+    background-image: url("/static/image/history.png");
    
   }
   
   .card--work .card__cont  {
-    background-image: url("/static/work.png");
+    background-image: url("/static/image/work.png");
     
   }
   

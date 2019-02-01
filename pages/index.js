@@ -178,7 +178,7 @@ export default class Index extends React.Component {
           <div className="section__inner">
             <ul className="section__boxWrapper">
               <li className="section__box left">
-                <img src="/static/heroImage.png"/>
+                <img src="/static/image/heroImage.png"/>
               </li>
               <li className="section__box right">
                 <div>

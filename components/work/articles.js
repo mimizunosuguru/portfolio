@@ -124,7 +124,7 @@ export default class Articles extends React.Component {
       {
         title: 'ダンバー数',
         type: '用語集',
-        imageURL: 'article--damber.png'
+        imageURL: 'article--dumbar.png'
 
       },
       {
