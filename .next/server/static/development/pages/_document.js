@@ -171,7 +171,7 @@ function (_Document) {
           lineNumber: 16
         },
         __self: this
-      }, "My page"), this.props.styleTags), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
+      }, "mimizunoDesign"), this.props.styleTags), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
