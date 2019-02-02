@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 
 import Section from '../StyledComponents/section'
 
-const Head = styled.div`
+const Heading = styled.div`
   padding-top: 20px;
   text-align: center;
   
@@ -47,6 +47,11 @@ const Card = styled.li`
   &:nth-child(even) {
     padding-left: 20px;
     margin-bottom: 50px;
+  }
+  
+  &:hover {
+    opacity: 0.6;
+    cursor: pointer;
   }
 
   .title{
@@ -95,39 +100,37 @@ export default class Baseconnecct extends React.Component {
   render () {
     return (
       <Section grey>
+        <Heading>
+          <h2>Baseconnect inc.</h2>
+          <h4>2017/10 - 2019/現在</h4>
+          <p className="section__desc">2017年10月より、フルコミットのUI/UXデザイナーインターンとして活動中。法人営業を支援する企業情報データベース「Baseconnect LIST」の開発を主に担当している。
+            また、同サービスの根幹となる会社情報の管理システム「Baseconnect」の機能改善、未経験を対象としたDesignBootcampの運営も行っている。</p>
+        </Heading>
+        <CardList>
+          <Link href="/baseconnect/baseconnectLp">
+            <Card>
+              <Thumbnail src="/static/image/work/baseconnect-lp.png"/>
+              <p className="title">Baseconnect LIST ランディングページ</p>
+              <span className="type">UIデザイン、コーディング</span>
+            </Card>
+          </Link>
 
-          <Head>
-            <h2>Baseconnect inc.</h2>
-            <h4>2017/10 - 2019/現在</h4>
-            <p className="section__desc">2017年10月より、フルコミットのUI/UXデザイナーインターンとして活動中。法人営業を支援する企業情報データベース「Baseconnect LIST」の開発を主に担当している。
-              また、同サービスの根幹となる会社情報の管理システム「Baseconnect」の機能改善、未経験を対象としたDesignBootcampの運営も行っている。</p>
-          </Head>
-          <CardList>
-            <Link href="/baseconnect/baseconnectList">
-              <Card>
-                <Thumbnail src="/static/image/work/baseconnect-lp.png"/>
-                <p className="title">Baseconnect LIST ランディングページ</p>
-                <span className="type">UIデザイン、コーディング</span>
-              </Card>
-            </Link>
+          <Link href="/baseconnect/baseconnectList">
+            <Card>
+              <Thumbnail src="/static/image/work/baseconnect-list.png"/>
+              <p className="title">Baseconnect LIST</p>
+              <span className="type">UI/UXデザイン、コーディング</span>
+            </Card>
+          </Link>
 
-            <Link href="/baseconnect/baseconnectList">
-              <Card>
-                <Thumbnail src="/static/image/work/baseconnect-list.png"/>
-                <p className="title">Baseconnect LIST</p>
-                <span className="type">UI/UXデザイン、コーディング</span>
-              </Card>
-            </Link>
-
-            <Link href="/baseconnect/baseconnectBootcamp">
-              <Card>
-                <Thumbnail src="/static/image/work/baseconnect-bootcamp.png"/>
-                <p className="title">Design Bootcamp & Product Design</p>
-                <span className="type">イベント企画、プロダクトデザイン</span>
-              </Card>
-            </Link>
-          </CardList>
-
+          <Link href="/baseconnect/baseconnectBootcamp">
+            <Card>
+              <Thumbnail src="/static/image/work/baseconnect-bootcamp.png"/>
+              <p className="title">Design Bootcamp & Product Design</p>
+              <span className="type">イベント企画、プロダクトデザイン</span>
+            </Card>
+          </Link>
+        </CardList>
       </Section>
     )
   }

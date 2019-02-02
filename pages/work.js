@@ -1,10 +1,9 @@
-import css from 'styled-jsx/css'
-import Link from 'next/link'
+import React from "react";
 import Layout from "../components/Layout";
 import ContentFooter from "../components/ContentFooter";
 
-import Baseconnect from '../components/work/baseconnect'
-import Articles from  '../components/work/articles'
+import Baseconnect from '../components/work/baseconnect';
+import Articles from  '../components/work/articles';
 
 export default class Work extends React.Component {
   state = {

@@ -3,18 +3,23 @@ import styled from 'styled-components'
 
 import Section from "../StyledComponents/section";
 
-const SectionArticle = styled.div`
-  .section__title {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
+//article.jsと共通化可能
+const Heading = styled.div`
+  text-align: center;
+  
   h2 {
     font-size: 32px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
+  
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+`
 
+const Content = styled.div`
+  margin-bottom: 50px;
+  
   h3 {
     font-size: 28px;
     font-weight: bold;
@@ -22,63 +27,65 @@ const SectionArticle = styled.div`
     padding-left: 20px;
     line-height: 40px;
   }
+`
 
-  .content__list {
-    margin-top: 30px;
+const CardWrapper = styled.ul`
+  margin-top: 30px;
+`
+
+const Card = styled.li`
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  padding-right: 25px;
+  
+  &:hover {
+    opacity: 0.6;
+    cursor: pointer; 
   }
-
-  .content__wrapper {
-    margin-bottom: 50px;
-  }
-
-  .content__list .list__item {
-    display: inline-block;
-    vertical-align: top;
-    width: 33%;
-    padding-right: 25px;
-  }
-
-  .content__thumbnail{
+  
+  .thumbnail{
     height: 200px;
     margin-bottom: 15px;
     background: grey;
   }
 
-  .content__thumbnail img {
+  .thumbnail img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .content__title{
+  .title{
     margin-bottom: 5px;
     font-size: 16px;
     font-weight: bold;
   }
 
-  .content__type{
+  .type{
     font-size: 16px;
     color: #999999;
   }
-
-  .showMore {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0;
+  
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
   }
+`
 
-  .showMore__text {
+const ShowMore = styled.div `
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+
+  a {
     font-size: 20px;
     font-weight: bold;
   }
+`
 
-  @media (max-width: 767px) {
-    .content__list .list__item {
-      width: 100%;
-      margin-bottom: 20px;
-      padding: 0;
-    }
-  }
+const SectionArticle = styled.div`
 `
 
 export default class Articles extends React.Component {
@@ -144,68 +151,64 @@ export default class Articles extends React.Component {
 
   render () {
     return (
-      <Fragment>
-        <Section grey>
-          <SectionArticle>
-            <div className="section__title">
-              <h2>Articles</h2>
-            </div>
-            <div className="content__wrapper content--note">
-              <h3>Note</h3>
-              <ul className="content__list">
-                {this.state.note.map((data, i) => {
-                  return (
-                    <li key={i} className="list__item link">
-                      <div className="content__thumbnail">
-                        <img src={"/static/image/article/" + data.imageURL} alt=""/>
-                      </div>
-                      <p className="content__title">{data.title}</p>
-                      <span className="content__type">{data.type}</span>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-            <div className="content__wrapper content--uxTimes">
-              <h3>UX TIMES</h3>
-              <ul className="content__list">
-                {this.state.uxTimes.map((data, i) => {
-                  return (
-                    <li key={i} className="list__item link">
-                      <div className="content__thumbnail">
-                        <img src={"/static/image/article/" + data.imageURL} alt=""/>
-                      </div>
-                      <p className="content__title">{data.title}</p>
-                      <span className="content__type">{data.type}</span>
-                    </li>
-                  )
-                })}
-              </ul>
+      <Section grey>
+        <Heading>
+          <h2>Articles</h2>
+        </Heading>
+        <Content>
+          <h3>Note</h3>
+          <CardWrapper>
+            {this.state.note.map((data, i) => {
+              return (
+                //TODO key降る必要あり
+                <Card key={i}>
+                  <div className="thumbnail">
+                    <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                  </div>
+                  <p className="title">{data.title}</p>
+                  <span className="type">{data.type}</span>
+                </Card>
+              )
+            })}
+          </CardWrapper>
+        </Content>
 
-              { this.state.showMore ? (
-                <ul className="content__list">
-                  {this.state.uxTimesShowMore.map((data, i) => {
-                    return (
-                      <li key={i} className="list__item link">
-                        <div className="content__thumbnail">
-                          <img src={"/static/image/article/" + data.imageURL} alt=""/>
-                        </div>
-                        <p className="content__title">{data.title}</p>
-                        <span className="content__type">{data.type}</span>
-                      </li>
-                    )
-                  })}
-                </ul>
-              ) : (
-                <div className="showMore">
-                  <a className="showMore__text" onClick={this.clickShowMore}>Show more</a>
-                </div>
-              )}
-
-            </div>
-          </SectionArticle>
-        </Section>
-      </Fragment>
+        <Content>
+          <h3>UX TIMES</h3>
+            <CardWrapper>
+              {this.state.uxTimes.map((data, i) => {
+                return (
+                  <Card key={i}>
+                    <div className="thumbnail">
+                      <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                    </div>
+                    <p className="title">{data.title}</p>
+                    <span className="type">{data.type}</span>
+                  </Card>
+                )
+              })}
+            </CardWrapper>
+          { this.state.showMore ? (
+            <CardWrapper>
+              {this.state.uxTimesShowMore.map((data, i) => {
+                return (
+                  <Card>
+                    <div className="thumbnail">
+                      <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                    </div>
+                    <p className="title">{data.title}</p>
+                    <span className="type">{data.type}</span>
+                  </Card>
+                )
+              })}
+            </CardWrapper>
+          ) : (
+            <ShowMore>
+              <a className="showMore__text" onClick={this.clickShowMore}>Show more</a>
+            </ShowMore>
+          )}
+        </Content>
+      </Section>
     )
   }
 }

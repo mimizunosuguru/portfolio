@@ -1,8 +1,6 @@
-import css from 'styled-jsx/css'
-import Link from 'next/link'
+import React from "react";
 import Layout from "../../components/Layout";
 import ContentFooter from "../../components/ContentFooter";
-import React from "react";
 
 export default class LP extends React.Component {
   state = {
