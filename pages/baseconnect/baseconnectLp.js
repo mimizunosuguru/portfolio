@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import Recommend from "../../components/recommend";
+import Recommend from "../../components/Recommend";
 
 export default class LP extends React.Component {
   state = {

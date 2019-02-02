@@ -1,7 +1,7 @@
 import css from 'styled-jsx/css'
 import Link from 'next/link'
 import Layout from "../../components/Layout";
-import Recommend from "../../components/recommend";
+import Recommend from "../../components/Recommend";
 
 export default class Bootcamp extends React.Component {
   state = {

@@ -32,7 +32,7 @@ const Card = styled.li`
     height: 100%;
     padding: 30px 35px;
     background-size: cover;
-    background-image: url(${props => (props.history ? "/static/image/history.png" : '/static/image/work.png')});
+    background-image: url(${props => (props.history ? "/static/image/recommend/history.png" : '/static/image/recommend/work.png')});
     background-position: center;
     background-repeat: no-repeat;
   }

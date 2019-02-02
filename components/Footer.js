@@ -46,7 +46,7 @@ const Component = styled.footer`
     width: 100px;
     height: 100px;
     border-radius: 60px;
-    background-image: url("/static/image/iconImage.jpg");
+    background-image: url("/static/image/footer/iconImage.jpg");
     background-size: cover;
     margin-bottom: 20px;
   }
@@ -71,22 +71,22 @@ const Component = styled.footer`
   }
 
   .sns__box .github {
-    background-image: url("/static/image/icon--github.png");
+    background-image: url("/static/image/footer/icon--github.png");
     background-size: 100% auto ;
   }
 
   .sns__box .twitter {
-    background-image: url("/static/image/icon--twitter.png");
+    background-image: url("/static/image/footer/icon--twitter.png");
     background-size: 100% auto;
   }
 
   .sns__box .facebook {
-    background-image: url("/static/image/icon--facebook.png");
+    background-image: url("/static/image/footer/icon--facebook.png");
     background-size: 90% auto;
   }
 
   .sns__box .note {
-    background-image: url("/static/image/icon--note.png");
+    background-image: url("/static/image/footer/icon--note.png");
     background-size: 90% auto;
   }
 `

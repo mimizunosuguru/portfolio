@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import Layout from '../components/Layout'
-import Recommend from '../components/recommend'
+import Recommend from '../components/Recommend'
 
 import Section from '../components/StyledComponents/section'
 
@@ -181,7 +181,7 @@ export default class Index extends React.Component {
         <Section>
           <Top>
             <li className="box left">
-              <img src="/static/image/heroImage.png" alt="heroImage"/>
+              <img src="/static/image/index/heroImage.png" alt="heroImage"/>
             </li>
             <li className="box right">
               <div>
