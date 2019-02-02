@@ -72,6 +72,8 @@ const Card = styled.ul`
   background: #fff;
   padding: 30px;
   
+  margin-top: ${props => (props.second ? '50' : '')}px;
+  
   h2 {
     font-family: 'Avenir', serif;
     font-size: 28px;
@@ -98,7 +100,7 @@ const Card = styled.ul`
   }
   
   @media (max-width: 767px) {
-    flex-direction: column-reverse;
+    flex-direction: ${props => (props.second ? 'column-reverse' : 'column')};
     align-items: center;
 
     .content {
@@ -122,10 +124,14 @@ const Biography = styled.ul`
     border-bottom: 1px solid #EEEEEE;
     font-size: 15px;
   }
+  
+  .bio__listItem:last-child {
+    border: none;
+  }
 
   .bio__listItem .item--title {
     width: 140px;
-    font-family: 'Avenir', 'YuGothic';
+    font-family: 'Avenir', 'YuGothic',serif;
    }
 
   .bio__listItem .item--title a {
@@ -200,7 +206,7 @@ export default class Index extends React.Component {
             </li>
           </Card>
           {/* Biography */}
-          <Card>
+          <Card second>
             <li className="content">
               <Biography>
                 <li className="bio__listItem">

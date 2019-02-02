@@ -20,10 +20,6 @@ export default class Work extends React.Component {
 
         <ContentFooter pageStatus={this.state.pageStatus}/>
         <style>{`
-          section {
-            background: #F0F1F5;
-          }
-
           .section__title {
             margin-top: 20px;
             margin-bottom: 30px;

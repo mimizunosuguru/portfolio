@@ -1,32 +1,9 @@
-import Link from 'next/link'
-import css from 'styled-jsx/css'
+import styled from 'styled-components'
 
-const Footer = () => (
-  <footer>
-    <div className="footer__inner">
-      <div className="icon__circle"/>
-      <p>Thank you for reading!</p>
-      <button>お問い合わせはこちら</button>
-      <p>feel free to contact me or follow me on</p>
-      <div className="sns__box">
-        <a className="github"/>
-        <a className="twitter"/>
-        <a className="facebook"/>
-        <a className="note"/>
-      </div>
-      <p className="copyRight">© 2019 Sugu Mizuno</p>
-    </div>
-    <style>{`
-  section {
-    background: #fff;
-    padding: 50px;
-  }
-
-  footer {
-    background: #F0F1F5;
-    padding: 40px;
-  }
-
+const Component = styled.footer`
+  background: #F0F1F5;
+  padding: 40px;
+  
   p {
     color: #999999;
     font-size: 18px;
@@ -112,8 +89,24 @@ const Footer = () => (
     background-image: url("/static/image/icon--note.png");
     background-size: 90% auto;
   }
-`}</style>
-  </footer>
+`
+
+const Footer = () => (
+  <Component>
+    <div className="footer__inner">
+      <div className="icon__circle"/>
+      <p>Thank you for reading!</p>
+      <button>お問い合わせはこちら</button>
+      <p>feel free to contact me or follow me on</p>
+      <div className="sns__box">
+        <a className="github"/>
+        <a className="twitter"/>
+        <a className="facebook"/>
+        <a className="note"/>
+      </div>
+      <p className="copyRight">© 2019 Sugu Mizuno</p>
+    </div>
+  </Component>
 )
 
 export default Footer
