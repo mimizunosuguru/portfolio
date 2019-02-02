@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import ContentFooter from "../../components/ContentFooter";
+import Recommend from "../../components/recommend";
 import styled from 'styled-components'
 
 const Article = styled.div`
@@ -349,7 +349,7 @@ export default class LIST extends React.Component {
 
           {/* コンテンツ4 */}
         </Article>
-        <ContentFooter pageStatus={this.state.pageStatus}/>
+        <Recommend pageStatus={this.state.pageStatus}/>
       </Layout>
     )
   }

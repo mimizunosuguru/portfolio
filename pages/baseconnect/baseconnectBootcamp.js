@@ -1,7 +1,7 @@
 import css from 'styled-jsx/css'
 import Link from 'next/link'
 import Layout from "../../components/Layout";
-import ContentFooter from "../../components/ContentFooter";
+import Recommend from "../../components/recommend";
 
 export default class Bootcamp extends React.Component {
   state = {
@@ -12,7 +12,7 @@ export default class Bootcamp extends React.Component {
     return (
       <Layout>
         <div>bootcamp</div>
-        <ContentFooter pageStatus={this.state.pageStatus}/>
+        <Recommend pageStatus={this.state.pageStatus}/>
         <style>{`
   section {
     background: #F0F1F5;

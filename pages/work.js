@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import ContentFooter from "../components/ContentFooter";
+import Recommend from "../components/recommend";
 
 import Baseconnect from '../components/work/baseconnect';
 import Articles from  '../components/work/articles';
@@ -17,7 +17,7 @@ export default class Work extends React.Component {
         <Baseconnect/>
         <Articles/>
 
-        <ContentFooter pageStatus={this.state.pageStatus}/>
+        <Recommend pageStatus={this.state.pageStatus}/>
         <style>{`
           .section__title {
             margin-top: 20px;

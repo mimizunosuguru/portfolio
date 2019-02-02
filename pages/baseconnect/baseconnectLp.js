@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import ContentFooter from "../../components/ContentFooter";
+import Recommend from "../../components/recommend";
 
 export default class LP extends React.Component {
   state = {
@@ -77,7 +77,7 @@ export default class LP extends React.Component {
             <p>初めてデザインからコーディングまで任せていただいたこのタスクでは、コーディングを踏まえてデザインをすることの必要性、デザイナーでもコードを書くことの大切さを学び、今デザインをする時も大きな糧となっています。</p>
           </section>
         </article>
-        <ContentFooter pageStatus={this.state.pageStatus}/>
+        <Recommend pageStatus={this.state.pageStatus}/>
         <style>{`
   section {
     background: #F0F1F5;

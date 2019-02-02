@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import Layout from '../components/Layout'
-import ContentFooter from '../components/ContentFooter'
+import Recommend from '../components/recommend'
 
 import Section from '../components/StyledComponents/section'
 
@@ -241,7 +241,7 @@ export default class Index extends React.Component {
             </li>
           </Card>
         </Section>
-        <ContentFooter pageStatus={this.state.pageStatus}/>
+        <Recommend pageStatus={this.state.pageStatus}/>
       </Layout>
     )
   }

@@ -90,7 +90,7 @@ const CardWrapper = styled.ul`
 `;
 
 
-export default class ContentFooter extends React.Component{
+export default class Recommend extends React.Component{
   state = {
     page: "test"
   }
