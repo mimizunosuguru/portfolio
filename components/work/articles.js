@@ -80,12 +80,9 @@ const ShowMore = styled.div `
   margin: 30px 0;
 
   a {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
   }
-`
-
-const SectionArticle = styled.div`
 `
 
 export default class Articles extends React.Component {
@@ -192,7 +189,7 @@ export default class Articles extends React.Component {
             <CardWrapper>
               {this.state.uxTimesShowMore.map((data, i) => {
                 return (
-                  <Card>
+                  <Card key={i}>
                     <div className="thumbnail">
                       <img src={"/static/image/article/" + data.imageURL} alt=""/>
                     </div>

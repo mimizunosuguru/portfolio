@@ -76,7 +76,7 @@ const Card = styled.ul`
   
   h2 {
     font-family: 'Avenir', serif;
-    font-size: 28px;
+    font-size: 30px;
   }
   
   .head {
@@ -91,7 +91,7 @@ const Card = styled.ul`
   }
 
   .content p {
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
 
@@ -122,7 +122,7 @@ const Biography = styled.ul`
     align-items: center;
     height: 50px;
     border-bottom: 1px solid #EEEEEE;
-    font-size: 15px;
+    font-size: 16px;
   }
   
   .bio__listItem:last-child {

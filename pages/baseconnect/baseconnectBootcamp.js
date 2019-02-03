@@ -59,14 +59,14 @@ const Content = styled.div`
 
   h3 span {
     display: inline-block;
-    padding-bottom: 25px;
+    padding: 0 25px 20px;
     border-bottom: 4px solid #2DC1AF;
   }
   
   h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin: 80px 0 40px;
     text-align: center;
   }
 
@@ -212,7 +212,7 @@ export default class Bootcamp extends React.Component {
         <Content>
           {/* コンテンツ1 */}
           <Section grey>
-            <h3><span>Design Bootcamp</span></h3>
+            <h3><span>1. Design Bootcamp</span></h3>
             <p>2017年10月の段階でデザイナーのインターンとしてジョインした際は、自分を含めデザイナーのインターンが2名でした。しかし、2018年の春から1人が卒業し、デザイナーが不足する事態になりました。</p>
             <p>社員を採用する声もありましたが、組織の成長段階を踏まえ、未経験からデザイナーを目指すプログラムのDesign Bootcampを開催することで、優秀な人材をインターンとして採用することを目標に、月に２回ほど説明会を開催しました。</p>
             <p>自身が未経験からデザイナーとして活動できている経験を生かし、運営から面接、課題へのFB等全てを担当しています。</p>
@@ -249,8 +249,10 @@ export default class Bootcamp extends React.Component {
             <Image large>
               <img src="/static/image/work/bootcamp/bootcamp-capture10.png" alt=""/>
             </Image>
+          </Section>
 
-            <h3><span>ProductDesign</span></h3>
+          <Section grey>
+            <h3><span>2. ProductDesign</span></h3>
             <p>自社サービス以外にも、社内で要望があった場合に様々なものをデザインしました。以下では、ダッシュボード、Tシャツ、プロフィールカードの３つをご紹介します。</p>
 
             <Image>
@@ -262,7 +264,9 @@ export default class Bootcamp extends React.Component {
             <Image large>
               <img src="/static/image/work/bootcamp/bootcamp-capture5.png" alt=""/>
             </Image>
+          </Section>
 
+          <Section grey>
             <Image>
               <img src="/static/image/work/bootcamp/bootcamp-capture6.png" alt=""/>
               <h4>Tシャツ</h4>
@@ -273,7 +277,9 @@ export default class Bootcamp extends React.Component {
               <img src="/static/image/work/bootcamp/bootcamp-capture7.png" alt=""/>
               <span>展示会ブースでの写真</span>
             </Image>
+          </Section>
 
+          <Section grey>
             <Image>
               <img src="/static/image/work/bootcamp/bootcamp-capture8.png" alt=""/>
               <h4>プロフィールカード</h4>
@@ -285,9 +291,6 @@ export default class Bootcamp extends React.Component {
               <img src="/static/image/work/bootcamp/bootcamp-capture9.png" alt=""/>
               <span>人が一番通るエレベーター前にプロフィールカードを立てかけている</span>
             </Image>
-
-
-
           </Section>
         </Content>
         <Recommend pageStatus={this.state.pageStatus}/>

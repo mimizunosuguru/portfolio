@@ -61,14 +61,14 @@ const Content = styled.div`
 
   h3 span {
     display: inline-block;
-    padding-bottom: 25px;
+    padding: 0 25px 20px;
     border-bottom: 4px solid #2DC1AF;
   }
   
   h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin: 80px 0 40px;
     text-align: center;
   }
 
@@ -114,7 +114,17 @@ const Image = styled.div`
     color: #999999;
     text-align: center;
     margin: 30px auto;
-   }
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+  p { 
+  }
 `
 
 const Button = styled.button`

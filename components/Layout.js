@@ -19,7 +19,8 @@ const Body = styled.div`
   }
 
   p {
-    font-size: 16px;
+    font-size: 17px;
+    line-height: 1.8;
   }
 
   a {

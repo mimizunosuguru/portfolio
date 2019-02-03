@@ -9,13 +9,13 @@ const Heading = styled.div`
   text-align: center;
   
   h2 {
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 15px;
   }
 
   h4 {
     color: #999999;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 40px;
   }
   

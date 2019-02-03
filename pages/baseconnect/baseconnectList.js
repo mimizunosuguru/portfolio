@@ -59,14 +59,14 @@ const Content = styled.div`
 
   h3 span {
     display: inline-block;
-    padding-bottom: 25px;
+    padding: 0 25px 20px;
     border-bottom: 4px solid #2DC1AF;
   }
   
   h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin: 80px 0 40px;
     text-align: center;
   }
 
@@ -112,7 +112,17 @@ const Image = styled.div`
     color: #999999;
     text-align: center;
     margin: 30px auto;
-   }
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+  p { 
+  }
 `
 
 const Button = styled.button`
@@ -295,7 +305,7 @@ export default class LIST extends React.Component {
 
           {/* コンテンツ3 */}
           <Section grey>
-            <h3><span className="h3__inner">モバイル対応</span></h3>
+            <h3><span className="h3__inner">3. モバイル対応</span></h3>
 
             <h5>（課題）</h5>
             <p>Baseconnect LISTはPC環境のみの提供になっていましたが、スマートフォンからのアクセスが〜割であり、PC環境に限られていたことで、サービスの理解 / コンバージョンに繋がらないユーザーが存在することが問題視されていました。</p>
