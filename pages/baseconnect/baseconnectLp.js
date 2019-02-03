@@ -52,6 +52,19 @@ const Title = styled.div`
 `;
 
 const Content = styled.div`
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  h3 span {
+    display: inline-block;
+    padding-bottom: 25px;
+    border-bottom: 4px solid #2DC1AF;
+  }
+  
   h4 {
     font-size: 18px;
     font-weight: bold;
@@ -59,10 +72,29 @@ const Content = styled.div`
     text-align: center;
   }
 
+  h5 {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    color: #999999;
+  }
+
   p {
     max-width: 800px;
     margin: 0 auto;
     margin-bottom: 40px;
+  }
+  
+  ul {
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+
+  ul li {
+    margin-bottom: 10px;
   }
 `;
 
@@ -71,18 +103,37 @@ const Image = styled.div`
   
   img {
     display: block;
-    max-width: 800px;
+    max-width: ${props => (props.large ? 1200 : 800)}px;
     width: 100%;
     margin: 0 auto;
   }
-
-  .image__caption {
-    display: block;
+    
+  span {
+    display: block; 
     font-size: 15px;
     color: #999999;
     text-align: center;
     margin: 30px auto;
    }
+`
+
+const Button = styled.button`
+  display: block;
+  margin: 0 auto 20px;
+  padding: 20px 50px 20px 50px;
+  border: 2px solid #999999;
+  background: none;
+  text-align: center;
+  color: #999999;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+    
+  &:hover {
+    background: #999999;
+    color: #fff;
+    cursor: pointer;
+  }
 `
 
 //プロジェクト説明
@@ -179,7 +230,7 @@ export default class LP extends React.Component {
             <p>画像左上の「追加企業数」の数値を緑の太字にすることで、ファーストインプレッションで1番に目立たせています。また、画像右上「リアルタイム更新情報」では、追加された企業名と共に、その時間を強調させました。</p>
             <Image>
               <img src="/static/image/work/lp/lp-capture1.png" alt=""/>
-              <span className="image__caption">「ダッシュボード・掲示板」を想起させるグラフィックで表現</span>
+              <span>「ダッシュボード・掲示板」を想起させるグラフィックで表現</span>
             </Image>
           </Section>
           <Section grey>
@@ -188,7 +239,7 @@ export default class LP extends React.Component {
             <p>「サービスを登録したのに、自分の営業したい企業の情報がない…」というのは、ユーザーの満足度・ブランドに対する信頼の低下に繋がります。そのため、サービスの導入を検討するユーザーが懸念するポイントの一つである「自分が営業したい会社の情報はあるか？」という疑問に答えるため、企業情報が多い都道府県をランキング形式で一覧にしました。</p>
             <Image>
               <img src="/static/image/work/lp/lp-capture2.png" alt=""/>
-              <p className="image__caption">企業情報が多い都道府県をランキング形式で一覧表示</p>
+              <span>企業情報が多い都道府県をランキング形式で一覧表示</span>
             </Image>
             <p>コーディングを行う際、「都道府県別会社数」の47都道府県は5行の並びにしてから、スマホでレスポンシブに表示させるのは一見単純そうで、実装が難しいことに気づきました。悩んだ結果、グリッドレイアウトを採用することで、スマホでは都道府県のランキングを5行から2行へ表示することが可能になりました。</p>
             <p>（PC）１列 x 10個のマス目を5列でレイアウトし、都道府県を割り当てる<br/>
@@ -198,7 +249,7 @@ export default class LP extends React.Component {
             </Image>
             <Image>
               <img src="/static/image/work/lp/lp-capture4.png" alt=""/>
-              <span className="image__caption">グリッドレイアウトでレスポンシブに対応</span>
+              <span>グリッドレイアウトでレスポンシブに対応</span>
             </Image>
           </Section>
           <Section grey>
