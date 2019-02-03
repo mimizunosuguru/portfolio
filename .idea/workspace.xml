@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12cdee44-9f15-4803-b4c9-6877fc818a3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,16 +21,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44444445">
+    <splitter split-orientation="horizontal" split-proportion="0.6178782">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
+            <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1627">
-                  <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+                <state relative-caret-position="340">
+                  <caret line="285" column="51" selection-start-line="285" selection-start-column="51" selection-end-line="285" selection-end-column="51" />
                   <folding>
-                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#0#45#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -39,8 +43,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3401">
-                  <caret line="179" column="3" selection-start-line="179" selection-start-column="3" selection-end-line="179" selection-end-column="3" />
+                <state relative-caret-position="177">
+                  <caret line="326" selection-start-line="326" selection-end-line="327" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                     <element signature="e#7770#9986#0" />
@@ -75,7 +79,6 @@
       <find>item__cont</find>
       <find>h4</find>
       <find>h3</find>
-      <find>img</find>
       <find>Img</find>
       <find>${props</find>
       <find>Image</find>
@@ -85,6 +88,7 @@
       <find>span</find>
       <find>className=&quot;image__caption&quot;</find>
       <find>btn__wrapper</find>
+      <find>img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,7 +105,6 @@
         <option value="$PROJECT_DIR$/static/stylesheet/styles.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
         <option value="$PROJECT_DIR$/components/Header.js" />
         <option value="$PROJECT_DIR$/pages/_document.js" />
         <option value="$PROJECT_DIR$/components/StyledComponents/testComponent.js" />
@@ -114,8 +117,9 @@
         <option value="$PROJECT_DIR$/components/recommend.js" />
         <option value="$PROJECT_DIR$/pages/work.js" />
         <option value="$PROJECT_DIR$/components/Footer.js" />
-        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
+        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
+        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
       </list>
     </option>
   </component>
@@ -147,6 +151,12 @@
             <path>
               <item name="mimizunoDesign" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="baseconnect" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -168,7 +178,7 @@
               <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="image" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="work" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="bootcamp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -196,18 +206,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/image/work/bootcamp" />
       <recent name="$PROJECT_DIR$/static/image/work/list" />
       <recent name="$PROJECT_DIR$/static/image/work/lp" />
       <recent name="$PROJECT_DIR$/static/image/article" />
       <recent name="$PROJECT_DIR$/static/work" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/image/work/bootcamp" />
       <recent name="$PROJECT_DIR$/static/image/footer" />
       <recent name="$PROJECT_DIR$/static/image/recommend" />
       <recent name="$PROJECT_DIR$/static/image/index" />
       <recent name="$PROJECT_DIR$/static/image" />
-      <recent name="$PROJECT_DIR$/static/image/work" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -236,17 +246,18 @@
       <workItem from="1548516111045" duration="143000" />
       <workItem from="1548516302162" duration="36103000" />
       <workItem from="1548988315022" duration="1000" />
-      <workItem from="1549015882244" duration="38467000" />
+      <workItem from="1549015882244" duration="40307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89740000" />
+    <option name="totallyTimeSpent" value="91580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29305556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -402,16 +413,6 @@
     <entry file="file://$PROJECT_DIR$/static/image/work/baseconnect-lp.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -489,10 +490,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="112" column="20" lean-forward="true" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3401">
-          <caret line="179" column="3" selection-start-line="179" selection-start-column="3" selection-end-line="179" selection-end-column="3" />
+        <state relative-caret-position="177">
+          <caret line="326" selection-start-line="326" selection-end-line="327" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#7770#9986#0" />
@@ -500,12 +511,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1627">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="340">
+          <caret line="285" column="51" selection-start-line="285" selection-start-column="51" selection-end-line="285" selection-end-column="51" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

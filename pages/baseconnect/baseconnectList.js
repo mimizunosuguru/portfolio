@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import Recommend from "../../components/Recommend";
 import styled from 'styled-components'
 import Section from "../../components/styledComponents/section";
+import Recommend from "../../components/Recommend";
 
 const TopImage = styled.div`
   width: 100%;
@@ -221,8 +221,8 @@ export default class LIST extends React.Component {
             </li>
           </Desc>
         </Section>
-        <Content>
 
+        <Content>
           {/* コンテンツ1 */}
           <Section grey>
             <h3><span>1. 検索条件の保存機能追加</span></h3>
