@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Layout from '../components/Layout'
 import Recommend from '../components/Recommend'
 
-import Section from '../components/StyledComponents/section'
+import Section from '../components/styledComponents/section'
 
 const PageHeader = styled.div`
     height: 84px;

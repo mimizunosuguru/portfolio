@@ -74,7 +74,7 @@ const Card = styled.li`
 import Link from 'next/link'
 
 
-import Section from '../components/StyledComponents/section'
+import Section from './styledComponents/section'
 
 const CardWrapper = styled.ul`
   display: flex;

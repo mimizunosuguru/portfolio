@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 
-import Section from '../StyledComponents/section'
+import Section from '../styledComponents/section'
 
 const Heading = styled.div`
   padding-top: 20px;

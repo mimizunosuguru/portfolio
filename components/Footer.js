@@ -1,8 +1,8 @@
+import React from 'react'
 import styled from 'styled-components'
 
 const Component = styled.footer`
   background: #F0F1F5;
-  padding: 40px;
   
   p {
     color: #999999;
@@ -12,7 +12,8 @@ const Component = styled.footer`
     text-align: center;
   }
 
-  .footer__inner {
+  .inner {
+    padding: 40px;
     text-align: center;
   }
 
@@ -93,10 +94,10 @@ const Component = styled.footer`
 
 const Footer = () => (
   <Component>
-    <div className="footer__inner">
+    <div className="inner">
       <div className="icon__circle"/>
       <p>Thank you for reading!</p>
-      <button>お問い合わせはこちら</button>
+      {/*<button>お問い合わせはこちら</button>*/}
       <p>feel free to contact me or follow me on</p>
       <div className="sns__box">
         <a className="github"/>

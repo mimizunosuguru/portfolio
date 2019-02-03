@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
 
-import Section from "../StyledComponents/section";
+import Section from "../styledComponents/section";
 
 //article.jsと共通化可能
 const Heading = styled.div`
