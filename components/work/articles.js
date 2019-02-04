@@ -148,7 +148,7 @@ export default class Articles extends React.Component {
 
   render () {
     return (
-      <Section grey>
+      <Section grey border>
         <Heading>
           <h2>Articles</h2>
         </Heading>

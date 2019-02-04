@@ -16,7 +16,7 @@ export default class Work extends React.Component {
         {/*Work*/}
         <Baseconnect/>
         <Articles/>
-        <Recommend pageStatus={this.state.pageStatus}/>
+        {/*<Recommend pageStatus={this.state.pageStatus}/>*/}
       </Layout>
     )
   }

@@ -59,7 +59,7 @@ export default class Recommend extends React.Component{
   // work / page / storyで条件分岐
   render () {
     return (
-      <SectionBordered grey>
+      <SectionBordered>
         <Heading>他にも見てみる</Heading>
         <CardList>
           <Card left>
