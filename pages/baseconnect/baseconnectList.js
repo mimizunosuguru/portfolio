@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../components/Layout";
 import styled from 'styled-components'
 import Section from "../../components/styledComponents/section";
-import Recommend from "../../components/Recommend";
+import ArticleRecommend from "../../components/ArticleRecommend";
 
 const TopImage = styled.div`
   width: 100%;
@@ -194,8 +194,8 @@ const Desc = styled.ul`
 
 export default class LIST extends React.Component {
   state = {
-    pageStatus: 'top'
-  }
+    page: 'list'
+  };
 
   render() {
     return (
@@ -341,9 +341,8 @@ export default class LIST extends React.Component {
               プロトタイプを見てみる
             </Button>
           </Section>
-
         </Content>
-        <Recommend pageStatus={this.state.pageStatus}/>
+        <ArticleRecommend page={this.state.page}/>
       </Layout>
     )
   }

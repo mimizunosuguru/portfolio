@@ -1,8 +1,10 @@
-import Layout from "../../components/Layout";
-import styled from "styled-components";
-import Section from "../../components/styledComponents/section";
-import Recommend from "../../components/Recommend";
 import React from "react";
+import styled from "styled-components";
+
+import Layout from "../../components/Layout";
+import Section from "../../components/styledComponents/section";
+
+import ArticleRecommend from "../../components/ArticleRecommend";
 
 const TopImage = styled.div`
   width: 100%;
@@ -192,7 +194,7 @@ const Desc = styled.ul`
 
 export default class Bootcamp extends React.Component {
   state = {
-    pageStatus: 'top'
+    page: 'bootcamp'
   }
 
   render () {
@@ -293,7 +295,7 @@ export default class Bootcamp extends React.Component {
             </Image>
           </Section>
         </Content>
-        <Recommend pageStatus={this.state.pageStatus}/>
+        <ArticleRecommend page={this.state.page}/>
       </Layout>
     )
   }

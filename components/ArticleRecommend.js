@@ -55,25 +55,58 @@ const SectionBordered = styled(Section)`
 `
 
 
-export default class Recommend extends React.Component{
+const Recommend = (props) => {
   // work / page / storyで条件分岐
-  render () {
-    return (
-      <SectionBordered>
-        <Heading>他にも見てみる</Heading>
+  return (
+    <SectionBordered>
+      <Heading>他にも見てみる</Heading>
+        {props.page === 'lp' ?  (
+          <CardList>
+            <Card left>
+              <Thumnail src="/static/image/work/baseconnect-list.png"/>
+              <p className="title">Baseconnect LIST</p>
+              <p className="type">UI/UXデザイン、コーディング</p>
+            </Card>
+            <Card right>
+              <Thumnail src="/static/image/work/baseconnect-bootcamp.png"/>
+              <p className="title">Design Bootcamp & Product Design</p>
+              <p className="type">イベント企画、プロダクトデザイン</p>
+            </Card>
+          </CardList>
+        ) : null
+        }
+      {props.page === 'list' ?  (
         <CardList>
           <Card left>
-            <Thumnail src="/static/image/work/baseconnect-list.png"/>
+            <Thumnail src="/static/image/work/baseconnect-lp.png"/>
+            <p className="title">Baseconnect LIST ランディングページ</p>
+            <p className="type">UIデザイン、コーディング</p>
+          </Card>
+          <Card right>
+            <Thumnail src="/static/image/work/baseconnect-bootcamp.png"/>
+            <p className="title">Design Bootcamp & Product Design</p>
+            <p className="type">イベント企画、プロダクトデザイン</p>
+          </Card>
+        </CardList>
+      ) : null
+      }
+      {props.page === 'bootcamp' ?  (
+        <CardList>
+          <Card left>
+            <Thumnail src="/static/image/work/baseconnect-lp.png"/>
             <p className="title">Baseconnect LIST ランディングページ</p>
             <p className="type">UIデザイン、コーディング</p>
           </Card>
           <Card right>
             <Thumnail src="/static/image/work/baseconnect-list.png"/>
-            <p className="title">Baseconnect LIST ランディングページ</p>
-            <p className="type">UIデザイン、コーディング</p>
+            <p className="title">Baseconnect LIST</p>
+            <p className="type">イベント企画、プロダクトデザイン</p>
           </Card>
         </CardList>
-      </SectionBordered>
-    )
-  }
+      ) : null
+      }
+    </SectionBordered>
+  )
 }
+
+export default Recommend

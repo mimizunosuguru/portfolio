@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import Layout from "../../components/Layout";
 import Section from '../../components/styledComponents/section'
 
-import Recommend from "../../components/Recommend";
 import ArticleRecommend from "../../components/ArticleRecommend";
 
 const TopImage = styled.div`
@@ -200,7 +199,7 @@ const SectionBorder = styled.div`
 
 export default class LP extends React.Component {
   state = {
-    pageStatus: 'top'
+    page: 'lp'
   };
 
   render () {
@@ -271,7 +270,7 @@ export default class LP extends React.Component {
             <p>初めてデザインからコーディングまで任せていただいたこのタスクでは、コーディングを踏まえてデザインをすることの必要性、デザイナーでもコードを書くことの大切さを学び、今デザインをする時も大きな糧となっています。</p>
           </Section>
         </Content>
-        <ArticleRecommend/>
+        <ArticleRecommend page={this.state.page}/>
       </Layout>
     )
   }
