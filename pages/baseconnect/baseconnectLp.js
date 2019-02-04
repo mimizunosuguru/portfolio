@@ -5,6 +5,7 @@ import Layout from "../../components/Layout";
 import Section from '../../components/styledComponents/section'
 
 import Recommend from "../../components/Recommend";
+import ArticleRecommend from "../../components/ArticleRecommend";
 
 const TopImage = styled.div`
   width: 100%;
@@ -261,12 +262,11 @@ export default class LP extends React.Component {
               <img src="/static/image/work/lp/lp-capture4.png" alt=""/>
               <span>グリッドレイアウトでレスポンシブに対応</span>
             </Image>
-          </Section>
-          <Section grey>
             <h4>学び</h4>
             <p>初めてデザインからコーディングまで任せていただいたこのタスクでは、コーディングを踏まえてデザインをすることの必要性、デザイナーでもコードを書くことの大切さを学び、今デザインをする時も大きな糧となっています。</p>
           </Section>
         </Content>
+        <ArticleRecommend/>
         <Recommend pageStatus={this.state.pageStatus}/>
       </Layout>
     )

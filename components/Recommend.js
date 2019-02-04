@@ -9,8 +9,8 @@ const Card = styled.li`
   border-radius: 8px;
   box-shadow: 0 10px 20px 0 rgba(0,0,0,0.08);
   transition: all 250ms cubic-bezier(.02,.01,.47,1);
-  margin-left: ${props => (props.history ? '20' : '')}px;
-  margin-right: ${props => (props.work ? '' : '20')}px;
+  margin-left: ${props => (props.work ? 20 : '')}px;
+  margin-right: ${props => (props.history ? 20 : '')}px;
 
   &:hover {
     box-shadow: 0 40px 40px rgba(0,0,0,.16);
