@@ -190,8 +190,6 @@ const Desc = styled.ul`
   }
 `
 
-
-
 export default class LIST extends React.Component {
   state = {
     page: 'list'

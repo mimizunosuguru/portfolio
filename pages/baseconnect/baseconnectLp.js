@@ -192,11 +192,6 @@ const Desc = styled.ul`
   }
 `
 
-const SectionBorder = styled.div`
-
-  }
-`
-
 export default class LP extends React.Component {
   state = {
     page: 'lp'
