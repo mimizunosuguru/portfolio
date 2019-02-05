@@ -17,7 +17,7 @@ const CardWrapper = styled.ul`
   }
 `;
 
-const CardHead = styled.div`
+const CardTitle = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
@@ -121,9 +121,9 @@ export default class Recommend extends React.Component{
                   {/*</div>*/}
                 {/*</a>*/}
               {/*</Card>*/}
-              <CardHead>
+              <CardTitle>
                 <h3>活動実績もみてみる</h3>
-              </CardHead>
+              </CardTitle>
               <Card work>
                 <Link href="/work">
                   <a className="inner">
