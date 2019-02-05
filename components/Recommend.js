@@ -1,5 +1,34 @@
 import React, { Fragment } from 'react';
+import Link from 'next/link'
 import styled from "styled-components";
+import Section from './styledComponents/section'
+
+
+const CardWrapper = styled.ul`
+  display: flex;
+  
+  a {
+    color: black;
+    padding: 0 20px;
+  }
+  
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+`;
+
+const CardHead = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  h3 {
+    font-size: 30px;
+    color: #999999;
+    font-weight: bold;
+  }
+`
 
 const Card = styled.li`
   height: 300px;
@@ -71,23 +100,6 @@ const Card = styled.li`
       padding: 15px;
     }
 `;
-import Link from 'next/link'
-
-
-import Section from './styledComponents/section'
-
-const CardWrapper = styled.ul`
-  display: flex;
-  
-  a {
-    color: black;
-    padding: 0 20px;
-  }
-  
-  @media (max-width: 767px) {
-    flex-direction: column;
-  }
-`;
 
 
 export default class Recommend extends React.Component{
@@ -101,14 +113,17 @@ export default class Recommend extends React.Component{
       this.props.pageStatus === 'top' ? (
           <Section>
             <CardWrapper>
-              <Card history>
-                <a className="inner">
-                  <div className="cont">
-                    <span>Read my</span>
-                    <p>History</p>
-                  </div>
-                </a>
-              </Card>
+              {/*<Card history>*/}
+                {/*<a className="inner">*/}
+                  {/*<div className="cont">*/}
+                    {/*<span>Read my</span>*/}
+                    {/*<p>History</p>*/}
+                  {/*</div>*/}
+                {/*</a>*/}
+              {/*</Card>*/}
+              <CardHead>
+                <h3>活動実績もみてみる</h3>
+              </CardHead>
               <Card work>
                 <Link href="/work">
                   <a className="inner">
