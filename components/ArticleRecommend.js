@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Link from 'next/link'
 import styled from "styled-components";
 import Section from './styledComponents/section'
 
@@ -62,46 +63,58 @@ const Recommend = (props) => {
       <Heading>他にも見てみる</Heading>
         {props.page === 'lp' ?  (
           <CardList>
-            <Card left>
-              <Thumnail src="/static/image/work/baseconnect-list.png"/>
-              <p className="title">Baseconnect LIST</p>
-              <p className="type">UI/UXデザイン、コーディング</p>
-            </Card>
-            <Card right>
-              <Thumnail src="/static/image/work/baseconnect-bootcamp.png"/>
-              <p className="title">Design Bootcamp & Product Design</p>
-              <p className="type">イベント企画、プロダクトデザイン</p>
-            </Card>
+            <Link href="/baseconnect/baseconnectList">
+              <Card left>
+                <Thumnail src="/static/image/work/baseconnect-list.png"/>
+                <p className="title">Baseconnect LIST</p>
+                <p className="type">UI/UXデザイン、コーディング</p>
+              </Card>
+            </Link>
+            <Link href="/baseconnect/baseconnectBootcamp">
+              <Card right>
+                <Thumnail src="/static/image/work/baseconnect-bootcamp.png"/>
+                <p className="title">Design Bootcamp & Product Design</p>
+                <p className="type">イベント企画、プロダクトデザイン</p>
+              </Card>
+            </Link>
           </CardList>
         ) : null
         }
       {props.page === 'list' ?  (
         <CardList>
-          <Card left>
-            <Thumnail src="/static/image/work/baseconnect-lp.png"/>
-            <p className="title">Baseconnect LIST ランディングページ</p>
-            <p className="type">UIデザイン、コーディング</p>
-          </Card>
-          <Card right>
-            <Thumnail src="/static/image/work/baseconnect-bootcamp.png"/>
-            <p className="title">Design Bootcamp & Product Design</p>
-            <p className="type">イベント企画、プロダクトデザイン</p>
-          </Card>
+          <Link href="/baseconnect/baseconnectLp">
+            <Card left>
+              <Thumnail src="/static/image/work/baseconnect-lp.png"/>
+              <p className="title">Baseconnect LIST ランディングページ</p>
+              <p className="type">UIデザイン、コーディング</p>
+            </Card>
+          </Link>
+          <Link href="/baseconnect/baseconnectBootcamp">
+            <Card right>
+              <Thumnail src="/static/image/work/baseconnect-bootcamp.png"/>
+              <p className="title">Design Bootcamp & Product Design</p>
+              <p className="type">イベント企画、プロダクトデザイン</p>
+            </Card>
+          </Link>
         </CardList>
       ) : null
       }
       {props.page === 'bootcamp' ?  (
         <CardList>
-          <Card left>
-            <Thumnail src="/static/image/work/baseconnect-lp.png"/>
-            <p className="title">Baseconnect LIST ランディングページ</p>
-            <p className="type">UIデザイン、コーディング</p>
-          </Card>
-          <Card right>
-            <Thumnail src="/static/image/work/baseconnect-list.png"/>
-            <p className="title">Baseconnect LIST</p>
-            <p className="type">イベント企画、プロダクトデザイン</p>
-          </Card>
+          <Link href="/baseconnect/baseconnectLp">
+            <Card left>
+              <Thumnail src="/static/image/work/baseconnect-lp.png"/>
+              <p className="title">Baseconnect LIST ランディングページ</p>
+              <p className="type">UIデザイン、コーディング</p>
+            </Card>
+          </Link>
+          <Link href="/baseconnect/baseconnectList">
+            <Card right>
+              <Thumnail src="/static/image/work/baseconnect-list.png"/>
+              <p className="title">Baseconnect LIST</p>
+              <p className="type">イベント企画、プロダクトデザイン</p>
+            </Card>
+          </Link>
         </CardList>
       ) : null
       }

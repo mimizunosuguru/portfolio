@@ -93,51 +93,57 @@ export default class Articles extends React.Component {
       {
         title: 'ジョブ理論を理解する:イケアのビジネスモデルから',
         type: 'Blog',
-        imageURL: 'article--ikea.png'
+        imageURL: 'article--ikea.png',
+        linkURL: 'https://note.mu/mimizunomizuno/n/n4d2f0feff8af'
       },
       {
         title: 'デザイナーが10日間100時間の瞑想から学び得たもの',
         type: 'Blog',
-        imageURL: 'article--meditate.png'
+        imageURL: 'article--meditate.png',
+        linkURL: 'https://note.mu/mimizunomizuno/n/n219585e8e4a9'
       }
     ],
     uxTimes: [
       {
         title: '「JOBS TO BE DONE」価値創造の新しい発見方法',
         type: 'カンファレンスレポート',
-        imageURL: 'article--jobsToBeDone.png'
+        imageURL: 'article--jobsToBeDone.png',
+        linkURL: 'https://uxdaystokyo.com/articles/uxdt2018_conference_jtbd/'
+
 
       },
       {
         title: '逆ピラミッド',
         type: '用語集',
-        imageURL: 'article--pylamid.png'
+        imageURL: 'article--pylamid.png',
+        linkURL: 'https://uxdaystokyo.com/articles/glossary/inverted-pyramid/'
 
       },
       {
         title: 'ワイヤーフレームは具体的要素とその配置を確認するもの',
         type: 'UX格言',
-        imageURL: 'article--mondai.png'
-
+        imageURL: 'article--mondai.png',
+        linkURL: 'https://uxdaystokyo.com/articles/wireflame_for_check_item/'
       }
     ],
     uxTimesShowMore: [
       {
         title: 'ダンバー数',
         type: '用語集',
-        imageURL: 'article--dumbar.png'
-
+        imageURL: 'article--dumbar.png',
+        linkURL: 'https://uxdaystokyo.com/articles/glossary/dunbars-number/'
       },
       {
         title: 'カスタマージャーニーマッピング：顧客獲得への道のり',
         type: '翻訳',
-        imageURL: 'article--journeyMapping.png'
-
+        imageURL: 'article--journeyMapping.png',
+        linkURL: 'https://uxdaystokyo.com/articles/googlecustomerjourneymapping/'
       },
       {
         title: 'モジュール方式',
         type: '用語集',
-        imageURL: 'article--module.png'
+        imageURL: 'article--module.png',
+        linkURL: 'https://uxdaystokyo.com/articles/glossary/modularity/'
       }
     ]
   };
@@ -159,11 +165,13 @@ export default class Articles extends React.Component {
               return (
                 //TODO key降る必要あり
                 <Card key={i}>
-                  <div className="thumbnail">
-                    <img src={"/static/image/article/" + data.imageURL} alt=""/>
-                  </div>
-                  <p className="title">{data.title}</p>
-                  <span className="type">{data.type}</span>
+                  <a href={data.linkURL} target="_blank">
+                    <div className="thumbnail">
+                      <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                    </div>
+                    <p className="title">{data.title}</p>
+                    <span className="type">{data.type}</span>
+                  </a>
                 </Card>
               )
             })}
@@ -176,10 +184,12 @@ export default class Articles extends React.Component {
               {this.state.uxTimes.map((data, i) => {
                 return (
                   <Card key={i}>
-                    <div className="thumbnail">
-                      <img src={"/static/image/article/" + data.imageURL} alt=""/>
-                    </div>
-                    <p className="title">{data.title}</p>
+                    <a href={data.linkURL} target="_blank">
+                      <div className="thumbnail">
+                        <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                      </div>
+                      <p className="title">{data.title}</p>
+                    </a>
                     <span className="type">{data.type}</span>
                   </Card>
                 )
@@ -190,11 +200,13 @@ export default class Articles extends React.Component {
               {this.state.uxTimesShowMore.map((data, i) => {
                 return (
                   <Card key={i}>
-                    <div className="thumbnail">
-                      <img src={"/static/image/article/" + data.imageURL} alt=""/>
-                    </div>
-                    <p className="title">{data.title}</p>
-                    <span className="type">{data.type}</span>
+                    <a href={data.linkURL} target="_blank">
+                      <div className="thumbnail">
+                        <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                      </div>
+                      <p className="title">{data.title}</p>
+                      <span className="type">{data.type}</span>
+                    </a>
                   </Card>
                 )
               })}
