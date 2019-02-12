@@ -95,15 +95,17 @@ const Component = styled.footer`
 const Footer = () => (
   <Component>
     <div className="inner">
-      <div className="icon__circle"/>
+      <a href="https://twitter.com/mimizunosuguru">
+        <div className="icon__circle"/>
+      </a>
       <p>Thank you for reading!</p>
       {/*<button>お問い合わせはこちら</button>*/}
       <p>feel free to contact me or follow me on</p>
       <div className="sns__box">
-        <a className="github"/>
-        <a className="twitter"/>
-        <a className="facebook"/>
-        <a className="note"/>
+        <a href="https://github.com/mimizunosuguru" target="blank" className="github"/>
+        <a href="https://twitter.com/mimizunosuguru" target="blank"  className="twitter"/>
+        <a href="https://www.facebook.com/sugu.mizuno" target="blank"  className="facebook"/>
+        <a href="https://note.mu/mimizunomizuno" target="blank"  className="note"/>
       </div>
       <p className="copyRight">© 2019 Sugu Mizuno</p>
     </div>
