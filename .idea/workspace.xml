@@ -7,8 +7,7 @@
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
+        <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="264" column="16" selection-start-line="264" selection-start-column="16" selection-end-line="264" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="254" column="23" selection-start-line="254" selection-start-column="23" selection-end-line="254" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -37,12 +36,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hover</find>
       <find>bio__listItem</find>
       <find>h4</find>
       <find>モバイル対応</find>
       <find>モバイル</find>
-      <find>h3</find>
       <find>showmore</find>
       <find>Design</find>
       <find>学び</find>
@@ -67,6 +64,8 @@
       <find>SecctionBorder</find>
       <find>SectionBorder</find>
       <find>Image</find>
+      <find>h3</find>
+      <find>そのため、サービスの導入を検討するユーザーが懸念するポイントの一つである「自分が営業したい会社の情報はあるか？」という疑問に答えるため、企業情報が多い都道府県をランキング形式で一覧にしました。</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,7 +94,6 @@
         <option value="$PROJECT_DIR$/pages/work.js" />
         <option value="$PROJECT_DIR$/components/styledComponents/section.js" />
         <option value="$PROJECT_DIR$/components/work/articles.js" />
-        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
         <option value="$PROJECT_DIR$/components/Footer.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
         <option value="$PROJECT_DIR$/components/Layout.js" />
@@ -103,6 +101,7 @@
         <option value="$PROJECT_DIR$/components/ArticleRecommend.js" />
         <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
+        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
       </list>
     </option>
   </component>
@@ -247,12 +246,12 @@
       <workItem from="1549015882244" duration="50869000" />
       <workItem from="1549289328990" duration="939000" />
       <workItem from="1549534173354" duration="294000" />
-      <workItem from="1549931203379" duration="6572000" />
+      <workItem from="1549931203379" duration="7945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117429000" />
+    <option name="totallyTimeSpent" value="118802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -503,20 +502,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        <state relative-caret-position="360">
+          <caret line="264" column="16" selection-start-line="264" selection-start-column="16" selection-end-line="264" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="264" column="16" selection-start-line="264" selection-start-column="16" selection-end-line="264" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="254" column="23" selection-start-line="254" selection-start-column="23" selection-end-line="254" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
