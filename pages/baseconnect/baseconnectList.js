@@ -107,6 +107,7 @@ const Image = styled.div`
     display: block;
     max-width: ${props => (props.large ? 1200 : 800)}px;
     width: 100%;
+    height: 100%;
     margin: 0 auto;
   }
     
@@ -277,7 +278,8 @@ export default class LIST extends React.Component {
             <p>ユーザーからも地域選択がしづらいといいう声が多かったため、「都道府県選択」はモーダルで新たに表示させました。モーダルでは、都道府県の地図を表示し、選択した都道府県の地域をさらに絞っていくというアプローチを取ることにしました</p>
             {/* TODO Gif入れる*/}
             <Image>
-              <img src="/static/image/work/list/list-capture4.png" alt=""/>
+              <img src="/static/image/work/list/areaSelect.gif" width="100" height="30" alt="都道府県選択アニメーション" />
+              <span>（改善後の都道府県選択の操作画面）</span>
             </Image>
             <h5>（プロセス）<br/></h5>
             <p>このUIの実現プロセスとして、ワイヤーの段階では２つの案を提示しました。</p>
