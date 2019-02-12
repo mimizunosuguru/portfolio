@@ -36,6 +36,10 @@ const Title = styled.div`
       color: #999999;
     }
     
+    a:visited {
+      color: #999999;
+    }
+    
     p {
       margin: 40px auto 40px;
       text-align: left;
@@ -202,7 +206,7 @@ export default class LIST extends React.Component {
         <Section grey>
           <Title>
             <h2>Baseconnect LIST</h2>
-            <a>https://sales.baseconnect.in/</a>
+            <a href="https://sales.baseconnect.in/" target="blank">https://sales.baseconnect.in/</a>
             <p className="page__desc">
               「Baseconnect LIST」は法人営業におけるターゲティングや見込み客となりうる企業のリスト作成を圧倒的に効率化できるクラウドサービスです。β版リリースから半年で5000社以上に導入いただいています。
             </p>

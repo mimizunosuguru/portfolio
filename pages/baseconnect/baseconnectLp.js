@@ -38,6 +38,10 @@ const Title = styled.div`
       color: #999999;
     }
     
+    a:visited {
+      color: #999999;
+    }
+    
     p {
       margin: 40px auto 40px;
       text-align: left;
@@ -204,7 +208,7 @@ export default class LP extends React.Component {
         <Section grey>
           <Title>
             <h2>Baseconnect LIST ランディングページ</h2>
-            <a>https://sales.baseconnect.in/</a>
+            <a href="https://sales.baseconnect.in/" target="blank">https://sales.baseconnect.in/</a>
             <p>
               法人営業を支援する企業情報データベース「Baseconnect LIST」のLP（ランディングページ）です。
               クラウドサービスのBaseconnecct LISTはアプリのダウンロードも必要なく、登録後すぐにサービスの利用を開始できます。
