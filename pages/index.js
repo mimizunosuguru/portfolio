@@ -30,6 +30,7 @@ const PageHeader = styled.div`
 
 const Top = styled.ul `
   display: flex;
+  margin-top: 34px;
   
   img {
     width: auto;
@@ -173,9 +174,9 @@ export default class Index extends React.Component {
     return (
       <Layout>
         {/*ヘッダー*/}
-        <PageHeader>
-          <h1>mimizunoDesign</h1>
-        </PageHeader>
+        {/*<PageHeader>*/}
+          {/*<h1>mimizunoDesign</h1>*/}
+        {/*</PageHeader>*/}
 
         {/*Top*/}
         <Section>

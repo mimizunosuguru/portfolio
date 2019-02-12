@@ -103,7 +103,7 @@ const Content = styled.div`
 `;
 
 const Image = styled.div`
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   
   img {
     display: block;
@@ -129,7 +129,7 @@ const Image = styled.div`
   
   p { 
   }
-`
+`;
 
 const Button = styled.button`
   display: block;
@@ -148,7 +148,7 @@ const Button = styled.button`
     color: #fff;
     cursor: pointer;
   }
-`
+`;
 
 //プロジェクト説明
 const Desc = styled.ul`
@@ -194,7 +194,7 @@ const Desc = styled.ul`
       text-align: center;
     }
   }
-`
+`;
 
 export default class Bootcamp extends React.Component {
   state = {
@@ -262,38 +262,40 @@ export default class Bootcamp extends React.Component {
             <h3><span>2. ProductDesign</span></h3>
             <p>自社サービス以外にも、社内で要望があった場合に様々なものをデザインしました。以下では、ダッシュボード、Tシャツ、プロフィールカードの３つをご紹介します。</p>
 
+            <h4>ダッシュボード</h4>
+            <p>Baseconnet株式会社にて、自社で作成する企業情報等の数値管理用ダッシュボードを作成しました。デザインからコーディングまで行い、ライブラリにchart.jsを使用しました。</p>
             <Image>
               <img src="/static/image/work/bootcamp/bootcamp-capture4.png" alt=""/>
-              <h4>ダッシュボード</h4>
-              <p>Baseconnet株式会社にて、自社で作成する企業情報等の数値管理用ダッシュボードを作成しました。デザインからコーディングまで行い、ライブラリにchart.jsを使用しました。同じ情報でまとめる、整列させる、色を３つに絞ることで意味を持たせて、特に現状の各項目の数値に目に行くように、シンプルで見やすいデザインを心がけました。</p>
             </Image>
+
+            <p>同じ情報でまとめる、整列させる、色を３つに絞ることで意味を持たせて、特に現状の各項目の数値に目に行くように、シンプルで見やすいデザインを心がけました。</p>
 
             <Image large>
               <img src="/static/image/work/bootcamp/bootcamp-capture5.png" alt=""/>
             </Image>
-          </Section>
 
-          <Section grey>
+
+            <h4>ワンニャンTシャツ</h4>
+            <p>社内用Tシャツを作成しました。犬と猫がいる珍しい会社なので、会社の特徴としてロゴに２匹の動物を取り入れました。</p>
             <Image>
               <img src="/static/image/work/bootcamp/bootcamp-capture6.png" alt=""/>
-              <h4>Tシャツ</h4>
-              <p>社内用Tシャツを作成しました。犬と猫がいる珍しい会社なので、会社の特徴としてロゴに２匹の動物を取り入れました。このTシャツを着た時に、友達に「そのTシャツかわいいね！」というような会話が生まれ、犬と猫がいる優しい会社だと自慢できるような願いを込めてデザインしました。</p>
             </Image>
+
+            <p>このTシャツを着た時に、友達に「そのTシャツかわいいね！」というような会話が生まれ、犬と猫がいる優しい会社だと自慢できるような願いを込めてデザインしました。</p>
 
             <Image large>
               <img src="/static/image/work/bootcamp/bootcamp-capture7.png" alt=""/>
               <span>展示会ブースでの写真</span>
             </Image>
-          </Section>
 
-          <Section grey>
+
+
+            <h4>プロフィールカード</h4>
+            <p>Baseconnect株式会社では、社員、インターン、編集アルバイを含め５００名ほどのメンバーが所属しています。日々たくさんの人が入れ替わる環境において、社内のコミュニケーションを加速させるためプロフィールカードを作成しました。</p>
             <Image>
               <img src="/static/image/work/bootcamp/bootcamp-capture8.png" alt=""/>
-              <h4>プロフィールカード</h4>
-              <p>Baseconnect株式会社では、社員、インターン、編集アルバイを含め５００名ほどのメンバーが所属しています。日々たくさんの人が入れ替わる環境において、社内のコミュニケーションを加速させるためプロフィールカードを作成しました。</p>
-              <p>顔が1番に目立つように写真を丸型でき抜き、役職ごとに色で分けています。また、メンバーが会社の１員であると感じられるように、左上にロゴを配置しました。デザインはSketchで作成しましたが、Googleスライドでデータを作成し直し、デザイナー以外のメンバーでもカードの作成 / 印刷できるようになっています。</p>
             </Image>
-
+            <p>顔が1番に目立つように写真を丸型でき抜き、役職ごとに色で分けています。また、メンバーが会社の１員であると感じられるように、左上にロゴを配置しました。デザインはSketchで作成しましたが、Googleスライドでデータを作成し直し、デザイナー以外のメンバーでもカードの作成 / 印刷できるようになっています。</p>
             <Image>
               <img src="/static/image/work/bootcamp/bootcamp-capture9.png" alt=""/>
               <span>人が一番通るエレベーター前にプロフィールカードを立てかけている</span>
