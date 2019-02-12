@@ -92,13 +92,13 @@ export default class Articles extends React.Component {
     note: [
       {
         title: 'ジョブ理論を理解する:イケアのビジネスモデルから',
-        type: 'Blog',
+        type: 'ブログ',
         imageURL: 'article--ikea.png',
         linkURL: 'https://note.mu/mimizunomizuno/n/n4d2f0feff8af'
       },
       {
         title: 'デザイナーが10日間100時間の瞑想から学び得たもの',
-        type: 'Blog',
+        type: 'ブログ',
         imageURL: 'article--meditate.png',
         linkURL: 'https://note.mu/mimizunomizuno/n/n219585e8e4a9'
       }

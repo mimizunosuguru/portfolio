@@ -230,7 +230,7 @@ export default class LIST extends React.Component {
             </li>
             <li className="descList__item">
               <p className="title">期間</p>
-              <p className="cont">当社にジョインした段階でこのLPは公開されており、サービスの機能改善 / アップデートに伴い、デザイン/コーディングを担当しました</p>
+              <p className="cont">約１年間</p>
             </li>
           </Desc>
         </Section>
@@ -281,7 +281,7 @@ export default class LIST extends React.Component {
               <img src="/static/image/work/list/areaSelect.gif" width="100" height="30" alt="都道府県選択アニメーション" />
               <span>（改善後の都道府県選択の操作画面）</span>
             </Image>
-            <h5>（プロセス）<br/></h5>
+            <h5>（デザインプロセス）<br/></h5>
             <p>このUIの実現プロセスとして、ワイヤーの段階では２つの案を提示しました。</p>
             <ul>
               <li>案1：入力フォームのように、都道府県選択を行ってから、次に特定の地域を選択するように段階的に表示する</li>
@@ -310,8 +310,6 @@ export default class LIST extends React.Component {
           {/* コンテンツ3 */}
           <Section grey>
             <h3><span className="h3__inner">3. モバイル対応</span></h3>
-
-            <h5>（課題）</h5>
             <p>Baseconnect LISTはPC環境のみの提供になっていましたが、スマートフォンからのアクセスが〜割であり、PC環境に限られていたことで、サービスの理解 / コンバージョンに繋がらないユーザーが存在することが問題視されていました。</p>
             <p>当初はモバイルアプリのサービス開発の案も出ていましたが、工数を考えた結果、デザイナーが基本的に実装できる範囲でモバイルでも対応できるようにしました。</p>
             <Image large>
