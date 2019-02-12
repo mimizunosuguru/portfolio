@@ -9,10 +9,17 @@ const Heading = styled.p`
   font-weight: bold;
   text-align: center;
   margin-bottom: 50px;
+  
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
+  }
 `
 
 const CardList = styled.ul`
   display: flex;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
 `
 
 const Card = styled.li`
@@ -39,6 +46,12 @@ const Card = styled.li`
     margin-top: 15px;
     line-height: 1;
   }
+  
+  @media (max-width: 767px) {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
 `
 
 const Thumnail = styled.div`
@@ -46,20 +59,17 @@ const Thumnail = styled.div`
   width: 100%;
   background: url(${props => props.src}) center;
   background-size: cover;
-`
-
-//継承できてない
-const SectionBordered = styled(Section)`
-  padding: 100px;
-  border-top: 1px solid black;
-  background: #999999;
+  
+  @media (max-width: 767px) {
+    height: 200px;
+  }
 `
 
 
 const Recommend = (props) => {
   // work / page / storyで条件分岐
   return (
-    <SectionBordered>
+    <Section>
       <Heading>他にも見てみる</Heading>
         {props.page === 'lp' ?  (
           <CardList>
@@ -118,7 +128,7 @@ const Recommend = (props) => {
         </CardList>
       ) : null
       }
-    </SectionBordered>
+    </Section>
   )
 }
 

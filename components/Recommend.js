@@ -14,6 +14,7 @@ const CardWrapper = styled.ul`
   
   @media (max-width: 767px) {
     flex-direction: column;
+    padding: 15px 0;
   }
 `;
 
@@ -27,6 +28,13 @@ const CardTitle = styled.div`
     font-size: 30px;
     color: #999999;
     font-weight: bold;
+  }
+  
+  @media (max-width: 767px) {
+    h3 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
   }
 `
 

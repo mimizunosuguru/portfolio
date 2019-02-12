@@ -38,6 +38,10 @@ const Title = styled.div`
       color: #999999;
     }
     
+    a:visited {
+      color: #999999;
+    }
+    
     p {
       margin: 40px auto 40px;
       text-align: left;
@@ -204,6 +208,7 @@ export default class Bootcamp extends React.Component {
         <Section grey>
           <Title>
             <h2>Design Bootcamp & Product Design</h2>
+            <a href="https://baseconnect.in/" target="blank">https://baseconnect.in/</a>
             <p className="page__desc">
               未経験からデザイナーを目指すプログラムのDesign Bootcampの運営を行なっていました。また社内で使用するダッシュボード、Tシャツ / パーカー、プロフィールカードなどのプロダクトデザインも担当しました。
             </p>

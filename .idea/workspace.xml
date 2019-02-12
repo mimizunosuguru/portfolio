@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12cdee44-9f15-4803-b4c9-6877fc818a3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/image/work/list/areaSelect.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ArticleRecommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ArticleRecommend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Recommend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,12 +24,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
+        <entry file="file://$PROJECT_DIR$/components/ArticleRecommend.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="281" column="36" selection-start-line="281" selection-start-column="36" selection-end-line="281" selection-end-column="36" />
+            <state relative-caret-position="228">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,8 +39,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ul</find>
-      <find>image__caption</find>
       <find>span</find>
       <find>className=&quot;image__caption&quot;</find>
       <find>btn__wrapper</find>
@@ -57,14 +59,16 @@
       <find>&lt;Section grey</find>
       <find>&lt;Section grey&gt;</find>
       <find>state</find>
-      <find>CardTitle</find>
       <find>LInk</find>
       <find>F1516F</find>
-      <find>visited</find>
       <find>a</find>
       <find>ユーザーからも地域選択</find>
       <find>img</find>
       <find>gif</find>
+      <find>visited</find>
+      <find>CardTitle</find>
+      <find>30</find>
+      <find>270</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,18 +93,18 @@
         <option value="$PROJECT_DIR$/components/recommend.js" />
         <option value="$PROJECT_DIR$/components/work/baseconnect.js" />
         <option value="$PROJECT_DIR$/components/article/ArticleRecommend.js" />
-        <option value="$PROJECT_DIR$/components/Layout.js" />
         <option value="$PROJECT_DIR$/components/styledComponents/testComponent.js" />
         <option value="$PROJECT_DIR$/pages/work.js" />
         <option value="$PROJECT_DIR$/components/styledComponents/section.js" />
-        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
-        <option value="$PROJECT_DIR$/components/Recommend.js" />
-        <option value="$PROJECT_DIR$/components/ArticleRecommend.js" />
         <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/components/work/articles.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
         <option value="$PROJECT_DIR$/components/Footer.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
+        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
+        <option value="$PROJECT_DIR$/components/Layout.js" />
+        <option value="$PROJECT_DIR$/components/Recommend.js" />
+        <option value="$PROJECT_DIR$/components/ArticleRecommend.js" />
       </list>
     </option>
   </component>
@@ -186,14 +190,6 @@
               <item name="image" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -253,12 +249,12 @@
       <workItem from="1549015882244" duration="50869000" />
       <workItem from="1549289328990" duration="939000" />
       <workItem from="1549534173354" duration="294000" />
-      <workItem from="1549931203379" duration="1831000" />
+      <workItem from="1549931203379" duration="5016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112688000" />
+    <option name="totallyTimeSpent" value="115873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -412,16 +408,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/styledComponents/testComponent.js" />
-    <entry file="file://$PROJECT_DIR$/components/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/styledComponents/section.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -438,36 +424,6 @@
           <caret selection-end-column="28" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="196" column="20" selection-start-line="196" selection-start-column="20" selection-end-line="196" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/ArticleRecommend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="72" column="56" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Recommend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2223">
-          <caret line="117" column="46" lean-forward="true" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -511,8 +467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="337">
+          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -521,10 +477,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="281" column="36" selection-start-line="281" selection-start-column="36" selection-end-line="281" selection-end-column="36" />
+        <state relative-caret-position="96">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Recommend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/ArticleRecommend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
