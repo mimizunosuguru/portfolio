@@ -32,6 +32,11 @@ const Layout = (props) => (
         line-height: 1.8;
       }
 
+      @media (max-width: 767px) {
+        p {
+          font-size: 16px;
+        }
+      }
 
       a {
         color: #000;

@@ -26,31 +26,31 @@ const Title = styled.div`
   text-align: center;
   
   h2 {
-      font-size: 32px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
   
-    a {
-      font-size: 18px;
-      color: #999999;
-    }
+  a {
+    font-size: 18px;
+    color: #999999;
+  }
+  
+  a:visited {
+    color: #999999;
+  }
+  
+  p {
+    margin: 40px auto 40px;
+    text-align: left;
+  }
     
-    a:visited {
-      color: #999999;
+  @media (max-width: 767px) {
+  //スマホ以下
+    h2 {
+      font-size: 26px;
     }
-    
-    p {
-      margin: 40px auto 40px;
-      text-align: left;
-    }
-      
-    @media (max-width: 767px) {
-    //スマホ以下
-      h2 {
-        font-size: 26px;
-      }
-    }
+  }
 `;
 
 const Content = styled.div`
@@ -67,11 +67,28 @@ const Content = styled.div`
     border-bottom: 4px solid #2DC1AF;
   }
   
+  @media (max-width: 767px) {
+    h3 {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    
+    h3 span {
+      padding: 0 25px 15px;
+    }
+  }
+  
   h4 {
     font-size: 20px;
     font-weight: bold;
     margin: 80px 0 40px;
     text-align: center;
+  }
+  
+  @media (max-width: 767px) {
+    h4 {
+      margin-bottom: 20px;
+    }
   }
 
   h5 {
