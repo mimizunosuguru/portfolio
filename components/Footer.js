@@ -103,7 +103,7 @@ const Footer = () => (
       <p>feel free to contact me or follow me on</p>
       <div className="sns__box">
         <a href="https://github.com/mimizunosuguru" target="_blank" className="github"/>
-        <a href="https://twitter.com/mimizunosuguru" ttarget="_blank" className="twitter"/>
+        <a href="https://twitter.com/mimizunosuguru" target="_blank" className="twitter"/>
         <a href="https://www.facebook.com/sugu.mizuno" target="_blank" className="facebook"/>
         <a href="https://note.mu/mimizunomizuno" target="_blank" className="note"/>
       </div>

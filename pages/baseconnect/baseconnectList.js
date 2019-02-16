@@ -147,8 +147,8 @@ const Image = styled.div`
   }
 `
 
-const Button = styled.button`
-  display: block;
+const Button = styled.a`
+  display: inline-block;
   margin: 0 auto 20px;
   padding: 20px 50px 20px 50px;
   border: 2px solid #999999;
@@ -158,12 +158,20 @@ const Button = styled.button`
   font-size: 18px;
   font-weight: bold;
   line-height: 1;
-    
+  
+  &:visited {
+    color: #999999;
+  }
+  
   &:hover {
     background: #999999;
     color: #fff;
     cursor: pointer;
   }
+`
+
+const ButtonWrapper = styled.div`
+  text-align: center;
 `
 
 //プロジェクト説明
@@ -356,9 +364,11 @@ export default class LIST extends React.Component {
             <Image>
               <img src="/static/image/work/list/list-capture11.png" alt=""/>
             </Image>
-            <Button>
-              プロトタイプを見てみる
-            </Button>
+            <ButtonWrapper>
+              <Button href="https://invis.io/RBQJWD3HCNG#/347234578_---------" target="_blank">
+                プロトタイプを見てみる
+              </Button>
+            </ButtonWrapper>
           </Section>
         </Content>
         <ArticleRecommend page={this.state.page}/>
