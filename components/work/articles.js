@@ -9,7 +9,7 @@ const Heading = styled.div`
   
   h2 {
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
   @media (max-width: 767px) {
@@ -69,7 +69,7 @@ const Card = styled.li`
   
   @media (max-width: 767px) {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding: 0;
   }
 `

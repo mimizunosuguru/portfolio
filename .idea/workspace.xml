@@ -2,20 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12cdee44-9f15-4803-b4c9-6877fc818a3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/now.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/static/development/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/static/development/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/static/development/pages/_document.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/static/development/pages/_document.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/work/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/work/articles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/development_instance_0_79abd8fc32aa0c41bc093b2296736a6b/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/development_instance_0_79abd8fc32aa0c41bc093b2296736a6b/stats.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/package.json.hash" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/package.json.hash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/article/article--dumbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--dumbar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/article/article--ikea.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--ikea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/article/article--jobsToBeDone.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--jobsToBeDone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/article/article--journeyMapping.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--journeyMapping.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/article/article--meditate.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--meditate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/article/article--module.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--module.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/article/article--mondai.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--mondai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/article/article--pylamid.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--pylamid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/index/heroImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/index/heroImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/recommend/history.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/recommend/history.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/recommend/work.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/recommend/work.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/baseconnect-bootcamp.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/baseconnect-bootcamp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/baseconnect-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/baseconnect-list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/baseconnect-lp.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/baseconnect-lp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/areaSelect.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/lp-capture1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/lp/lp-capture1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/lp/lp-capture1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/lp/lp-capture2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/lp/lp-capture2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/lp/lp-capture3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/lp/lp-capture3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/lp/lp-capture4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/lp/lp-capture4.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,10 +65,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/Layout.js">
+        <entry file="file://$PROJECT_DIR$/components/work/articles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="209">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -44,8 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;Section grey</find>
-      <find>&lt;Section grey&gt;</find>
       <find>state</find>
       <find>LInk</find>
       <find>F1516F</find>
@@ -70,10 +104,12 @@
       <find>管理システム「Baseconnect」の</find>
       <find>Head</find>
       <find>title</find>
-      <find>memo</find>
       <find>memoize-one&quot;</find>
       <find>@media</find>
       <find>font-size: 17px;</find>
+      <find>memo</find>
+      <find>memoize-one</find>
+      <find>card</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,7 +121,6 @@
         <option value="$PROJECT_DIR$/pages/about.js" />
         <option value="$PROJECT_DIR$/pages/top.js" />
         <option value="$PROJECT_DIR$/pages/Work.js" />
-        <option value="$PROJECT_DIR$/next.config.js" />
         <option value="$PROJECT_DIR$/static/stylesheet/styles.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.babelrc" />
@@ -102,7 +137,6 @@
         <option value="$PROJECT_DIR$/components/Recommend.js" />
         <option value="$PROJECT_DIR$/components/ArticleRecommend.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
-        <option value="$PROJECT_DIR$/components/work/articles.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
         <option value="$PROJECT_DIR$/components/work/baseconnect.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -112,6 +146,8 @@
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
         <option value="$PROJECT_DIR$/components/Layout.js" />
+        <option value="$PROJECT_DIR$/next.config.js" />
+        <option value="$PROJECT_DIR$/components/work/articles.js" />
       </list>
     </option>
   </component>
@@ -161,6 +197,12 @@
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,18 +265,17 @@
       <workItem from="1549534173354" duration="294000" />
       <workItem from="1549931203379" duration="9803000" />
       <workItem from="1550030803814" duration="14000" />
-      <workItem from="1550151078710" duration="6641000" />
+      <workItem from="1550151078710" duration="9888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127315000" />
+    <option name="totallyTimeSpent" value="130562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2013889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13333334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -248,7 +289,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24810126" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28987342" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,16 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/work/articles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="94" column="15" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -437,13 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/next.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -471,13 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="6362" column="32" lean-forward="true" selection-start-line="6362" selection-start-column="32" selection-end-line="6362" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/work/baseconnect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -498,17 +515,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="6307" column="20" selection-start-line="6307" selection-start-column="9" selection-end-line="6307" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="424">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Layout.js">
+    <entry file="file://$PROJECT_DIR$/next.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/work/articles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="209">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
