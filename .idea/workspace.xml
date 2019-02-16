@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12cdee44-9f15-4803-b4c9-6877fc818a3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/work/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/work/articles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/development_instance_0_79abd8fc32aa0c41bc093b2296736a6b/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/development_instance_0_79abd8fc32aa0c41bc093b2296736a6b/stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/package.json.hash" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/package.json.hash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/article/article--dumbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--dumbar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/article/article--ikea.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--ikea.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/article/article--jobsToBeDone.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--jobsToBeDone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/article/article--journeyMapping.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--journeyMapping.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/article/article--meditate.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--meditate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/article/article--module.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--module.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/article/article--mondai.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--mondai.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/article/article--pylamid.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/article/article--pylamid.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/index/heroImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/index/heroImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/recommend/history.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/recommend/history.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/recommend/work.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/recommend/work.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/baseconnect-bootcamp.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/baseconnect-bootcamp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/baseconnect-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/baseconnect-list.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/baseconnect-lp.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/baseconnect-lp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/bootcamp/bootcamp-capture9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/areaSelect.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/lp-capture1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/lp/lp-capture1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/lp/lp-capture1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/lp/lp-capture2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/lp/lp-capture2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/lp/lp-capture3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/lp/lp-capture3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/lp/lp-capture4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/lp/lp-capture4.png" afterDir="false" />
-    </list>
+    <list default="true" id="12cdee44-9f15-4803-b4c9-6877fc818a3c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -265,12 +214,12 @@
       <workItem from="1549534173354" duration="294000" />
       <workItem from="1549931203379" duration="9803000" />
       <workItem from="1550030803814" duration="14000" />
-      <workItem from="1550151078710" duration="9888000" />
+      <workItem from="1550151078710" duration="11202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130562000" />
+    <option name="totallyTimeSpent" value="131876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
