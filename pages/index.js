@@ -2,6 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 import Layout from '../components/Layout'
 import Recommend from '../components/Recommend'
+import Head from 'next/head'
 
 import Section from '../components/styledComponents/section'
 
@@ -173,6 +174,9 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+        <Head>
+          <title>mimizunoDesign</title>
+        </Head>
         {/*ヘッダー*/}
         {/*<PageHeader>*/}
           {/*<h1>mimizunoDesign</h1>*/}

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12cdee44-9f15-4803-b4c9-6877fc818a3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/react-loadable-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/react-loadable-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/work/articles.js">
+        <entry file="file://$PROJECT_DIR$/components/Layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="157">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -86,23 +89,23 @@
         <option value="$PROJECT_DIR$/components/recommend.js" />
         <option value="$PROJECT_DIR$/components/article/ArticleRecommend.js" />
         <option value="$PROJECT_DIR$/components/styledComponents/testComponent.js" />
-        <option value="$PROJECT_DIR$/pages/work.js" />
         <option value="$PROJECT_DIR$/components/styledComponents/section.js" />
         <option value="$PROJECT_DIR$/components/Recommend.js" />
         <option value="$PROJECT_DIR$/components/ArticleRecommend.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/now.json" />
-        <option value="$PROJECT_DIR$/pages/_document.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/components/Layout.js" />
         <option value="$PROJECT_DIR$/next.config.js" />
         <option value="$PROJECT_DIR$/components/Footer.js" />
-        <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/components/work/baseconnect.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
         <option value="$PROJECT_DIR$/components/work/articles.js" />
+        <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/pages/_document.js" />
+        <option value="$PROJECT_DIR$/pages/work.js" />
+        <option value="$PROJECT_DIR$/components/Layout.js" />
       </list>
     </option>
   </component>
@@ -151,83 +154,23 @@
             <path>
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name=".next" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name=".next" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name=".next" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="development" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name=".next" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="development" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name=".next" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="development" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="baseconnect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name=".next" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="qAbwYhHVHOCUBh9R1~XB9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name=".next" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="qAbwYhHVHOCUBh9R1~XB9" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name=".next" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="qAbwYhHVHOCUBh9R1~XB9" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="baseconnect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="next" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="baseconnect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
@@ -316,17 +259,18 @@
       <workItem from="1549534173354" duration="294000" />
       <workItem from="1549931203379" duration="9803000" />
       <workItem from="1550030803814" duration="14000" />
-      <workItem from="1550151078710" duration="18303000" />
+      <workItem from="1550151078710" duration="19958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138977000" />
+    <option name="totallyTimeSpent" value="140632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28958333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28958333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -340,7 +284,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40253165" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40253165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -492,26 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/_document.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -551,16 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="232" column="83" selection-start-line="232" selection-start-column="83" selection-end-line="232" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.next/static/development/pages/work.js.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -568,16 +482,6 @@
         </state>
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/work.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/work/baseconnect.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -630,6 +534,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/next/head.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/_document.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/work.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
