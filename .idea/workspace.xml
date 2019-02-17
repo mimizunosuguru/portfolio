@@ -7,11 +7,9 @@
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/work/baseconnect.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/work/baseconnect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture9.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -322,16 +320,15 @@
       <workItem from="1549534173354" duration="294000" />
       <workItem from="1549931203379" duration="9803000" />
       <workItem from="1550030803814" duration="14000" />
-      <workItem from="1550151078710" duration="16911000" />
+      <workItem from="1550151078710" duration="17296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137585000" />
+    <option name="totallyTimeSpent" value="137970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28958333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
