@@ -61,16 +61,22 @@ const Card = styled.li`
     font-size: 16px;
     font-weight: bold;
   }
-
+  
   .type{
     font-size: 16px;
     color: #999999;
   }
   
+  
   @media (max-width: 767px) {
     width: 100%;
     margin-bottom: 50px;
     padding: 0;
+    
+    .title,
+    .type {
+      font-size: 15px;
+    }
   }
 `
 
