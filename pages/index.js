@@ -200,7 +200,7 @@ export default class Index extends React.Component {
               <h2>About</h2>
             </li>
             <li className="content">
-              <p>学生生活では、自分が情熱を持って取り組めるものを見つけるため様々な活動に取り組む中、デザインと出会う。デザインの問題解決の視点に惹かれ、2017年に大学を休学し、ベトナムの日経ITスタートアップにてデザイナーのインターンとしてメンターの元に弟子入りの後、京都に拠点を置くBaseconnect株式会社にてUI/UXデザイナーとして現在活動中。</p>
+              <p>学生生活では、自分が情熱を持って取り組めるものを見つけるため様々な活動に取り組む中、デザインと出会う。デザインの問題解決の視点に惹かれ、2017年に大学を休学し、ベトナムの日系ITスタートアップにてデザイナーのインターンとしてメンターの元に弟子入りの後、京都に拠点を置くBaseconnect株式会社にてUI/UXデザイナーとして現在活動中。</p>
               <p>また、日本最大級のUXカンファレンスを毎年開催するUX DAYS TOKYOにスタッフとして約1年間所属。UXに関するブログ記事の執筆と、ワークショップ、勉強会をスタッフで定期的に開催し、デザインを行う上での視点を学ぶ。</p>
               <p>感覚ではなく理論と本質を見極められるデザインができるよう日々勉強中。デザインの本質である問題解決の視点にこだわり、身近な人の課題から取り組み続けたい。</p>
             </li>
@@ -210,27 +210,27 @@ export default class Index extends React.Component {
             <li className="content">
               <Biography>
                 <li className="bio__listItem">
-                  <div className="item--title"><a href="">Baseconnect</a></div>
+                  <div className="item--title"><a href="http://company.baseconnect.in/" target="_blank">Baseconnect</a></div>
                   <div className="item--position">UI/UX Designer Intern</div>
                   <div className="item--place">京都 / 2017 - 2019（現在）</div>
                 </li>
                 <li className="bio__listItem flex">
-                  <div className="item--title"><a href="">UX Days Tokyo</a></div>
+                  <div className="item--title"><a href="https://uxdaystokyo.com/" target="_blank">UX Days Tokyo</a></div>
                   <div className="item--position">Stuff</div>
                   <div className="item--place">大阪&東京 / 2017 - 2018</div>
                 </li>
                 <li className="bio__listItem flex">
-                  <div className="item--title"><a href="">Framgia</a></div>
+                  <div className="item--title"><a href="https://framgia.com/" target="_blank">Framgia</a></div>
                   <div className="item--position">Design & Marketing Intern</div>
                   <div className="item--place">ベトナム / 2017/4 - 9</div>
                 </li>
                 <li className="bio__listItem flex">
-                  <div className="item--title"><a href="">Flamingo</a></div>
+                  <div className="item--title"><a href="https://app-flamingo.com/" target="_blank">Flamingo</a></div>
                   <div className="item--position">iOS Enginner & Hastler</div>
                   <div className="item--place">京都 / 2016/5 - 11</div>
                 </li>
                 <li className="bio__listItem flex">
-                  <div className="item--title"><a href="">同志社大学</a></div>
+                  <div className="item--title"><a href="https://www.doshisha.ac.jp/" target="_blank">同志社大学</a></div>
                   <div className="item--position">経済学部/経済学科</div>
                   <div className="item--place">京都 / 2014 - 2020 (予定)</div>
                 </li>

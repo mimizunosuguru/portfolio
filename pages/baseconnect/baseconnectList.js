@@ -234,7 +234,7 @@ export default class LIST extends React.Component {
             <h2>Baseconnect LIST</h2>
             <a href="https://sales.baseconnect.in/" target="blank">https://sales.baseconnect.in/</a>
             <p className="page__desc">
-              「Baseconnect LIST」は法人営業におけるターゲティングや見込み客となりうる企業のリスト作成を圧倒的に効率化できるクラウドサービスです。β版リリースから半年で5000社以上に導入いただいています。
+              「Baseconnect LIST」は法人営業におけるターゲティングや見込み客となりうる企業のリスト作成を圧倒的に効率化できるクラウドサービスです。β版のリリースから半年で5000社以上に導入いただいています。
             </p>
           </Title>
           <Desc>
@@ -255,7 +255,7 @@ export default class LIST extends React.Component {
             </li>
             <li className="descList__item">
               <p className="title">期間</p>
-              <p className="cont">約１年間</p>
+              <p className="cont">約１年半（インハウスのデザイナーとして活動）</p>
             </li>
           </Desc>
         </Section>
@@ -288,7 +288,7 @@ export default class LIST extends React.Component {
             <p>企業情報を探す検索軸の一つ、「都道府県選択」のUX改善を行いました。</p>
 
             <h4>Before</h4>
-            <p>本サービスでは、直感的な操作性を重視し、画面遷移が少ない設計にしています。検索条件の指定は、サイドバーからほぼ全て指定可能で、検索結果がリロードなく瞬時に反映されます。しかし、このサイドバーにおいては、２点の課題がありました。</p>
+            <p>本サービスでは、直感的な操作性を重視し、画面遷移が少ない仕様にしています。検索条件の指定は、サイドバーからほぼ全て指定可能で、検索結果がリロードなく瞬時に反映されます。しかし、このサイドバーにおいては、２点の課題がありました。</p>
             <h5>（課題）</h5>
             <ul>
               <li>1. サイドバーが長くなりすぎて、どんな検索項目があるか一目でわかりづらい</li>
@@ -296,7 +296,7 @@ export default class LIST extends React.Component {
             </ul>
             <Image>
               <img src="/static/image/work/list/list-capture3.png" alt=""/>
-              <span>（サイドバーから地域を絞り込む）</span>
+              <span>（サイドバーから地域を絞り込む仕様）</span>
             </Image>
 
             <h4>After</h4>
@@ -335,7 +335,7 @@ export default class LIST extends React.Component {
           {/* コンテンツ3 */}
           <Section grey>
             <h3><span className="h3__inner">3. モバイル対応</span></h3>
-            <p>Baseconnect LISTはPC環境のみの提供になっていましたが、スマートフォンからのアクセスが〜割であり、PC環境に限られていたことで、サービスの理解 / コンバージョンに繋がらないユーザーが存在することが問題視されていました。</p>
+            <p>Baseconnect LISTはPC環境のみの提供になっていましたが、LPページにおけるスマートフォンからのアクセスが7割であり、PC環境に限られていたことで、サービスの理解 / コンバージョンに繋がらないユーザーが存在することが問題視されていました。</p>
             <p>当初はモバイルアプリのサービス開発の案も出ていましたが、工数を考えた結果、デザイナーが基本的に実装できる範囲でモバイルでも対応できるようにしました。</p>
             <Image large>
               <img src="/static/image/work/list/list-capture8.png" alt=""/>
@@ -345,7 +345,7 @@ export default class LIST extends React.Component {
             <h4>ゴールは「最低限使える体験の実現」</h4>
             <p>スマートフォンでのデザインを作成する際、達成すべきゴールは、「サービスに興味持ち、スマホから登録して、[最低限使える体験] を実現する」としました。</p>
             <p>[最低限使える体験]とは、「自分が営業したい企業の条件を絞り込み、その企業の一覧、詳細が見れる」であると定義しました。</p>
-            <p>そこまで体現できれば、スマートフォンで機能が制限されていたとしても、サービスの理解 / PCでの利用に繋がると判断し、これを踏まえワイヤーフレームの作成、デザイン、コーディングまでほぼ1人で実装しました。期間は約10日間です。</p>
+            <p>そこまで体現できれば、スマートフォンで多少の機能が制限されていたとしても、サービスの理解 / PCでの利用に繋がると判断し、これを踏まえワイヤーフレームの作成、デザイン、コーディングまでほぼ1人で実装しました。期間は約10日間です。</p>
             <Image>
               <img src="/static/image/work/list/list-capture9.png" alt=""/>
             </Image>
