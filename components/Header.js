@@ -55,6 +55,9 @@ const Header = () => (
         <Link href="/work">
           <a>Work</a>
         </Link>
+        <Link href="/loading">
+          <a>Loading</a>
+        </Link>
       </nav>
     </div>
   </Head>

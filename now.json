@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "name": "mimizunoDesign",
+  "alias": "mimizunodesign.com",
   "builds": [
     { "src": "package.json", "use": "@now/next" }
   ]

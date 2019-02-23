@@ -19,11 +19,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/baseconnect/baseconnectList": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/baseconnect/baseconnectLp": [
+    "/loading": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
