@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import Layout from '../components/Layout'
 import Recommend from '../components/Recommend'
 import Head from 'next/head'
+import Lottie from 'lottie-react-web'
+import animation from './animation.json'
 
 import Section from '../components/styledComponents/section'
 
@@ -165,7 +167,45 @@ const Biography = styled.ul`
       margin: 0;
     }
   }
-`
+`;
+
+const AnimationWrap = styled.div`
+  -moz-animation: cssAnimation 0s ease-in 2s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 2s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 0s ease-in 2s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 2s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  
+  @-webkit-keyframes cssAnimation {
+      to {
+          width:0;
+          height:0;
+          visibility:hidden;
+    }
+  }
+  
+  @keyframes cssAnimation {
+      to {
+          width:0;
+          height:0;
+          overflow:hidden;
+      }
+  }
+`;
 
 export default class Index extends React.Component {
   state = {
@@ -184,6 +224,14 @@ export default class Index extends React.Component {
 
         {/*Top*/}
         <Section>
+          <AnimationWrap>
+            <Lottie
+              options={{
+                animationData: animation,
+                loop: false
+              }}
+            />
+          </AnimationWrap>
           <Top>
             <li className="box left">
               <img src="/static/image/index/heroImage.png" alt="heroImage"/>

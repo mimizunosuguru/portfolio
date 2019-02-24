@@ -17,6 +17,7 @@ const Layout = (props) => (
         margin: 0;
         background: #fff;
         font-family: 'Avenir', 'YuGothic';
+        // font-family: 'メイリオ', Meiryo, sans-serif;
       }
 
       * {
