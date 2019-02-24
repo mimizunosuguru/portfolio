@@ -13,7 +13,8 @@ export default class Work extends React.Component {
       <Layout>
         <Lottie
           options={{
-            animationData: animation
+            animationData: animation,
+            loop: false
           }}
         />
       </Layout>
