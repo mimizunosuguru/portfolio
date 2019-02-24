@@ -15,7 +15,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/loading": [
+    "/work": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/baseconnect/baseconnectLp": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
