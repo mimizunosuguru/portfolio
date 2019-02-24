@@ -170,14 +170,16 @@ const Biography = styled.ul`
 `;
 
 const AnimationWrap = styled.div`
-  -moz-animation: cssAnimation 0s ease-in 2s forwards;
+  -moz-animation: fadein 0s ease-in 2s forwards;
   /* Firefox */
-  -webkit-animation: cssAnimation 0s ease-in 2s forwards;
+  -webkit-animation: fadein 0s ease-in 2s forwards;
   /* Safari and Chrome */
-  -o-animation: cssAnimation 0s ease-in 2s forwards;
+  -o-animation: fadein 0s ease-in 2s forwards;
   /* Opera */
-  animation: cssAnimation 0s ease-in 2s forwards;
+  animation: fadein 0s ease-in 2s forwards;
+  
   -webkit-animation-fill-mode: forwards;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
   
   position: fixed;
@@ -190,19 +192,25 @@ const AnimationWrap = styled.div`
   width: 100vw;
   height: 100vh;
   
-  @-webkit-keyframes cssAnimation {
+  @-webkit-keyframes fadein {
+     from {
+          opacity:100%;
+      }
+      
       to {
-          width:0;
-          height:0;
+          opacity:0;
           visibility:hidden;
     }
   }
   
-  @keyframes cssAnimation {
+  @keyframes fadein {
+      from {
+          opacity:100%;
+      }
+      
       to {
-          width:0;
-          height:0;
-          overflow:hidden;
+          opacity:0;
+          visibility:hidden;
       }
   }
 `;
