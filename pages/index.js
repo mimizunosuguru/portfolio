@@ -26,6 +26,16 @@ const Top = styled.div`
     text-decoration: underline;
     padding: 0 3px;
   }
+  
+  @media (max-width: 767px) {
+    padding-top: 70px;
+    height: 350px;
+    
+    p {
+      font-size: 30px;
+      line-height: 1.7;
+    }
+  }
 `
 
 export default class Work extends React.Component {
@@ -39,7 +49,7 @@ export default class Work extends React.Component {
         <Section grey border>
           <Top>
             <p>
-              I’m <Link href="/index"><a href="">Sugu Mizuno</a></Link>, UI/UX Designer,<br/>
+              I’m <Link href="/about"><a href="">Sugu Mizuno</a></Link>, UI/UX Designer,<br/>
               currently intern at Baseconnect in Kyoto
             </p>
           </Top>

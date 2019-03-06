@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import styled from 'styled-components';
 import Layout from '../components/Layout'
@@ -361,7 +359,7 @@ export default class About extends React.Component {
             </li>
           </Card>
         </Section>
-        <Recommend pageStatus={this.state.pageStatus}/>
+        {/*<Recommend pageStatus={this.state.pageStatus}/>*/}
       </Layout>
     )
   }
