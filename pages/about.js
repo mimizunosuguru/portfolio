@@ -228,6 +228,110 @@ const Biography = styled.ul`
   }
 `;
 
+const Statement = styled.div`
+  text-align: center;
+  
+  .box {
+    margin: 100px 0;
+  }
+  
+  h2 {
+    position: relative;
+    font-family: 'Avenir', serif;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  h2:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;/*線の上下位置*/
+    display: inline-block;
+    width: 60px;/*線の長さ*/
+    height: 1px;/*線の太さ*/
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: black;/*線の色*/
+   }
+  
+  p {
+    margin-bottom: 50px;
+  }
+`
+
+const Skills = styled.div`
+  
+  h2 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+    font-family: 'Avenir',serif;
+    font-size: 38px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #000000;
+    line-height: 1;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .skillCard {
+    background: #fff;
+    width: 18%;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+  
+  .Card__graph {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Card__graph img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Card__name {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0;
+    margin-top: 25px;
+    text-align: center;
+    border-top: 1px solid #F0F1F5;
+  }
+  
+  @media (max-width: 1020px) and (min-width: 768px) {
+    .skillCard {
+      width: 22%;
+    }
+    
+    .wrapper::after {
+      content: '';
+      width: 48%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .skillCard {
+      width: 48%;
+    }
+  }
+  
+
+`
+
 const AnimationWrap = styled.div`
   -moz-animation: fadein 0s ease-in 3s forwards;
   /* Firefox */
@@ -358,6 +462,128 @@ export default class About extends React.Component {
               <h2>Biography</h2>
             </li>
           </Card>
+        </Section>
+        <Section>
+          <Statement>
+            <div className="box">
+              <h2>Mission</h2>
+              <p>身近な人が自分の人生を生きれるようにサポートする。</p>
+            </div>
+
+            <div className="box">
+              <h2>Vision</h2>
+              <p>人、組織、プロダクトのストーリーに共感し、<br/>
+                価値を形にする支援者であり続ける。<br/>
+                誰にでもその人だけのストーリーがあると信じる。</p>
+            </div>
+
+            {/*<div className="box">*/}
+              {/*<h2>What is Desgin?</h2>*/}
+              {/*<p>デザインすることは、物語ること。<br/>*/}
+                {/*届けるべき人のことを考え、価値を生み出すため、<br/>*/}
+                {/*モノ、コト、ヒトに関わる全ての領域にデザインの力は求められる。<br/>*/}
+                {/*デザインはデザイナーのものだけではない。*/}
+              {/*</p>*/}
+              {/*<p>*/}
+                {/*デザインを学ぶことは、世界の原則を学ぶこと。<br/>*/}
+                {/*デザインすることは、世界をより良くするための冒険の旅へ出るようなもの。*/}
+              {/*</p>*/}
+
+              {/*<p>*/}
+                {/*その冒険の旅に、終わりはない。*/}
+              {/*</p>*/}
+            {/*</div>*/}
+          </Statement>
+        </Section>
+
+        <Section grey>
+          <Skills>
+            <h2>Skills</h2>
+            <div className="wrapper">
+              <div className="skillCard">
+                <div className="Card__graph">
+                  <img src="/static/image/index/skill-html.png" alt=""/>
+                </div>
+                <div className="Card__name">
+                  <p>HTML5</p>
+                </div>
+              </div>
+              <div className="skillCard">
+                <div className="Card__graph">
+                  <img src="/static/image/index/skill-scss.png" alt=""/>
+                </div>
+                <div className="Card__name">
+                  <p>Sass</p>
+                </div>
+              </div>
+              <div className="skillCard">
+                <div className="Card__graph">
+                  <img src="/static/image/index/skill-react.png" alt=""/>
+                </div>
+                <div className="Card__name">
+                  <p>React.js</p>
+                </div>
+              </div>
+              <div className="skillCard">
+                <div className="Card__graph">
+                  <img src="/static/image/index/skill-rails.png" alt=""/>
+                </div>
+                <div className="Card__name">
+                  <p>Ruby on Rails</p>
+                </div>
+              </div>
+              <div className="skillCard">
+                <div className="Card__graph">
+                  <img src="/static/image/index/skill-sketch.png" alt=""/>
+                </div>
+                <div className="Card__name">
+                  <p>Sketch</p>
+                </div>
+              </div>
+
+              <div className="skillCard">
+                <div className="Card__graph">
+                  <img src="/static/image/index/skill-ps.png" alt=""/>
+                </div>
+                <div className="Card__name">
+                  <p>Photoshop</p>
+                </div>
+              </div>
+              <div className="skillCard">
+                <div className="Card__graph">
+                  <img src="/static/image/index/skill-ai.png" alt=""/>
+                </div>
+                <div className="Card__name">
+                  <p>illustrator</p>
+                </div>
+              </div>
+              <div className="skillCard">
+                <div className="Card__graph">
+                  <img src="/static/image/index/skill-in.png" alt=""/>
+                </div>
+                <div className="Card__name">
+                  <p>Invision</p>
+                </div>
+              </div>
+              <div className="skillCard">
+                <div className="Card__graph">
+                  <img src="/static/image/index/skill-notion.png" alt=""/>
+                </div>
+                <div className="Card__name">
+                  <p>Notion</p>
+                </div>
+              </div>
+              <div className="skillCard">
+                <div className="Card__graph">
+                  <img src="/static/image/index/skill-passion.png" alt=""/>
+                </div>
+                <div className="Card__name">
+                  <p>Passion</p>
+                </div>
+              </div>
+
+            </div>
+          </Skills>
         </Section>
         {/*<Recommend pageStatus={this.state.pageStatus}/>*/}
       </Layout>

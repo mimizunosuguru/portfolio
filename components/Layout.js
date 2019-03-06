@@ -16,7 +16,7 @@ const Layout = (props) => (
       body {
         margin: 0;
         background: #fff;
-        font-family: 'Avenir', "Noto Sans JP";
+        font-family: 'Avenir', "Yugothic", Noto Sans JP;
       }
 
       * {
