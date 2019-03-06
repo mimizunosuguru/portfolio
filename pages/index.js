@@ -170,16 +170,16 @@ const Biography = styled.ul`
 `;
 
 const AnimationWrap = styled.div`
-  -moz-animation: fadein 0s ease-in 2s forwards;
+  -moz-animation: fadein 0s ease-in 3s forwards;
   /* Firefox */
-  -webkit-animation: fadein 0s ease-in 2s forwards;
+  -webkit-animation: fadein 0s ease-in 3s forwards;
   /* Safari and Chrome */
-  -o-animation: fadein 0s ease-in 2s forwards;
+  -o-animation: fadein 0s ease-in 3s forwards;
   /* Opera */
-  animation: fadein 0s ease-in 2s forwards;
+  animation: fadein 0s ease-in 3s forwards;
   
   -webkit-animation-fill-mode: forwards;
-  animation-duration: 0.5s;
+  animation-duration: 0.6s;
   animation-fill-mode: forwards;
   
   position: fixed;
