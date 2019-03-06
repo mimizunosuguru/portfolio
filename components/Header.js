@@ -47,13 +47,13 @@ const Header = () => (
     <div className="header__inner">
       <nav>
         <Link href="/index">
-          <a>Top</a>
+          <a>Work</a>
         </Link>
         {/*<Link href="/work">*/}
           {/*<a>Story</a>*/}
         {/*</Link>*/}
         <Link href="/work">
-          <a>Work</a>
+          <a>About</a>
         </Link>
       </nav>
     </div>
