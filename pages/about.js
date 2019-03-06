@@ -38,28 +38,58 @@ const Top = styled.ul `
   margin-top: 34px;
   
   img {
+    position: absolute;
+    right: 0;
     width: auto;
     height: 100%;
   }
   
-  h2 {
+  p {
+    padding-bottom: 12px;
     font-family: 'Avenir', serif;
     font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  
+  h2 {
+    padding-bottom: 20px;
+    font-family: 'Avenir', serif;
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 2px;
   }
 
-  h3 {
+  span {
    font-family: 'Avenir', serif;
-   color: #989696;
-   font-size: 24px;
+   color: #999999;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 1;
   }
   
   .box {
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 50%;
     height: 380px;
-    overflow: hidden;
+    width: 100%;
+  }
+  
+  .box--title {
+    z-index: 1;
+    padding-left: 60px;
+  } 
+  
+  .box--background {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    background: red;
+    background-image: url("/static/image/index/heroImage.png");
+    background-size: cover;
   }
   
   @media (max-width: 767px) {
@@ -227,31 +257,30 @@ export default class About extends React.Component {
         <Head>
           <title>mimizunoDesign</title>
         </Head>
-        {/*ヘッダー*/}
-        {/*<PageHeader>*/}
-        {/*<h1>mimizunoDesign</h1>*/}
-        {/*</PageHeader>*/}
 
         {/*Top*/}
         <Section>
-          <AnimationWrap>
-            <Lottie
-              options={{
-                animationData: animation,
-                loop: false
-              }}
-            />
-          </AnimationWrap>
+          {/*<AnimationWrap>*/}
+            {/*<Lottie*/}
+              {/*options={{*/}
+                {/*animationData: animation,*/}
+                {/*loop: false*/}
+              {/*}}*/}
+            {/*/>*/}
+          {/*</AnimationWrap>*/}
           <Top>
-            <li className="box left">
-              <img src="/static/image/index/heroImage.png" alt="heroImage"/>
-            </li>
-            <li className="box right">
-              <div>
-                <h2>Hello, I’m Sugu Mizuno</h2>
-                <h3>UI/UX Designer</h3>
+            <li className="box">
+              <div className="box--title">
+                <p>DESIGN IS</p>
+                <h2>STORYTELLING</h2>
+                <span>SUGU MIZUNO UI/UX Designer</span>
+              </div>
+              <div className="box--background">
+                {/*<img src="/static/image/index/heroImage.png" alt="heroImage"/>*/}
               </div>
             </li>
+            {/*<li className="box right">*/}
+            {/*</li>*/}
           </Top>
         </Section>
 
