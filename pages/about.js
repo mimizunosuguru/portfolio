@@ -87,19 +87,48 @@ const Top = styled.ul `
     right: 0;
     height: 100%;
     width: 60%;
-    background: red;
     background-image: url("/static/image/index/heroImage.png");
     background-size: cover;
+  }
+  
+  @media (max-width: 1020px) and (min-width: 768px) {
+    .box--title {
+      padding-left: 0;
+    }
+    
+    .box--background {
+      background-position: center;
+    }
   }
   
   @media (max-width: 767px) {
     .box {
       margin-top: 50px;
     }
-
-    .box.right {
-      padding-left: 20px;
+    
+    .box--title {
+      padding-left: 0;
     }
+    
+    p {
+      font-size: 18px;
+      padding-bottom: 8px;
+    }
+    
+    h2 {
+      font-size: 38px;
+      padding-bottom: 8px;
+    }
+    
+    span {
+      font-size: 14px;
+    }
+    
+    .box--background {
+      width: 75%;
+      background-position: center;
+    }
+
   }
 `;
 
