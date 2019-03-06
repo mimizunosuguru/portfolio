@@ -52,7 +52,7 @@ const Header = () => (
         {/*<Link href="/work">*/}
           {/*<a>Story</a>*/}
         {/*</Link>*/}
-        <Link href="/work">
+        <Link href="/about">
           <a>About</a>
         </Link>
       </nav>

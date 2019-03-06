@@ -15,7 +15,7 @@ const Top = styled.div`
   align-items: center;
   
   p {
-    font-size: 38px;
+    font-size: 40px;
     font-weight: bold;
     color: #999999;
     text-align: center;
