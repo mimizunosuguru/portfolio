@@ -332,7 +332,6 @@ const Skills = styled.div`
 
 const WhatIsDesign = styled.div`
   display: flex;
-  margin: 100px 0;
   
   .box__title {
     display: flex;
@@ -372,6 +371,28 @@ const WhatIsDesign = styled.div`
       font-size: 18px;
       margin-bottom: 40px;
     }
+    
+    .text__sub {
+      display: flex;
+      align-items: center;
+    }
+    
+    span {
+      display: inline-block;
+      background: #CBCBCB;
+      margin-right: 30px;
+      flex: 1;
+      height: 1px;
+    }
+    
+    .text__sub p {
+      color: #CBCBCB;
+      font-size: 28px;
+      line-height: 1;
+      font-family: 'Avenir Obique';
+      font-style: oblique;
+      margin: 0;
+    }
   }
 `;
 
@@ -393,6 +414,35 @@ const Socials = styled.div`
     text-decoration: underline;
   }
   
+  .social__content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .IconBox__wrapper {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .boxIcon {
+    //display: inline-block;
+    margin-left: 30px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .boxIcon img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .boxIcon img.size--adjust {
+    width: auto;
+    height: 100%;
+  }
 
 `;
 
@@ -651,14 +701,48 @@ export default class About extends React.Component {
               <p>
                 その冒険の旅に、終わりはない。
               </p>
+
+              <div className="text__sub">
+                <span/>
+                <p>Design is storytelling</p>
+              </div>
             </div>
           </WhatIsDesign>
         </Section>
         <Section grey>
           <Socials>
             <h2>Socials</h2>
-            <div>
+            <div className="social__content">
               <p>Say hi at <a href="">mimizunosuguru@gmail.com</a> or follow me on</p>
+              <div className="IconBox__wrapper">
+                <a href="" className="boxIcon">
+                  <img src="/static/image/index/social-linkedin.png" alt=""/>
+                </a>
+
+                <a href="" className="boxIcon">
+                  <img src="/static/image/index/social-wantedlly.png" alt=""/>
+                </a>
+
+                <a href="" className="boxIcon">
+                  <img src="/static/image/index/social-github.png" alt=""/>
+                </a>
+
+                <a href="" className="boxIcon">
+                  <img src="/static/image/index/social-note.png" className="size--adjust" alt=""/>
+                </a>
+
+                <a href="" className="boxIcon">
+                  <img src="/static/image/index/social-instagram.png" alt=""/>
+                </a>
+
+                <a href="" className="boxIcon">
+                  <img src="/static/image/index/social-twitter.png" alt=""/>
+                </a>
+
+                <a href="" className="boxIcon">
+                  <img src="/static/image/index/social-facebook.png" alt=""/>
+                </a>
+              </div>
 
             </div>
           </Socials>
