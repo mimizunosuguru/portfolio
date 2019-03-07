@@ -232,7 +232,11 @@ const Statement = styled.div`
   text-align: center;
   
   .box {
-    //margin: 100px 0;
+    margin-bottom: 80px;
+  }
+  
+  .box:last-child {
+    margin: 0;
   }
   
   h2 {
@@ -257,11 +261,7 @@ const Statement = styled.div`
     transform: translateX(-50%);/*位置調整*/
     background-color: black;/*線の色*/
    }
-  
-  p {
-    margin-bottom: 50px;
-  }
-`
+`;
 
 const Skills = styled.div`
   
@@ -397,10 +397,23 @@ const WhatIsDesign = styled.div`
 `;
 
 const Socials = styled.div`
+
+  padding: 80px 80px 0; 
+  background: #F0F1F5;
+  
+    
+  @media (max-width: 767px) {
+    padding: 20px;
+  }
+  
+  .inner {
+    margin: 0 auto;
+    max-width: 980px;
+  } 
+  
   h2 {
     position: relative;
     display: inline-block;
-    margin-bottom: 40px;
     font-family: 'Avenir',serif;
     font-size: 38px;
     font-weight: bold;
@@ -417,6 +430,7 @@ const Socials = styled.div`
   .social__content {
     display: flex;
     align-items: center;
+    margin: 60px 0;
   }
   
   .IconBox__wrapper {
@@ -442,6 +456,16 @@ const Socials = styled.div`
   .boxIcon img.size--adjust {
     width: auto;
     height: 100%;
+  }
+  
+  .social__footer {
+    padding: 20px 0;
+    border-top: 1px solid #999999;
+    text-align: right;
+    
+    p {
+      font-size: 14px;
+    }
   }
 
 `;
@@ -709,8 +733,9 @@ export default class About extends React.Component {
             </div>
           </WhatIsDesign>
         </Section>
-        <Section grey>
-          <Socials>
+
+        <Socials>
+          <div className="inner">
             <h2>Socials</h2>
             <div className="social__content">
               <p>Say hi at <a href="">mimizunosuguru@gmail.com</a> or follow me on</p>
@@ -743,10 +768,12 @@ export default class About extends React.Component {
                   <img src="/static/image/index/social-facebook.png" alt=""/>
                 </a>
               </div>
-
             </div>
-          </Socials>
-        </Section>
+            <div className="social__footer">
+              <p>©2019 SUGU MIZUNO</p>
+            </div>
+          </div>
+        </Socials>
         {/*<Recommend pageStatus={this.state.pageStatus}/>*/}
       </Layout>
     )
