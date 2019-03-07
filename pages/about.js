@@ -232,7 +232,7 @@ const Statement = styled.div`
   text-align: center;
   
   .box {
-    margin: 100px 0;
+    //margin: 100px 0;
   }
   
   h2 {
@@ -328,55 +328,119 @@ const Skills = styled.div`
       width: 48%;
     }
   }
-  
+`;
 
-`
-
-const AnimationWrap = styled.div`
-  -moz-animation: fadein 0s ease-in 3s forwards;
-  /* Firefox */
-  -webkit-animation: fadein 0s ease-in 3s forwards;
-  /* Safari and Chrome */
-  -o-animation: fadein 0s ease-in 3s forwards;
-  /* Opera */
-  animation: fadein 0s ease-in 3s forwards;
+const WhatIsDesign = styled.div`
+  display: flex;
+  margin: 100px 0;
   
-  -webkit-animation-fill-mode: forwards;
-  animation-duration: 0.6s;
-  animation-fill-mode: forwards;
+  .box__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    
+    h2 {
+    position: relative;
+    font-family: 'Avenir', serif;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    }
+    
+    h2:before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -15px;/*線の上下位置*/
+      display: inline-block;
+      width: 60px;/*線の長さ*/
+      height: 1px;/*線の太さ*/
+      -moz-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);/*位置調整*/
+      background-color: black;/*線の色*/
+     }
+  }
   
-  position: fixed;
-  background: #fff;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 100;
-  width: 100vw;
-  height: 100vh;
-  
-  @-webkit-keyframes fadein {
-     from {
-          opacity:100%;
-      }
-      
-      to {
-          opacity:0;
-          visibility:hidden;
+  .box__cont {
+    flex: 1;
+    align-items: center;
+    
+    p {
+      font-size: 18px;
+      margin-bottom: 40px;
     }
   }
-  
-  @keyframes fadein {
-      from {
-          opacity:100%;
-      }
-      
-      to {
-          opacity:0;
-          visibility:hidden;
-      }
-  }
 `;
+
+const Socials = styled.div`
+  h2 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+    font-family: 'Avenir',serif;
+    font-size: 38px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #000000;
+    line-height: 1;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+
+`;
+
+// const AnimationWrap = styled.div`
+//   -moz-animation: fadein 0s ease-in 3s forwards;
+//   /* Firefox */
+//   -webkit-animation: fadein 0s ease-in 3s forwards;
+//   /* Safari and Chrome */
+//   -o-animation: fadein 0s ease-in 3s forwards;
+//   /* Opera */
+//   animation: fadein 0s ease-in 3s forwards;
+//
+//   -webkit-animation-fill-mode: forwards;
+//   animation-duration: 0.6s;
+//   animation-fill-mode: forwards;
+//
+//   position: fixed;
+//   background: #fff;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   z-index: 100;
+//   width: 100vw;
+//   height: 100vh;
+//
+//   @-webkit-keyframes fadein {
+//      from {
+//           opacity:100%;
+//       }
+//
+//       to {
+//           opacity:0;
+//           visibility:hidden;
+//     }
+//   }
+//
+//   @keyframes fadein {
+//       from {
+//           opacity:100%;
+//       }
+//
+//       to {
+//           opacity:0;
+//           visibility:hidden;
+//       }
+//   }
+// `;
 
 export default class About extends React.Component {
   state = {
@@ -422,9 +486,8 @@ export default class About extends React.Component {
               <h2>About</h2>
             </li>
             <li className="content">
-              <p>学生生活では、自分が情熱を持って取り組めるものを見つけるため様々な活動に取り組む中、デザインと出会う。デザインの問題解決の視点に惹かれ、2017年に大学を休学し、ベトナムの日系ITスタートアップにてデザイナーのインターンとしてメンターの元に弟子入りの後、京都に拠点を置くBaseconnect株式会社にてUI/UXデザイナーとして現在活動中。</p>
-              <p>また、日本最大級のUXカンファレンスを毎年開催するUX DAYS TOKYOにスタッフとして約1年間所属。UXに関するブログ記事の執筆と、ワークショップ、勉強会をスタッフで定期的に開催し、デザインを行う上での視点を学ぶ。</p>
-              <p>感覚ではなく理論と本質を見極められるデザインができるよう日々勉強中。デザインの本質である問題解決の視点にこだわり、身近な人の課題から取り組み続けたい。</p>
+              <p>1994年生まれ。大学時代は、自分が本当に情熱を持てるものを探す中で、デザインと出会う。デザインの問題解決の視点に惹かれ、2017年に大学を休学し、ベトナムの日系ITスタートアップにてデザイナーのインターンとしてメンターの元に弟子入りの後、現在は京都に拠点を置くBaseconnect株式会社にてUI/UXデザイナーとして活動中。</p>
+              <p>日本最大級のUXカンファレンスを毎年開催するUX DAYS TOKYOにスタッフとして約1年間所属。UXに関するブログ記事の執筆と、ワークショップ、勉強会をスタッフで定期的に開催し、デザインを行う上での視点を学んだ。</p>
             </li>
           </Card>
           {/* Biography */}
@@ -434,7 +497,7 @@ export default class About extends React.Component {
                 <li className="bio__listItem">
                   <div className="item--title"><a href="http://company.baseconnect.in/" target="_blank">Baseconnect</a></div>
                   <div className="item--position">UI/UX Designer Intern</div>
-                  <div className="item--place">京都 / 2017 - 2019（現在）</div>
+                  <div className="item--place">京都 / 2017 - 2019（現在</div>
                 </li>
                 <li className="bio__listItem flex">
                   <div className="item--title"><a href="https://uxdaystokyo.com/" target="_blank">UX Days Tokyo</a></div>
@@ -454,7 +517,7 @@ export default class About extends React.Component {
                 <li className="bio__listItem flex">
                   <div className="item--title"><a href="https://www.doshisha.ac.jp/" target="_blank">同志社大学</a></div>
                   <div className="item--position">経済学部/経済学科</div>
-                  <div className="item--place">京都 / 2014 - 2020 (予定)</div>
+                  <div className="item--place">京都 / 2014 - 2020 (予定</div>
                 </li>
               </Biography>
             </li>
@@ -476,23 +539,6 @@ export default class About extends React.Component {
                 価値を形にする支援者であり続ける。<br/>
                 誰にでもその人だけのストーリーがあると信じる。</p>
             </div>
-
-            {/*<div className="box">*/}
-              {/*<h2>What is Desgin?</h2>*/}
-              {/*<p>デザインすることは、物語ること。<br/>*/}
-                {/*届けるべき人のことを考え、価値を生み出すため、<br/>*/}
-                {/*モノ、コト、ヒトに関わる全ての領域にデザインの力は求められる。<br/>*/}
-                {/*デザインはデザイナーのものだけではない。*/}
-              {/*</p>*/}
-              {/*<p>*/}
-                {/*デザインを学ぶことは、世界の原則を学ぶこと。<br/>*/}
-                {/*デザインすることは、世界をより良くするための冒険の旅へ出るようなもの。*/}
-              {/*</p>*/}
-
-              {/*<p>*/}
-                {/*その冒険の旅に、終わりはない。*/}
-              {/*</p>*/}
-            {/*</div>*/}
           </Statement>
         </Section>
 
@@ -584,6 +630,38 @@ export default class About extends React.Component {
 
             </div>
           </Skills>
+        </Section>
+        <Section>
+          <WhatIsDesign>
+            <div className="box__title">
+              <h2>What's Design?</h2>
+            </div>
+
+            <div className="box__cont">
+              <p>デザインすることは、物語ること。<br/>
+                届けるべき人のことを考え、価値を生み出すため、<br/>
+                モノ、コト、ヒトに関わる全ての領域にデザインの力は求められる。<br/>
+                デザインはデザイナーのものだけではない。<br/>
+              </p>
+
+              <p>デザインを学ぶことは、世界の原則を学ぶこと。<br/>
+                デザインすることは、世界をより良くするための冒険の旅へ出るようなもの。<br/>
+              </p>
+
+              <p>
+                その冒険の旅に、終わりはない。
+              </p>
+            </div>
+          </WhatIsDesign>
+        </Section>
+        <Section grey>
+          <Socials>
+            <h2>Socials</h2>
+            <div>
+              <p>Say hi at <a href="">mimizunosuguru@gmail.com</a> or follow me on</p>
+
+            </div>
+          </Socials>
         </Section>
         {/*<Recommend pageStatus={this.state.pageStatus}/>*/}
       </Layout>

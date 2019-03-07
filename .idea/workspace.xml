@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12cdee44-9f15-4803-b4c9-6877fc818a3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/image/index/skill-ai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/index/skill-html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/index/skill-in.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/index/skill-notion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/index/skill-passion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/index/skill-ps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/index/skill-rails.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/index/skill-react.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/index/skill-scss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/index/skill-sketch.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/styledComponents/section.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/styledComponents/section.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,10 +23,13 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/about.js">
+            <entry file="file://$PROJECT_DIR$/components/Layout.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="309" column="18" selection-start-line="309" selection-start-column="18" selection-end-line="309" selection-end-column="18" />
+                <state relative-caret-position="363">
+                  <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -49,8 +41,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/about.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="489" column="21" selection-start-line="489" selection-start-column="21" selection-end-line="489" selection-end-column="21" />
+                <state relative-caret-position="208">
+                  <caret line="235" column="3" selection-start-line="235" selection-start-column="3" selection-end-line="235" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -61,8 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>β版リリースから半</find>
-      <find>設計にしています。</find>
       <find>スマートフォンからのアクセスが〜割であ</find>
       <find>設計</find>
       <find>自分を含めデザイナーのインターンが2名でした。</find>
@@ -84,13 +74,15 @@
       <find>@media (max-width:</find>
       <find>h3</find>
       <find>Avenir</find>
-      <find>Statement</find>
-      <find>Skill</find>
       <find>skillCard</find>
       <find>&lt;image</find>
       <find>&lt;img src</find>
       <find>Card__graph</find>
       <find>Card__name</find>
+      <find>WhatIsDesign</find>
+      <find>現在</find>
+      <find>Skill</find>
+      <find>Statement</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,17 +116,17 @@
         <option value="$PROJECT_DIR$/now.json" />
         <option value="$PROJECT_DIR$/pages/loading.js" />
         <option value="$PROJECT_DIR$/components/work/baseconnect.js" />
-        <option value="$PROJECT_DIR$/components/styledComponents/section.js" />
         <option value="$PROJECT_DIR$/pages/work.js" />
         <option value="$PROJECT_DIR$/components/Header.js" />
         <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/components/Layout.js" />
+        <option value="$PROJECT_DIR$/components/styledComponents/section.js" />
         <option value="$PROJECT_DIR$/pages/about.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="203" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -281,15 +273,15 @@
       <workItem from="1551074423333" duration="1938000" />
       <workItem from="1551419568244" duration="10000" />
       <workItem from="1551768168095" duration="805000" />
-      <workItem from="1551846327827" duration="11614000" />
+      <workItem from="1551846327827" duration="14310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167925000" />
+    <option name="totallyTimeSpent" value="170621000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="203" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14930555" />
@@ -497,16 +489,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/loading.js" />
-    <entry file="file://$PROJECT_DIR$/components/styledComponents/section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -553,18 +535,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="363">
+          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/styledComponents/section.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/about.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="309" column="18" selection-start-line="309" selection-start-column="18" selection-end-line="309" selection-end-column="18" />
+        <state relative-caret-position="208">
+          <caret line="235" column="3" selection-start-line="235" selection-start-column="3" selection-end-line="235" selection-end-column="3" />
         </state>
       </provider>
     </entry>

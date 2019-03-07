@@ -10,7 +10,7 @@ const Layout = (props) => (
     </Head>
     <Header/>
     {props.children}
-    <Footer/>
+    {/*<Footer/>*/}
     {/* TODO font-familyでエラーが出る*/}
     <style>{`
       body {

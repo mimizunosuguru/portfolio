@@ -2,7 +2,7 @@ import React from "react";
 import styled, { css } from "styled-components";
 
 const Component = styled.section`
-  padding: 50px;
+  padding: 80px;
   padding-bottom: ${props => (props.border ? '0': '')};
   //background
   background: ${props => (props.grey ? '#F0F1F5' : '')};
