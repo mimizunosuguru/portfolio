@@ -235,6 +235,12 @@ const Statement = styled.div`
     margin-bottom: 80px;
   }
   
+  @media (max-width: 1020px) {
+    .box {
+      margin-bottom: 40px;
+    }
+  }
+  
   .box:last-child {
     margin: 0;
   }
@@ -363,6 +369,12 @@ const WhatIsDesign = styled.div`
      }
   }
   
+  @media (max-width: 1020px) and (min-width: 768px) {
+    .box__title {
+       justify-content: left;
+    }
+  }
+  
   .box__cont {
     flex: 1;
     align-items: center;
@@ -397,13 +409,16 @@ const WhatIsDesign = styled.div`
 `;
 
 const Socials = styled.div`
-
   padding: 80px 80px 0; 
   background: #F0F1F5;
   
+   
+  @media (max-width: 1020px) and (min-width: 768px) {
+    padding: 50px 50px 0;  
+  }
     
   @media (max-width: 767px) {
-    padding: 20px;
+    padding: 40px 20px 0;
   }
   
   .inner {

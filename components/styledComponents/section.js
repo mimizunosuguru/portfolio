@@ -7,9 +7,13 @@ const Component = styled.section`
   //background
   background: ${props => (props.grey ? '#F0F1F5' : '')};
   //border-bottom
+  
+  @media (max-width: 1020px) and (min-width: 768px) {
+    padding: 50px;  
+  }
     
   @media (max-width: 767px) {
-    padding: 20px;
+    padding: 40px 20px;
   }
   
   .inner {
