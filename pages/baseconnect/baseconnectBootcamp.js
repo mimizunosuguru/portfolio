@@ -203,7 +203,7 @@ export default class Bootcamp extends React.Component {
 
   render () {
     return (
-      <Layout>
+      <Layout page="index">
         <TopImage src="/static/image/work/baseconnect-bootcamp.png"/>
         <Section grey>
           <Title>

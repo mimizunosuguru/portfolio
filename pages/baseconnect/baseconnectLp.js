@@ -203,7 +203,7 @@ export default class LP extends React.Component {
 
   render () {
     return (
-      <Layout>
+      <Layout page="index">
         <TopImage src="/static/image/work/baseconnect-lp.png"/>
         <Section grey>
           <Title>
