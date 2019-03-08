@@ -438,15 +438,6 @@ const Socials = styled.div`
   padding: 80px 80px 0; 
   background: #F0F1F5;
   
-   
-  @media (max-width: 1020px) and (min-width: 768px) {
-    padding: 50px 50px 0;  
-  }
-    
-  @media (max-width: 767px) {
-    padding: 40px 20px 0;
-  }
-  
   .inner {
     margin: 0 auto;
     max-width: 980px;
@@ -508,7 +499,39 @@ const Socials = styled.div`
       font-size: 14px;
     }
   }
-
+  
+  @media (max-width: 1020px) and (min-width: 768px) {
+    padding: 50px 50px 0;  
+    
+    .boxIcon {
+      width: 32px;
+      height: 32px;
+    }
+    
+    .social__content {
+      margin: 30px 0;
+    }
+  }
+    
+  @media (max-width: 767px) {
+    padding: 40px 20px 0;
+    
+    .social__content {
+      display: block;
+      margin: 30px 0;
+    }
+    
+    .IconBox__wrapper {
+      justify-content: space-between;
+      margin: 20px 0;
+    }
+    
+    .boxIcon {
+      margin: 0;
+      width: 30px;
+      height: 30px;
+    }
+  }
 `;
 
 // const AnimationWrap = styled.div`
