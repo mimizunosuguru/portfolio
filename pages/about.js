@@ -380,7 +380,6 @@ const WhatIsDesign = styled.div`
     align-items: center;
     
     p {
-      font-size: 18px;
       margin-bottom: 40px;
     }
     
@@ -404,6 +403,33 @@ const WhatIsDesign = styled.div`
       font-family: 'Avenir Obique';
       font-style: oblique;
       margin: 0;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    display: block;
+    
+    h2 {
+      position: relative;
+      font-family: 'Avenir', serif;
+      font-size: 38px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+    
+    h2:before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -15px;/*線の上下位置*/
+      display: inline-block;
+      width: 60px;/*線の長さ*/
+      height: 1px;/*線の太さ*/
+      -moz-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);/*位置調整*/
+      background-color: black;/*線の色*/
     }
   }
 `;
