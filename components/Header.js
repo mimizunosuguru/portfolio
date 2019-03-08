@@ -44,11 +44,8 @@ const Head = styled.header `
   }
   
   @media (max-width: 767px) {
-    height: 70px;
-    
-    h1 {
-      display: none;
-    }
+    height: 60px;
+    background: rgba(255, 255, 255, 0.4);
   }
 `
 export default class Header extends React.Component {

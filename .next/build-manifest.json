@@ -15,11 +15,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/baseconnect/baseconnectLp": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/about": [
+    "/baseconnect/baseconnectBootcamp": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
