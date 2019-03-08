@@ -227,7 +227,7 @@ export default class LIST extends React.Component {
 
   render() {
     return (
-      <Layout page="index">
+      <Layout>
         <TopImage src="/static/image/work/baseconnect-list.png"/>
         <Section grey>
           <Title>
