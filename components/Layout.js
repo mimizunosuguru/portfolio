@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import  Header from './Header'
 import Head from 'next/head'
+import Socials from './Socials'
+
 
 const Layout = (props) => (
   <Fragment>
@@ -9,6 +11,7 @@ const Layout = (props) => (
     </Head>
     <Header/>
     {props.children}
+    <Socials/>
     {/*<Footer/>*/}
     {/* TODO font-familyでエラーが出る*/}
     <style>{`
@@ -39,6 +42,7 @@ const Layout = (props) => (
         p {
           font-size: 16px;
         }
+
       }
 
       a {

@@ -365,7 +365,7 @@ export default class LIST extends React.Component {
               <img src="/static/image/work/list/list-capture11.png" alt=""/>
             </Image>
             <ButtonWrapper>
-              <Button href="https://invis.io/RBQJWD3HCNG#/347234578_---------" target="_blank">
+              <Button href="https://invis.io/RBQJWD3HCNG#/347234578_--------- " target="_blank">
                 プロトタイプを見てみる
               </Button>
             </ButtonWrapper>

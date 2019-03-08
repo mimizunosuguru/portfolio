@@ -7,6 +7,8 @@
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Socials.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Socials.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,29 +21,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/about.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="804" column="66" selection-start-line="804" selection-start-column="66" selection-end-line="804" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="234">
+                  <caret line="367" column="77" selection-start-line="367" selection-start-column="77" selection-end-line="367" selection-end-column="77" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/components/Socials.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="196">
+                  <caret line="110" column="2" selection-start-line="110" selection-start-column="2" selection-end-line="110" selection-end-column="2" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h3</find>
-      <find>Avenir</find>
-      <find>skillCard</find>
-      <find>&lt;image</find>
-      <find>&lt;img src</find>
-      <find>Card__graph</find>
-      <find>Card__name</find>
-      <find>WhatIsDesign</find>
-      <find>現在</find>
       <find>Skill</find>
       <find>font-family</find>
       <find>.flex</find>
@@ -63,6 +79,15 @@
       <find>NavSearchBar</find>
       <find>IconBox__wrapper</find>
       <find>social__content</find>
+      <find>font-size: 38px;</find>
+      <find>PageHeader</find>
+      <find>head</find>
+      <find>h2</find>
+      <find>bio</find>
+      <find>H2</find>
+      <find>padding-bottom: 25px;</find>
+      <find>SOci</find>
+      <find>プロトタイプ</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,7 +113,6 @@
         <option value="$PROJECT_DIR$/next.config.js" />
         <option value="$PROJECT_DIR$/components/Footer.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
-        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
         <option value="$PROJECT_DIR$/components/work/articles.js" />
         <option value="$PROJECT_DIR$/pages/_document.js" />
@@ -99,10 +123,11 @@
         <option value="$PROJECT_DIR$/pages/work.js" />
         <option value="$PROJECT_DIR$/components/Header.js" />
         <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/components/styledComponents/section.js" />
         <option value="$PROJECT_DIR$/components/Layout.js" />
         <option value="$PROJECT_DIR$/components/Socials.js" />
-        <option value="$PROJECT_DIR$/components/styledComponents/section.js" />
         <option value="$PROJECT_DIR$/pages/about.js" />
+        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
       </list>
     </option>
   </component>
@@ -155,31 +180,13 @@
             <path>
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="styledComponents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="baseconnect" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,18 +257,18 @@
       <workItem from="1551768168095" duration="805000" />
       <workItem from="1551846327827" duration="14406000" />
       <workItem from="1551947529003" duration="7500000" />
-      <workItem from="1552023094133" duration="1737000" />
+      <workItem from="1552023094133" duration="5482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179954000" />
+    <option name="totallyTimeSpent" value="183699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -275,7 +282,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19367088" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32025316" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -402,16 +409,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.next/static/qAbwYhHVHOCUBh9R1~XB9/pages/baseconnect/baseconnectList.js" />
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/work/articles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -500,27 +497,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Socials" />
-    <entry file="file://$PROJECT_DIR$/components/Socials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/styledComponents/section.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -533,18 +510,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="133">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Socials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="110" column="2" selection-start-line="110" selection-start-column="2" selection-end-line="110" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/about.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="804" column="66" selection-start-line="804" selection-start-column="66" selection-end-line="804" selection-end-column="66" />
+        <state relative-caret-position="380">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="367" column="77" selection-start-line="367" selection-start-column="77" selection-end-line="367" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

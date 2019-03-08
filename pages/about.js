@@ -1,34 +1,18 @@
 import React from "react";
 import styled from 'styled-components';
 import Layout from '../components/Layout'
-import Recommend from '../components/Recommend'
 import Head from 'next/head'
 import Lottie from 'lottie-react-web'
 import animation from './animation.json'
 
 import Section from '../components/styledComponents/section'
 
-const PageHeader = styled.div`
-    height: 84px;
-    line-height: 84px;
-    margin: 0 auto;
-    max-width: 980px;
-    
-    @media (max-width: 767px) {
-      h1 {
-        display: none;
-      }
-      
-     
-      h2 {
-        font-size: 24px;
-        margin-bottom: 10px;
-      }
-
-      h3 {
-        font-size: 20px;
-      }
-    }
+const H2 = styled.h2`
+  font-size: 38px;
+  
+  @media (max-width: 767px) {  
+    font-size: 30px;
+  }
 `;
 
 const Top = styled.ul `
@@ -115,7 +99,7 @@ const Top = styled.ul `
     
     h2 {
       font-size: 38px;
-      padding-bottom: 8px;
+      padding-bottom:8px;
     }
     
     span {
@@ -137,7 +121,7 @@ const Card = styled.ul`
   
   margin-top: ${props => (props.second ? '50' : '')}px;
   
-  h2 {
+  h3 {
     font-family: 'Avenir', serif;
     font-size: 30px;
   }
@@ -171,7 +155,7 @@ const Card = styled.ul`
     }
     
     
-    .head h2 {
+    .head h3 {
       font-size: 28px;
       margin-bottom: 20px;
     }
@@ -248,7 +232,7 @@ const Statement = styled.div`
   h2 {
     position: relative;
     font-family: 'Avenir', serif;
-    font-size: 38px;
+    //font-size: 38px;
     font-weight: bold;
     margin-bottom: 40px;
   }
@@ -276,10 +260,10 @@ const Skills = styled.div`
     display: inline-block;
     margin-bottom: 40px;
     font-family: 'Avenir',serif;
-    font-size: 38px;
+    //font-size: 38px;
     font-weight: bold;
     padding-right: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #000000;
     line-height: 1;
   }
@@ -348,7 +332,7 @@ const WhatIsDesign = styled.div`
     h2 {
     position: relative;
     font-family: 'Avenir', serif;
-    font-size: 38px;
+    ////font-size: 38px;
     font-weight: bold;
     margin-bottom: 40px;
     }
@@ -412,7 +396,7 @@ const WhatIsDesign = styled.div`
     h2 {
       position: relative;
       font-family: 'Avenir', serif;
-      font-size: 38px;
+      ////font-size: 38px;
       font-weight: bold;
       margin-bottom: 40px;
     }
@@ -434,105 +418,6 @@ const WhatIsDesign = styled.div`
   }
 `;
 
-const Socials = styled.div`
-  padding: 80px 80px 0; 
-  background: #F0F1F5;
-  
-  .inner {
-    margin: 0 auto;
-    max-width: 980px;
-  } 
-  
-  h2 {
-    position: relative;
-    display: inline-block;
-    font-family: 'Avenir',serif;
-    font-size: 38px;
-    font-weight: bold;
-    padding-right: 20px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #000000;
-    line-height: 1;
-  }
-  
-  a {
-    text-decoration: underline;
-  }
-  
-  .social__content {
-    display: flex;
-    align-items: center;
-    margin: 60px 0;
-  }
-  
-  .IconBox__wrapper {
-    display: flex;
-    margin-left: auto;
-  }
-  
-  .boxIcon {
-    //display: inline-block;
-    margin-left: 30px;
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .boxIcon img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .boxIcon img.size--adjust {
-    width: auto;
-    height: 100%;
-  }
-  
-  .social__footer {
-    padding: 20px 0;
-    border-top: 1px solid #999999;
-    text-align: right;
-    
-    p {
-      font-size: 14px;
-    }
-  }
-  
-  @media (max-width: 1020px) and (min-width: 768px) {
-    padding: 50px 50px 0;  
-    
-    .boxIcon {
-      width: 32px;
-      height: 32px;
-    }
-    
-    .social__content {
-      margin: 30px 0;
-    }
-  }
-    
-  @media (max-width: 767px) {
-    padding: 40px 20px 0;
-    
-    .social__content {
-      display: block;
-      margin: 30px 0;
-    }
-    
-    .IconBox__wrapper {
-      justify-content: space-between;
-      margin: 20px 0;
-    }
-    
-    .boxIcon {
-      margin: 0;
-      width: 30px;
-      height: 30px;
-    }
-  }
-`;
 
 // const AnimationWrap = styled.div`
 //   -moz-animation: fadein 0s ease-in 3s forwards;
@@ -621,7 +506,7 @@ export default class About extends React.Component {
           {/* About */}
           <Card>
             <li className="head">
-              <h2>About</h2>
+              <h3>About</h3>
             </li>
             <li className="content">
               <p>1994年生まれ。大学時代は、自分が本当に情熱を持てるものを探す中で、デザインと出会う。デザインの問題解決の視点に惹かれ、2017年に大学を休学し、ベトナムの日系ITスタートアップにてデザイナーのインターンとしてメンターの元に弟子入りの後、現在は京都に拠点を置くBaseconnect株式会社にてUI/UXデザイナーとして活動中。</p>
@@ -660,19 +545,19 @@ export default class About extends React.Component {
               </Biography>
             </li>
             <li className="head">
-              <h2>Biography</h2>
+              <h3 >Biography</h3>
             </li>
           </Card>
         </Section>
         <Section>
           <Statement>
             <div className="box">
-              <h2>Mission</h2>
+              <H2>Mission</H2>
               <p>身近な人が自分の人生を生きれるようにサポートする。</p>
             </div>
 
             <div className="box">
-              <h2>Vision</h2>
+              <H2>Vision</H2>
               <p>人、組織、プロダクトのストーリーに共感し、<br/>
                 価値を形にする支援者であり続ける。<br/>
                 誰にでもその人だけのストーリーがあると信じる。</p>
@@ -682,7 +567,7 @@ export default class About extends React.Component {
 
         <Section grey>
           <Skills>
-            <h2>Skills</h2>
+            <H2>Skills</H2>
             <div className="wrapper">
               <div className="skillCard">
                 <div className="Card__graph">
@@ -772,7 +657,7 @@ export default class About extends React.Component {
         <Section>
           <WhatIsDesign>
             <div className="box__title">
-              <h2>What's Design?</h2>
+              <H2>What's Design?</H2>
             </div>
 
             <div className="box__cont">
@@ -798,46 +683,7 @@ export default class About extends React.Component {
           </WhatIsDesign>
         </Section>
 
-        <Socials>
-          <div className="inner">
-            <h2>Socials</h2>
-            <div className="social__content">
-              <p>Say hi at <a href="">mimizunosuguru@gmail.com</a> or follow me on</p>
-              <div className="IconBox__wrapper">
-                <a href="" className="boxIcon">
-                  <img src="/static/image/index/social-linkedin.png" alt=""/>
-                </a>
 
-                <a href="" className="boxIcon">
-                  <img src="/static/image/index/social-wantedlly.png" alt=""/>
-                </a>
-
-                <a href="" className="boxIcon">
-                  <img src="/static/image/index/social-github.png" alt=""/>
-                </a>
-
-                <a href="" className="boxIcon">
-                  <img src="/static/image/index/social-note.png" className="size--adjust" alt=""/>
-                </a>
-
-                <a href="" className="boxIcon">
-                  <img src="/static/image/index/social-instagram.png" alt=""/>
-                </a>
-
-                <a href="" className="boxIcon">
-                  <img src="/static/image/index/social-twitter.png" alt=""/>
-                </a>
-
-                <a href="" className="boxIcon">
-                  <img src="/static/image/index/social-facebook.png" alt=""/>
-                </a>
-              </div>
-            </div>
-            <div className="social__footer">
-              <p>©2019 SUGU MIZUNO</p>
-            </div>
-          </div>
-        </Socials>
         {/*<Recommend pageStatus={this.state.pageStatus}/>*/}
       </Layout>
     )
