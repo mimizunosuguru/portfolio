@@ -111,11 +111,6 @@ const Card = styled.li`
 
 
 export default class Recommend extends React.Component{
-  state = {
-    page: "test"
-  }
-
-  // work / page / storyで条件分岐
   render () {
     return (
       this.props.pageStatus === 'top' ? (

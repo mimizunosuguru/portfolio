@@ -9,7 +9,7 @@ const Layout = (props) => (
     <Head>
       <title>mimizunoDesign</title>
     </Head>
-    <Header/>
+    <Header page={props.page} />
     {props.children}
     <Socials/>
     {/*<Footer/>*/}

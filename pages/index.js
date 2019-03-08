@@ -45,7 +45,7 @@ export default class Work extends React.Component {
 
   render () {
     return (
-      <Layout>
+      <Layout page="index">
         <Section grey border>
           <Top>
             <p>

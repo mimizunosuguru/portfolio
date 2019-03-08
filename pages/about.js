@@ -466,12 +466,9 @@ const WhatIsDesign = styled.div`
 // `;
 
 export default class About extends React.Component {
-  state = {
-    pageStatus: 'top'
-  }
   render() {
     return (
-      <Layout>
+      <Layout page="about">
         <Head>
           <title>mimizunoDesign</title>
         </Head>

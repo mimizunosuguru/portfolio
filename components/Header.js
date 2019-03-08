@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styled from 'styled-components'
+import React from "react";
 
 const Head = styled.header `
   z-index: 10;
@@ -7,10 +8,19 @@ const Head = styled.header `
   width: 100%;
   position: fixed;
   top: 0;
+  
+  h2 {
+    font-family: 'Avenir',serif;
+    font-size: 18px;
+  }
     
   a {
-    font-color: black;
+    color: #000000;
     padding: 0 20px;
+  }
+  
+  a.current {
+    color: #999999;
   }
   
   h1 {
@@ -21,10 +31,10 @@ const Head = styled.header `
   
   .header__inner {
     display: flex;
-    max-width: 980px;
-    margin: 0 auto;
+    
     height: 100%;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
     align-items: center;
   }
   
@@ -41,23 +51,22 @@ const Head = styled.header `
     }
   }
 `
+export default class Header extends React.Component {
+  render() {
+    return (
+      <Head>
+        <div className="header__inner">
+          <nav>
+            <Link href="/index">
+              <a className={this.props.page == 'index' ? 'current' : ''}>Work</a>
+            </Link>
 
-const Header = () => (
-  <Head>
-    <div className="header__inner">
-      <nav>
-        <Link href="/index">
-          <a>Work</a>
-        </Link>
-        {/*<Link href="/work">*/}
-          {/*<a>Story</a>*/}
-        {/*</Link>*/}
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-      </nav>
-    </div>
-  </Head>
-)
-
-export default Header
+            <Link href="/about">
+              <a className={this.props.page  == 'about' ? 'current' : ''}>About</a>
+            </Link>
+          </nav>
+        </div>
+      </Head>
+    )
+  }
+}
