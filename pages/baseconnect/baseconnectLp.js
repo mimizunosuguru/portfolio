@@ -23,7 +23,6 @@ const TopImage = styled.div`
 `;
 
 const Title = styled.div`
-  padding-bottom: 40px;
   background: #F0F1F5;
   text-align: center;
   
@@ -45,6 +44,7 @@ const Title = styled.div`
     p {
       margin: 40px auto 40px;
       text-align: left;
+      max-width: 800px;
     }
       
     @media (max-width: 767px) {
@@ -152,29 +152,24 @@ const Button = styled.button`
 
 //プロジェクト説明
 const Desc = styled.ul`
-  border-bottom: 1px solid #B5B6B7;
   
   li {
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-  }
-
-  li:nth-child(odd) {
-    padding-right: 20px;
-  }
-
-  li:nth-child(even) {
-    padding-left: 20px;
-  }
-
-  li .title {
-    margin-bottom: 10px;
-    font-weight: bold;
+    margin-bottom: 30px;
   }
   
-  li .cont {
-    margin-bottom: 50px;
+  li:last-child {
+    margin-bottom: 0
+  }
+  
+  li p {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  li .title {
+    margin-bottom: 10px;
+    // font-weight: bold;
+    color: #999999;
   }
 
 
@@ -189,10 +184,6 @@ const Desc = styled.ul`
     li:nth-child(odd) {
       padding: 0;
     }
-
-    li .title {
-      text-align: center;
-    }
   }
 `
 
@@ -205,7 +196,7 @@ export default class LP extends React.Component {
     return (
       <Layout>
         <TopImage src="/static/image/work/baseconnect-lp.png"/>
-        <Section grey>
+        <Section grey border>
           <Title>
             <h2>Baseconnect LIST ランディングページ</h2>
             <a href="https://sales.baseconnect.in/" target="blank">https://sales.baseconnect.in/</a>
@@ -216,60 +207,46 @@ export default class LP extends React.Component {
           </Title>
           <Desc>
             <li>
-              <p className="title">自分の役割</p>
-              <p className="cont">当社にジョインした段階でこのLPは公開されており、サービスの機能改善 / アップデートに伴い、デザイン/コーディングを行いました。</p>
-            </li>
-            <li>
-              <p className="title">担当箇所</p>
-              <p className="cont">LP内「企業情報追加情報」項目のデザイン / コーディングを担当しました。</p>
-            </li>
-            <li>
-              <p className="title">取り組んだ課題 / チャレンジ</p>
-              <p className="cont">
-                1. 企業情報の数が十分でない<br/>
-                2. 地域によってはデータ数の偏りがある<br/>
-                </p>
-            </li>
-            <li>
-              <p className="title">期間</p>
-              <p className="cont">約７日間（インターンとしてジョインしてから、新規画面を初めて全て1人で担当させて頂いたタスクです。）</p>
+              <p className="title">担当</p>
+              <p className="cont">UIデザイン / コーディング（HTML / CSS/ jQuery）</p>
             </li>
           </Desc>
         </Section>
         <Content>
           <Section grey>
-            <h4>課題1. 企業情報の数が十分でない</h4>
+            <h3><span>アウトプット</span></h3>
+            <p>ランディングページのリニューアルにあたり、デザインを元にHTML/CSS/jQueryでのコーディングを担当しました。一部デザインの追加も担当しました。</p>
+            <h5>（コーディングを担当）</h5>
+            <Image>
+              <img src="/static/image/work/lp/output1.png" alt=""/>
+            </Image>
+            <h5>（一部デザインを担当）</h5>
+            <Image>
+              <img src="/static/image/work/lp/output2.png" alt=""/>
+            </Image>
+
+            <h3><span>デザインプロセス</span></h3>
             <p>企業情報のデータベースとなる「Baseconnect LIST」は担当した当時β版でのリリースになっていたため、サービスの肝となる企業情報の数が十分ではなかったのが大きな課題の1つでした。</p>
-            <p>この問題を解決するために「リアルタイムで企業情報のデータを作成していることをユーザーに知らせる」ことが要件として挙げられました。そこで「ダッシュボード・掲示板」を想起させるグラフィックを取り入れ、この課題の解決にアプローチしました。</p>
-            <h5>（デザインの意図）</h5>
-            <p>画像左上の「追加企業数」の数値を緑の太字にすることで、ファーストインプレッションで1番に目立たせています。また、画像右上「リアルタイム更新情報」では、追加された企業名と共に、その時間を強調させました。</p>
+
+            <p>この問題を解決するために「リアルタイムで企業情報のデータを作成していることをユーザーに知らせる」ことが要件として挙げられ、<b>「ダッシュボード・掲示板」を想起させるグラフィック</b>を取り入れることで、この課題の解決にアプローチしました。</p>
             <Image>
               <img src="/static/image/work/lp/lp-capture1.png" alt=""/>
               <span>（「ダッシュボード・掲示板」を想起させるグラフィックで表現）</span>
             </Image>
 
-            <h4>課題2. 地域によってはデータ数の偏りがある</h4>
-            <p>もう1つサービスの課題として、企業情報のデータ作成は主に関西と関東を中心としているため、地域によってはデータの数にばらつきがあるという問題が挙げられていました。</p>
-            <p>「サービスを登録したのに、自分の営業したい企業の情報がない…」というのは、ユーザーの満足度・ブランドに対する信頼の低下に繋がります。</p>
 
-            <p>以上の点を踏まえ、サービスの導入を検討するユーザーが懸念するポイントの一つである「自分が営業したい会社の情報はあるか？」という疑問に答えるため、企業情報が多い都道府県をランキング形式で一覧にしました。</p>
+            <p>もう1つサービスの課題として、企業情報のデータ作成は主に関西と関東を中心としているため、地域によってはデータの数にばらつきがあるという問題が挙げられていました。</p>
+            <p>そのため、サービスの導入を検討するユーザーが懸念するポイントの一つである「自分が営業したい会社の情報はあるか？」という疑問に答えるため、<b>企業情報が多い都道府県をランキング形式で一覧表示</b>しました。</p>
+
             <Image>
               <img src="/static/image/work/lp/lp-capture2.png" alt=""/>
               <span>企業情報が多い都道府県をランキング形式で一覧表示</span>
             </Image>
-            <h5>（実装方法）</h5>
-            <p>コーディングを行う際、「都道府県別会社数」の47都道府県は5行の並びにしてから、スマホでレスポンシブに表示させるのは一見単純そうで、実装が難しいことに気づきました。悩んだ結果、グリッドレイアウトを採用することで、スマホでは都道府県のランキングを5行から2行へ表示することが可能になりました。</p>
-            <Image>
-              <img src="/static/image/work/lp/lp-capture3.png" alt=""/>
-            </Image>
-            <p>（PC）１列 x 10個のマス目を5列でレイアウトし、都道府県を割り当てる<br/>
-              （スマホ）１列 x 24個のマス目を2列でレイアウトし、都道府県を割り当てる</p>
+
+            <p>モバイルでの表示は、グリッドレイアウトでレスポンシブに対応しています</p>
             <Image>
               <img src="/static/image/work/lp/lp-capture4.png" alt=""/>
-              <span>（グリッドレイアウトでレスポンシブに対応）</span>
             </Image>
-            <h4>学び</h4>
-            <p>初めてデザインからコーディングまで任せていただいたこのタスクでは、コーディングを踏まえてデザインをすることの必要性、デザイナーでもコードを書くことの大切さを学び、今デザインをする時も大きな糧となっています。</p>
           </Section>
         </Content>
         <ArticleRecommend page={this.state.page}/>

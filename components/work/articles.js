@@ -126,7 +126,7 @@ export default class Articles extends React.Component {
 
       },
       {
-        title: 'ワイヤーフレームは具体的要素とその配置を確認するもの',
+        title: '問題発見できなければ、問題解決なんてnできない',
         type: 'UX格言',
         imageURL: 'article--mondai.png',
         linkURL: 'https://uxdaystokyo.com/articles/wireflame_for_check_item/'
