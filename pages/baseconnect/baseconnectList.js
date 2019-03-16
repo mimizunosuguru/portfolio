@@ -207,13 +207,13 @@ export default class LIST extends React.Component {
             <h2>Baseconnect LIST</h2>
             <a href="https://sales.baseconnect.in/" target="blank">https://sales.baseconnect.in/</a>
             <p className="page__desc">
-              「Baseconnect LIST」は法人営業におけるターゲティングや見込み客となりうる企業のリスト作成を圧倒的に効率化できるクラウドサービスです。β版のリリースから半年で5000社以上に導入いただいています。
+              「Baseconnect LIST」は法人営業におけるターゲティングや見込み客となりうる企業のリスト作成を圧倒的に効率化できるクラウドサービスです。リリースから1年で約10,000社に導入いただいています。
             </p>
           </Title>
           <Desc>
             <li>
               <p className="title">役割</p>
-              <p className="cont">UI/UXデザイン/コーディング（HTML/SCSS/React.js）</p>
+              <p className="cont">UI/UXデザイン/コーディング（React.js / SCSS）</p>
             </li>
           </Desc>
         </Section>
@@ -233,15 +233,15 @@ export default class LIST extends React.Component {
             </ul>
             <Image large>
               <img src="/static/image/work/list/list-output1.png" alt=""/>
-              <span>Top（企業情報一覧）</span>
+              <span>TOP（企業情報一覧）</span>
             </Image>
             <Image large>
               <img src="/static/image/work/list/list-output2.png" alt=""/>
-              <span>Detail（企業情報詳細）</span>
+              <span>DETAIL（企業情報詳細）</span>
             </Image>
             <Image large>
               <img src="/static/image/work/list/list-output3.png" alt=""/>
-              <span>Mobile</span>
+              <span>MOBILE</span>
             </Image>
           </Section>
           {/* コンテンツ1 */}
@@ -280,7 +280,7 @@ export default class LIST extends React.Component {
             <p>企業情報を探す検索軸の一つ、「都道府県選択」のUX改善を行いました。</p>
 
             <h5>（Before）</h5>
-            <p>本サービスでは、直感的な操作性を重視し、画面遷移が少ない仕様にしています。検索条件の指定は、サイドバーからほぼ全て指定可能で、検索結果がリロードなく瞬時に反映されます。しかし、このサイドバーにおいては、２点の課題がありました。</p>
+            <p>本サービスでは、直感的な操作性を重視し、画面遷移が少ない仕様にしています。検索条件はサイドバーから全て指定可能で、検索結果がリロードなく瞬時に反映されます。しかし、このサイドバーにおいては、2点の課題がありました。</p>
             <h5>（課題）</h5>
             <ul>
               <li>1. サイドバーが長くなりすぎて、どんな検索項目があるか一目でわかりづらい</li>
@@ -309,16 +309,16 @@ export default class LIST extends React.Component {
             </Image>
             <p>案1のUIでは、表示領域が広いため一覧性においては優れています。しかし、都道府県を複数選択した場合、選択した分だけ縦にスクロールしなくてはいけないため、直感的な操作性を損なうと判断し、案2を採用しました。</p>
 
-            <h5>（NGになった案１）</h5>
             <Image>
               <img src="/static/image/work/list/list-capture6.png" alt=""/>
-              <span>（都道府県を複数選択した場合、縦に長すぎてスクロールする必要が生じる）</span>
+              <span>（項目数が多くなり、直感的な操作性を損なうと判断されNG）</span>
             </Image>
 
+            <h5>（アウトプットデザイン）</h5>
             <p>採用された案2は一覧性に欠けるのがデメリットですが、レスポンシブに対応させ、デバイス画面幅に合わせ表示領域を広くさせました。</p>
             <Image>
               <img src="/static/image/work/list/list-capture7.png" alt=""/>
-              <span>（アウトプット：レスポンシブデザインに対応させ、なるべく一覧性を欠かないように）</span>
+              <span>（レスポンシブデザインに対応させ、なるべく一覧性を欠かないように）</span>
             </Image>
           </Section>
 
@@ -326,7 +326,7 @@ export default class LIST extends React.Component {
           <Section grey>
             <h3><span className="h3__inner">3. モバイル対応</span></h3>
             <p>Baseconnect LISTはPC環境のみの提供になっており、アプリ化の案も出ていましたが、デザイナーが対応できる範囲で実装を行いました。
-              ワイヤーからデザイン、コーディングまで1人で対応し、最終段階はエンジニアと共同して開発を行いました。</p>
+              ワイヤーからデザイン、コーディングまで1人で対応し、最終段階はエンジニアと共働して開発を行いました。</p>
             <Image large>
               <img src="/static/image/work/list/list-capture8.png" alt=""/>
               <span>（ワイヤーフレーム）</span>
