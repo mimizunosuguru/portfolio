@@ -24,6 +24,10 @@ const Heading = styled.div`
     text-align: left;
   }
   
+  a {
+    text-decoration: underline;
+  }
+  
   @media (max-width: 767px) {
     padding-top: 80px;
   }
@@ -101,10 +105,10 @@ export default class Baseconnecct extends React.Component {
     return (
       <Section grey>
         <Heading>
-          <h2>Baseconnect inc.</h2>
+          <h2>Baseconnect Inc.</h2>
           <h4>2017/10 - 2019/現在</h4>
-          <p className="section__desc">2017年10月より、フルコミットのUI/UXデザイナーインターンとして活動中。法人営業を支援する企業情報データベース「Baseconnect LIST」の開発を主に担当している。
-            また、同サービスの根幹となる会社情報を提供する「Baseconnect」のユーザー側および管理画面の機能改善、デザイン未経験者を対象としたDesignBootcampの運営も行っている。</p>
+          <p className="section__desc">2017年10月より、フルコミットのUI/UXデザイナーインターンとして活動中。法人営業を支援する企業情報データベース「<a href="https://sales.baseconnect.in/" target="_blank">Baseconnect LIST </a>」の開発を主に担当。
+            また、同サービスの根幹となる会社情報を提供する「<a href="https://baseconnect.in/" target="_blank">Baseconnect</a>」のユーザー側および管理画面の機能改善、デザイン未経験者を対象とした「DesignBootcamp」の運営も行う。</p>
         </Heading>
         <CardList>
           <Link href="/baseconnect/baseconnectLp">
@@ -127,7 +131,7 @@ export default class Baseconnecct extends React.Component {
             <Card>
               <Thumbnail src="/static/image/work/baseconnect-bootcamp.png"/>
               <p className="title">Design Bootcamp & Product Design</p>
-              <span className="type">企画 / 採用、プロダクトデザイン</span>
+              <span className="type">企画、採用</span>
             </Card>
           </Link>
         </CardList>

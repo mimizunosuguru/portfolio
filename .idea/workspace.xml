@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12cdee44-9f15-4803-b4c9-6877fc818a3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/image/work/list/list-output1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/work/list/list-output2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/work/list/list-output3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/work/lp/output1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/work/lp/output2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/react-loadable-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/react-loadable-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Socials.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Socials.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/work/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/work/articles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/baseconnect-bootcamp.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/baseconnect-bootcamp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/baseconnect-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/baseconnect-list.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/baseconnect-lp.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/baseconnect-lp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/work/list/list-capture9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/work/list/list-capture9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/work/baseconnect.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/work/baseconnect.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +21,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/Socials.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="117" column="110" selection-start-line="117" selection-start-column="110" selection-end-line="117" selection-end-column="110" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>NavSearchBar</find>
-      <find>IconBox__wrapper</find>
-      <find>social__content</find>
       <find>font-size: 38px;</find>
       <find>PageHeader</find>
       <find>head</find>
@@ -64,6 +66,9 @@
       <find>課題</find>
       <find>ux格言</find>
       <find>ワイヤーフレームは具体的要素とその配置を確認するもの</find>
+      <find>baseconnect</find>
+      <find>問題発見できなければ、問題解決なんてnできない</find>
+      <find>Heading</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,10 +96,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/now.json" />
         <option value="$PROJECT_DIR$/pages/loading.js" />
-        <option value="$PROJECT_DIR$/components/work/baseconnect.js" />
         <option value="$PROJECT_DIR$/pages/work.js" />
         <option value="$PROJECT_DIR$/components/styledComponents/section.js" />
-        <option value="$PROJECT_DIR$/components/Socials.js" />
         <option value="$PROJECT_DIR$/.next/static/development/pages/baseconnect/baseconnectList.js" />
         <option value="$PROJECT_DIR$/components/Recommend.js" />
         <option value="$PROJECT_DIR$/components/Layout.js" />
@@ -104,7 +107,9 @@
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
+        <option value="$PROJECT_DIR$/components/work/baseconnect.js" />
         <option value="$PROJECT_DIR$/components/work/articles.js" />
+        <option value="$PROJECT_DIR$/components/Socials.js" />
       </list>
     </option>
   </component>
@@ -120,28 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="mimizunoDesign" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="baseconnect" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,59 +148,27 @@
               <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
             <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="baseconnect" type="462c0819:PsiDirectoryNode" />
+              <item name="mimizunoDesign" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="mimizunoDesign" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="lp" type="462c0819:PsiDirectoryNode" />
+              <item name="mimizunoDesign" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="baseconnect" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -292,14 +243,16 @@
       <workItem from="1552231783430" duration="1881000" />
       <workItem from="1552370550050" duration="8323000" />
       <workItem from="1552525065643" duration="2794000" />
+      <workItem from="1552707707811" duration="720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204341000" />
+    <option name="totallyTimeSpent" value="205061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,7 +268,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26082474" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2607595" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -345,34 +298,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.next/static/development/pages/index.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret column="18177" selection-start-column="18177" selection-end-column="18177" />
         </state>
       </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.next/server/static/development/pages/index.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6605" selection-start-column="6605" selection-end-column="6605" />
         </state>
       </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.54d25c9df14db784b164.hot-update.js" />
     <entry file="file://$PROJECT_DIR$/.next/server/static/development/pages/index.js" />
     <entry file="file://$PROJECT_DIR$/components/styledComponents/testComponent.js" />
-    <entry file="file://$PROJECT_DIR$/components/ArticleRecommend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.next/server/static/development/pages/work.js.map" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -429,20 +372,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/loading.js" />
-    <entry file="file://$PROJECT_DIR$/components/work/baseconnect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -461,23 +390,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.next/static/development/pages/baseconnect/baseconnectList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="326" column="7" selection-start-line="326" selection-start-column="7" selection-end-line="326" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Socials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="110" column="2" selection-start-line="110" selection-start-column="2" selection-end-line="110" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.next/static/development/pages/baseconnect/baseconnectList.js" />
     <entry file="file://$PROJECT_DIR$/.next/server/static/development/pages/about.js" />
     <entry file="file://$PROJECT_DIR$/components/Recommend.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -538,16 +451,6 @@
     <entry file="file://$PROJECT_DIR$/static/image/work/baseconnect-list.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-412">
-          <caret line="103" lean-forward="true" selection-start-line="23" selection-end-line="103" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -573,19 +476,66 @@
     <entry file="file://$PROJECT_DIR$/static/image/article/article--pylamid.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/ArticleRecommend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693">
+          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="103" lean-forward="true" selection-start-line="23" selection-end-line="103" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="2798">
           <caret line="341" column="35" lean-forward="true" selection-start-line="341" selection-start-column="35" selection-end-line="341" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/work/baseconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="133" column="40" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/work/articles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="-1472">
+          <caret line="128" column="34" selection-start-line="128" selection-start-column="34" selection-end-line="128" selection-end-column="34" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-807">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Socials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="117" column="110" selection-start-line="117" selection-start-column="110" selection-end-line="117" selection-end-column="110" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

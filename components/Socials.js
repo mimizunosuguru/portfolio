@@ -115,7 +115,7 @@ const Socials = () => (
     <div className="inner">
       <H2>Socials</H2>
       <div className="social__content">
-        <p>Say hi at <a href="mailto:mimizunosuguru@gmail.com">mimizunosuguru@gmail.com</a> or follow me on</p>
+        <p>Say hi at <a href="mailto:mimizunosuguru@gmail.com">mimizunosuguru@gmail.com</a> or follow me on...</p>
         <div className="IconBox__wrapper">
           <a href="https://www.linkedin.com/in/sugu-mizuno-b002b1137/" target="_blank" className="boxIcon">
             <img src="/static/image/index/social-linkedin.png" alt=""/>
