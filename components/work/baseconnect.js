@@ -130,8 +130,15 @@ export default class Baseconnecct extends React.Component {
           <Link href="/baseconnect/baseconnectBootcamp">
             <Card>
               <Thumbnail src="/static/image/work/baseconnect-bootcamp.png"/>
-              <p className="title">Design Bootcamp & Product Design</p>
+              <p className="title">DesignBootcamp</p>
               <span className="type">企画、採用</span>
+            </Card>
+          </Link>
+          <Link href="/baseconnect/baseconnectDashboard">
+            <Card>
+              <Thumbnail src="/static/image/work/baseconnect-dashboard.jpg"/>
+              <p className="title">Dashboard</p>
+              <span className="type">ブランディング</span>
             </Card>
           </Link>
         </CardList>

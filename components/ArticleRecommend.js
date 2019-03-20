@@ -80,11 +80,11 @@ const Recommend = (props) => {
                 <p className="type">UI/UXデザイン、コーディング</p>
               </Card>
             </Link>
-            <Link href="/baseconnect/baseconnectBootcamp">
+            <Link href="/baseconnect/baseconnectDashboard">
               <Card right>
-                <Thumnail src="/static/image/work/baseconnect-bootcamp.png"/>
-                <p className="title">Design Bootcamp & Product Design</p>
-                <p className="type">イベント企画、プロダクトデザイン</p>
+                <Thumnail src="/static/image/work/baseconnect-dashboard.jpg"/>
+                <p className="title">Dashboard</p>
+                <p className="type">ブランディング</p>
               </Card>
             </Link>
           </CardList>
@@ -99,11 +99,11 @@ const Recommend = (props) => {
               <p className="type">UIデザイン、コーディング</p>
             </Card>
           </Link>
-          <Link href="/baseconnect/baseconnectBootcamp">
+          <Link href="/baseconnect/baseconnectDashboard">
             <Card right>
-              <Thumnail src="/static/image/work/baseconnect-bootcamp.png"/>
-              <p className="title">Design Bootcamp & Product Design</p>
-              <p className="type">イベント企画、プロダクトデザイン</p>
+              <Thumnail src="/static/image/work/baseconnect-dashboard.jpg"/>
+              <p className="title">Dashboard</p>
+              <p className="type">ブランディング</p>
             </Card>
           </Link>
         </CardList>
@@ -111,18 +111,37 @@ const Recommend = (props) => {
       }
       {props.page === 'bootcamp' ?  (
         <CardList>
-          <Link href="/baseconnect/baseconnectLp">
-            <Card left>
-              <Thumnail src="/static/image/work/baseconnect-lp.png"/>
-              <p className="title">Baseconnect LIST ランディングページ</p>
-              <p className="type">UIデザイン、コーディング</p>
+          <Link href="/baseconnect/baseconnectDashboard">
+            <Card right>
+              <Thumnail src="/static/image/work/baseconnect-dashboard.jpg"/>
+              <p className="title">Dashboard</p>
+              <p className="type">ブランディング</p>
             </Card>
           </Link>
           <Link href="/baseconnect/baseconnectList">
             <Card right>
               <Thumnail src="/static/image/work/baseconnect-list.png"/>
               <p className="title">Baseconnect LIST</p>
-              <p className="type">イベント企画、プロダクトデザイン</p>
+              <p className="type">UI/UXデザイン、コーディング</p>
+            </Card>
+          </Link>
+        </CardList>
+      ) : null
+      }
+      {props.page === 'dashboard' ?  (
+        <CardList>
+          <Link href="/baseconnect/baseconnectBootcamp">
+            <Card left>
+              <Thumnail src="/static/image/work/baseconnect-bootcamp.png"/>
+              <p className="title">DesignBootcamp</p>
+              <p className="type">企画、採用</p>
+            </Card>
+          </Link>
+          <Link href="/baseconnect/baseconnectList">
+            <Card right>
+              <Thumnail src="/static/image/work/baseconnect-list.png"/>
+              <p className="title">Baseconnect LIST</p>
+              <p className="type">UI/UXデザイン、コーディング</p>
             </Card>
           </Link>
         </CardList>
