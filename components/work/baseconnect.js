@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Section from '../styledComponents/section'
 
 const Heading = styled.div`
-  padding-top: 20px;
+  //padding-top: 20px;
   text-align: center;
   
   h2 {
@@ -29,13 +29,13 @@ const Heading = styled.div`
   }
   
   @media (max-width: 767px) {
-    padding-top: 80px;
+    //padding-top: 80px;
   }
 `;
 
 
 const CardList = styled.ul`
-  border-bottom: 1px solid #B5B6B7;
+  //border-bottom: 1px solid #B5B6B7;
 `;
 
 const Card = styled.li`
@@ -103,7 +103,7 @@ export default class Baseconnecct extends React.Component {
 
   render () {
     return (
-      <Section grey>
+      <Section grey border>
         <Heading>
           <h2>Baseconnect Inc.</h2>
           <h4>2017/10 - 2019/現在</h4>

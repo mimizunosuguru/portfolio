@@ -90,13 +90,32 @@ const Recommend = (props) => {
           </CardList>
         ) : null
         }
+      {props.page === 'hotpepper' ?  (
+        <CardList>
+          <Link href="/baseconnect/baseconnectBootcamp">
+            <Card left>
+              <Thumnail src="/static/image/work/baseconnect-bootcamp.png"/>
+              <p className="title">DesignBootcamp</p>
+              <p className="type">企画、採用</p>
+            </Card>
+          </Link>
+          <Link href="/baseconnect/baseconnectDashboard">
+            <Card right>
+              <Thumnail src="/static/image/work/baseconnect-dashboard.jpg"/>
+              <p className="title">Dashboard</p>
+              <p className="type">ブランディング</p>
+            </Card>
+          </Link>
+        </CardList>
+      ) : null
+      }
       {props.page === 'list' ?  (
         <CardList>
-          <Link href="/baseconnect/baseconnectLp">
+          <Link href="/personalWorks/hotpepperBeauty">
             <Card left>
-              <Thumnail src="/static/image/work/baseconnect-lp.png"/>
-              <p className="title">Baseconnect LIST ランディングページ</p>
-              <p className="type">UIデザイン、コーディング</p>
+              <Thumnail src="/static/image/work/personalWork_hotpepperBeauty2.jpg"/>
+              <p className="title">Hotpepper Beauty リデザイン</p>
+              <p className="type">リデザインチャレンジ</p>
             </Card>
           </Link>
           <Link href="/baseconnect/baseconnectDashboard">
@@ -130,18 +149,18 @@ const Recommend = (props) => {
       }
       {props.page === 'dashboard' ?  (
         <CardList>
-          <Link href="/baseconnect/baseconnectBootcamp">
-            <Card left>
-              <Thumnail src="/static/image/work/baseconnect-bootcamp.png"/>
-              <p className="title">DesignBootcamp</p>
-              <p className="type">企画、採用</p>
-            </Card>
-          </Link>
           <Link href="/baseconnect/baseconnectList">
-            <Card right>
+            <Card left>
               <Thumnail src="/static/image/work/baseconnect-list.png"/>
               <p className="title">Baseconnect LIST</p>
               <p className="type">UI/UXデザイン、コーディング</p>
+            </Card>
+          </Link>
+          <Link href="/personalWorks/hotpepperBeauty">
+            <Card right>
+              <Thumnail src="/static/image/work/personalWork_hotpepperBeauty2.jpg"/>
+              <p className="title">Hotpepper Beauty リデザイン</p>
+              <p className="type">リデザインチャレンジ</p>
             </Card>
           </Link>
         </CardList>

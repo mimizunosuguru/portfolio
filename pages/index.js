@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 import Baseconnect from '../components/work/baseconnect';
 import Articles from  '../components/work/articles';
+import PersonalWork from  '../components/work/personalWork';
 import Section from '../components/styledComponents/section'
 import Link from 'next/link'
 
@@ -54,8 +55,8 @@ export default class Work extends React.Component {
             </p>
           </Top>
         </Section>
-        {/*Work*/}
         <Baseconnect/>
+        <PersonalWork/>
         <Articles/>
         {/*<Recommend pageStatus={this.state.pageStatus}/>*/}
       </Layout>

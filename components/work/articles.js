@@ -8,7 +8,7 @@ const Heading = styled.div`
   text-align: center;
   
   h2 {
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 30px;
   }
   
