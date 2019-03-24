@@ -201,7 +201,7 @@ export default class LIST extends React.Component {
   render() {
     return (
       <Layout>
-        <TopImage src="/static/image/work/baseconnect-list.png"/>
+        <TopImage src="/static/image/work/baseconnect-list.jpg"/>
         <Section grey border>
           <Title>
             <h2>Baseconnect LIST</h2>

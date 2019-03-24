@@ -75,7 +75,7 @@ const Recommend = (props) => {
           <CardList>
             <Link href="/baseconnect/baseconnectList">
               <Card left>
-                <Thumnail src="/static/image/work/baseconnect-list.png"/>
+                <Thumnail src="/static/image/work/baseconnect-list.jpg"/>
                 <p className="title">Baseconnect LIST</p>
                 <p className="type">UI/UXデザイン、コーディング</p>
               </Card>
@@ -139,7 +139,7 @@ const Recommend = (props) => {
           </Link>
           <Link href="/baseconnect/baseconnectList">
             <Card right>
-              <Thumnail src="/static/image/work/baseconnect-list.png"/>
+              <Thumnail src="/static/image/work/baseconnect-list.jpg"/>
               <p className="title">Baseconnect LIST</p>
               <p className="type">UI/UXデザイン、コーディング</p>
             </Card>
@@ -151,7 +151,7 @@ const Recommend = (props) => {
         <CardList>
           <Link href="/baseconnect/baseconnectList">
             <Card left>
-              <Thumnail src="/static/image/work/baseconnect-list.png"/>
+              <Thumnail src="/static/image/work/baseconnect-list.jpg"/>
               <p className="title">Baseconnect LIST</p>
               <p className="type">UI/UXデザイン、コーディング</p>
             </Card>

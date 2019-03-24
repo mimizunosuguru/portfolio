@@ -195,7 +195,7 @@ export default class LP extends React.Component {
   render () {
     return (
       <Layout>
-        <TopImage src="/static/image/work/baseconnect-lp.png"/>
+        <TopImage src="/static/image/work/baseconnect-lp.jpg"/>
         <Section grey border>
           <Title>
             <h2>Baseconnect LIST ランディングページ</h2>

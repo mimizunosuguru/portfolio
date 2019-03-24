@@ -207,7 +207,7 @@ export default class HotpepperBeauty extends React.Component {
             <h2>Hotpepper Beauty リデザイン</h2>
             <a href="https://beauty.hotpepper.jp/doc/sp/" target="blank">beauty.hotpepper.jp/doc/sp/</a>
             <p className="page__desc">
-              個人制作の一環として、iOSアプリ版「Hotpepper Beaty」のリデザインを行いました。
+              個人制作の一環として、iOS版アプリ「Hotpepper Beaty」のリデザインを行いました。
             </p>
           </Title>
           {/*<Desc>*/}
@@ -222,7 +222,7 @@ export default class HotpepperBeauty extends React.Component {
           <Section grey>
             <h3><span>アウトプット</span></h3>
             <p>
-              「自分にあった店舗にすぐ出会える」をコンセプトに、アプリのメイン機能の一つである「サロン検索」にポイントを絞ってリデザインを行いました。
+              「自分にあったサロンがすぐ見つかる」をコンセプトに、アプリのメイン機能の一つである「サロン検索」にフォーカスを当てリデザインを行いました。
             </p>
             <h5>（改善画面）</h5>
             <ul>
