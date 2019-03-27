@@ -70,10 +70,10 @@ const Content = styled.div`
     
     //テスト
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: left;
     max-width: 800px;
-    font-size: 30px;
+    font-size: 36px;
   }
 
   h3 span {
@@ -100,7 +100,7 @@ const Content = styled.div`
     max-width: 800px;
     margin: 0 auto;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: normal;
     text-align: left;
     color: #999999;

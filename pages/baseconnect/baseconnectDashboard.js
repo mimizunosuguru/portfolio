@@ -19,6 +19,7 @@ const TopImage = styled.div`
     height: 300px;
   }
 `;
+
 const Title = styled.div`
   background: #F0F1F5;
   text-align: center;
@@ -27,6 +28,12 @@ const Title = styled.div`
       font-size: 32px;
       font-weight: bold;
       margin-bottom: 20px;
+      
+      //テスト
+      margin: 0 auto;
+      text-align: left;
+      max-width: 800px;
+      font-size: 40px;
     }
   
     a {
@@ -56,8 +63,15 @@ const Content = styled.div`
   h3 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
+    
+    //テスト
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: left;
+    max-width: 800px;
+    font-size: 36px;
   }
 
   h3 span {
@@ -71,13 +85,20 @@ const Content = styled.div`
     font-weight: bold;
     margin: 0 0 40px;
     text-align: center;
+    
+    //テスト
+    margin: 0 auto;
+    text-align: left;
+    max-width: 800px;
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 
   h5 {
     max-width: 800px;
     margin: 0 auto;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: normal;
     text-align: left;
     color: #999999;
@@ -112,7 +133,7 @@ const Image = styled.div`
     
   span {
     display: block; 
-    font-size: 15px;
+    font-size: 17px;
     color: #999999;
     text-align: center;
     margin: 30px auto;

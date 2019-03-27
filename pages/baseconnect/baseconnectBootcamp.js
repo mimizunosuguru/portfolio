@@ -30,6 +30,12 @@ const Title = styled.div`
       font-size: 32px;
       font-weight: bold;
       margin-bottom: 20px;
+      
+      //テスト
+      margin: 0 auto;
+      text-align: left;
+      max-width: 800px;
+      font-size: 40px;
     }
   
     a {
@@ -59,8 +65,15 @@ const Content = styled.div`
   h3 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
+    
+    //テスト
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: left;
+    max-width: 800px;
+    font-size: 36px;
   }
 
   h3 span {
@@ -74,13 +87,20 @@ const Content = styled.div`
     font-weight: bold;
     margin: 0 0 40px;
     text-align: center;
+    
+    //テスト
+    margin: 0 auto;
+    text-align: left;
+    max-width: 800px;
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 
   h5 {
     max-width: 800px;
     margin: 0 auto;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: normal;
     text-align: left;
     color: #999999;
@@ -102,20 +122,20 @@ const Content = styled.div`
   }
 `;
 
-
 const Image = styled.div`
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   
   img {
     display: block;
     max-width: ${props => (props.large ? 1200 : 800)}px;
     width: 100%;
+    height: 100%;
     margin: 0 auto;
   }
     
   span {
     display: block; 
-    font-size: 15px;
+    font-size: 17px;
     color: #999999;
     text-align: center;
     margin: 30px auto;
@@ -130,10 +150,10 @@ const Image = styled.div`
   
   p { 
   }
-`;
+`
 
-const Button = styled.button`
-  display: block;
+const Button = styled.a`
+  display: inline-block;
   margin: 0 auto 20px;
   padding: 20px 50px 20px 50px;
   border: 2px solid #999999;
@@ -143,13 +163,21 @@ const Button = styled.button`
   font-size: 18px;
   font-weight: bold;
   line-height: 1;
-    
+  
+  &:visited {
+    color: #999999;
+  }
+  
   &:hover {
     background: #999999;
     color: #fff;
     cursor: pointer;
   }
-`;
+`
+
+const ButtonWrapper = styled.div`
+  text-align: center;
+`
 
 //プロジェクト説明
 const Desc = styled.ul`
@@ -186,7 +214,7 @@ const Desc = styled.ul`
       padding: 0;
     }
   }
-`
+  `;
 
 export default class Bootcamp extends React.Component {
   state = {
@@ -200,10 +228,15 @@ export default class Bootcamp extends React.Component {
         <Section grey border>
           <Title>
             <h2>Design Bootcamp</h2>
-            <a href="https://baseconnect.in/" target="blank">https://baseconnect.in/</a>
+            {/*<a href="https://baseconnect.in/" target="blank">https://baseconnect.in/</a>*/}
             <p>Design Bootcampは未経験からデザイナーを目指すプログラムです。潜在的に優秀な人材をインターンとして採用することを目標に、月に２回ほど説明会を開催しています。</p>
           </Title>
-          <Desc/>
+          <Desc>
+            <li>
+              <p className="title">URL</p>
+              <p className="cont">http://company.baseconnect.in/</p>
+            </li>
+          </Desc>
         </Section>
 
         <Content>

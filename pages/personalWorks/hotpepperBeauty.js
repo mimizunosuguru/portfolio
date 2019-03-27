@@ -19,6 +19,7 @@ const TopImage = styled.div`
     height: 300px;
   }
 `;
+
 const Title = styled.div`
   background: #F0F1F5;
   text-align: center;
@@ -27,6 +28,12 @@ const Title = styled.div`
       font-size: 32px;
       font-weight: bold;
       margin-bottom: 20px;
+      
+      //テスト
+      margin: 0 auto;
+      text-align: left;
+      max-width: 800px;
+      font-size: 40px;
     }
   
     a {
@@ -56,14 +63,21 @@ const Content = styled.div`
   h3 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
+    
+    //テスト
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: left;
+    max-width: 800px;
+    font-size: 36px;
   }
 
   h3 span {
     display: inline-block;
     padding: 0 25px 20px;
-    border-bottom: 4px solid #D36985;
+    border-bottom: 4px solid #2DC1AF;
   }
   
   h4 {
@@ -71,13 +85,20 @@ const Content = styled.div`
     font-weight: bold;
     margin: 0 0 40px;
     text-align: center;
+    
+    //テスト
+    margin: 0 auto;
+    text-align: left;
+    max-width: 800px;
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 
   h5 {
     max-width: 800px;
     margin: 0 auto;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: normal;
     text-align: left;
     color: #999999;
@@ -112,7 +133,7 @@ const Image = styled.div`
     
   span {
     display: block; 
-    font-size: 15px;
+    font-size: 17px;
     color: #999999;
     text-align: center;
     margin: 30px auto;
@@ -204,23 +225,23 @@ export default class HotpepperBeauty extends React.Component {
         <TopImage src="/static/image/work/personalWork_hotpepperBeauty2.jpg"/>
         <Section grey border>
           <Title>
-            <h2>Hotpepper Beauty リデザイン</h2>
-            <a href="https://beauty.hotpepper.jp/doc/sp/" target="blank">beauty.hotpepper.jp/doc/sp/</a>
+            <h2>Hotpepper Beauty Redesgin</h2>
+            {/*<a href="https://beauty.hotpepper.jp/doc/sp/" target="blank">beauty.hotpepper.jp/doc/sp/</a>*/}
             <p className="page__desc">
               個人制作の一環として、iOS版アプリ「Hotpepper Beaty」のリデザインを行いました。
             </p>
           </Title>
-          {/*<Desc>*/}
-            {/*<li>*/}
-              {/*<p className="title">役割</p>*/}
-              {/*<p className="cont">UI/UXデザイン/コーディング（React.js / SCSS）</p>*/}
-            {/*</li>*/}
-          {/*</Desc>*/}
+          <Desc>
+            <li>
+              <p className="title">URL</p>
+              <p className="cont">beauty.hotpepper.jp/doc/sp/</p>
+            </li>
+          </Desc>
         </Section>
 
         <Content>
           <Section grey>
-            <h3><span>アウトプット</span></h3>
+            <h3>アウトプット</h3>
             <p>
               「自分にあったサロンがすぐ見つかる」をコンセプトに、アプリのメイン機能の一つである「サロン検索」にフォーカスを当てリデザインを行いました。
             </p>
