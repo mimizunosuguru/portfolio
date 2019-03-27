@@ -11,11 +11,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/baseconnect/baseconnectDashboard": [
+    "/personalWorks/hotpepperBeauty": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/personalWorks/hotpepperBeauty": [
+    "/baseconnect/baseconnectBootcamp": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -23,11 +23,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/baseconnect/baseconnectList": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/baseconnect/baseconnectLp": [
+    "/baseconnect/baseconnectDashboard": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

@@ -253,22 +253,22 @@ export default class HotpepperBeauty extends React.Component {
               <li>4. サロン詳細２(Detail Scrolled)</li>
             </ul>
             <h4>1. サロン検索（Search）</h4>
-            <Image large>
+            <Image>
               <img src="/static/image/work/personarWork/hotpepper__Search.jpg" alt=""/>
               {/*<span>MOBILE</span>*/}
             </Image>
             <h4>2. サロン検索結果（Result）</h4>
-            <Image large>
+            <Image>
               <img src="/static/image/work/personarWork/hotpepper__Result.jpg" alt=""/>
               {/*<span>MOBILE</span>*/}
             </Image>
             <h4>3. サロン詳細１(Detail)</h4>
-            <Image large>
+            <Image>
               <img src="/static/image/work/personarWork/hotpepper__Detail.jpg" alt=""/>
               {/*<span>MOBILE</span>*/}
             </Image>
             <h4>4. サロン詳細２(Detail Scrolled)</h4>
-            <Image large>
+            <Image>
               <img src="/static/image/work/personarWork/hotpepper__Detail2.jpg" alt=""/>
               {/*<span>MOBILE</span>*/}
             </Image>
