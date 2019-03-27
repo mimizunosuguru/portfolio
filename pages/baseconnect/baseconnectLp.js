@@ -30,6 +30,12 @@ const Title = styled.div`
       font-size: 32px;
       font-weight: bold;
       margin-bottom: 20px;
+      
+      //テスト
+      margin: 0 auto;
+      text-align: left;
+      max-width: 800px;
+      font-size: 40px;
     }
   
     a {
@@ -59,8 +65,15 @@ const Content = styled.div`
   h3 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
+    
+    //テスト
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: left;
+    max-width: 800px;
+    font-size: 30px;
   }
 
   h3 span {
@@ -74,6 +87,13 @@ const Content = styled.div`
     font-weight: bold;
     margin: 0 0 40px;
     text-align: center;
+    
+    //テスト
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: left;
+    max-width: 800px;
+    font-size: 20px;
   }
 
   h5 {
@@ -199,13 +219,17 @@ export default class LP extends React.Component {
         <Section grey border>
           <Title>
             <h2>Baseconnect LIST ランディングページ</h2>
-            <a href="https://sales.baseconnect.in/" target="blank">https://sales.baseconnect.in/</a>
+            {/*<a href="https://sales.baseconnect.in/" target="blank">https://sales.baseconnect.in/</a>*/}
             <p>
               法人営業を支援する企業情報データベース「Baseconnect LIST」のLP（ランディングページ）です。
               クラウドサービスのBaseconnecct LISTはアプリのダウンロードも必要なく、登録後すぐにサービスの利用を開始できます。
             </p>
           </Title>
           <Desc>
+            <li>
+              <p className="title">URL</p>
+              <p target="blank" className="cont">https://sales.baseconnect.in/</p>
+            </li>
             <li>
               <p className="title">担当</p>
               <p className="cont">UIデザイン / コーディング（HTML / CSS/ jQuery）</p>
@@ -214,18 +238,18 @@ export default class LP extends React.Component {
         </Section>
         <Content>
           <Section grey>
-            <h3><span>アウトプット</span></h3>
+            <h3>アウトプット</h3>
             <p>ランディングページのリニューアルにあたり、デザインを元にHTML/CSS/jQueryでのコーディングを担当しました。一部デザインの追加も担当しました。</p>
-            <h5>（コーディングを担当）</h5>
+            <h4>担当したコーディング</h4>
             <Image>
               <img src="/static/image/work/lp/output1.png" alt=""/>
             </Image>
-            <h5>（一部デザインを担当）</h5>
+            <h4>担当したデザイン</h4>
             <Image>
               <img src="/static/image/work/lp/output2.png" alt=""/>
             </Image>
 
-            <h3><span>デザインプロセス</span></h3>
+            <h3>デザインプロセス</h3>
             <p>企業情報のデータベースとなる「Baseconnect LIST」は担当した当時β版でのリリースになっていたため、サービスの肝となる企業情報の数が十分ではなかったのが大きな課題の1つでした。</p>
 
             <p>この問題を解決するために「リアルタイムで企業情報のデータを作成していることをユーザーに知らせる」ことが要件として挙げられ、<b>「ダッシュボード・掲示板」を想起させるグラフィック</b>を取り入れることで、この課題の解決にアプローチしました。</p>
