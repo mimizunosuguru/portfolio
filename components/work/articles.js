@@ -18,7 +18,7 @@ const Heading = styled.div`
 `
 
 const Content = styled.div`
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   
   h3 {
     font-size: 28px;
@@ -26,11 +26,12 @@ const Content = styled.div`
     border-left: 4px solid #000;
     padding-left: 20px;
     line-height: 40px;
+    margin-bottom: 30px;
   }
 `
 
 const CardWrapper = styled.ul`
-  margin-top: 30px;
+  //margin-top: 30px;
 `
 
 const Card = styled.li`
@@ -38,6 +39,7 @@ const Card = styled.li`
   vertical-align: top;
   width: 33%;
   padding-right: 25px;
+  margin-bottom: 40px;
   
   &:hover {
     opacity: 0.6;
@@ -98,15 +100,21 @@ export default class Articles extends React.Component {
     note: [
       {
         title: 'ジョブ理論を理解する:イケアのビジネスモデルから',
-        type: 'ブログ',
+        type: 'デザインブログ',
         imageURL: 'article--ikea.png',
         linkURL: 'https://note.mu/mimizunomizuno/n/n4d2f0feff8af'
       },
       {
         title: 'デザイナーが10日間100時間の瞑想から学び得たもの',
-        type: 'ブログ',
+        type: 'デザインブログ',
         imageURL: 'article--meditate.png',
         linkURL: 'https://note.mu/mimizunomizuno/n/n219585e8e4a9'
+      },
+      {
+        title: '英語を身につけるためにUXが教えてくれたこと',
+        type: '翻訳',
+        imageURL: 'article--uxLearn.jpeg',
+        linkURL: 'https://link.medium.com/mRXiGzyKEV'
       }
     ],
     uxTimes: [
@@ -129,16 +137,10 @@ export default class Articles extends React.Component {
         title: '問題発見できなければ、問題解決なんてできない',
         type: 'UX格言',
         imageURL: 'article--mondai.png',
-        linkURL: 'https://uxdaystokyo.com/articles/wireflame_for_check_item/'
+        linkURL: 'https://uxdaystokyo.com/articles/find_problem_before_solution/'
       }
     ],
     uxTimesShowMore: [
-      {
-        title: 'ダンバー数',
-        type: '用語集',
-        imageURL: 'article--dumbar.png',
-        linkURL: 'https://uxdaystokyo.com/articles/glossary/dunbars-number/'
-      },
       {
         title: 'カスタマージャーニーマッピング：顧客獲得への道のり',
         type: '翻訳',
@@ -146,11 +148,53 @@ export default class Articles extends React.Component {
         linkURL: 'https://uxdaystokyo.com/articles/googlecustomerjourneymapping/'
       },
       {
+        title: 'ダンバー数',
+        type: '用語集',
+        imageURL: 'article--dumbar.png',
+        linkURL: 'https://uxdaystokyo.com/articles/glossary/dunbars-number/'
+      },
+      {
         title: 'モジュール方式',
         type: '用語集',
         imageURL: 'article--module.png',
         linkURL: 'https://uxdaystokyo.com/articles/glossary/modularity/'
-      }
+      },
+      {
+        title: 'ホーソン効果',
+        type: '用語集',
+        imageURL: 'article--hawthorne.jpg',
+        linkURL: 'https://uxdaystokyo.com/articles/glossary/the-hawthorne-effect/'
+      },
+      {
+        title: 'プライミング効果',
+        type: '用語集',
+        imageURL: 'article--priming.jpg',
+        linkURL: 'https://uxdaystokyo.com/articles/glossary/primingeffect/'
+      },
+      {
+        title: 'ダークパターン',
+        type: '用語集',
+        imageURL: 'article--darkPattern.jpg',
+        linkURL: 'https://uxdaystokyo.com/articles/glossary/dark-pattern/'
+      },
+      {
+        title: 'ワイヤーフレームは具体的要素とその配置を確認するもの',
+        type: 'UX格言',
+        imageURL: 'article--wireflame.jpg',
+        linkURL: 'https://uxdaystokyo.com/articles/wireflame_for_check_item/'
+      },
+      {
+        title: '心の理論',
+        type: '用語集',
+        imageURL: 'article--theoryOfMind.jpg',
+        linkURL: 'https://uxdaystokyo.com/articles/glossary/theory-of-mind/'
+      },
+      {
+        title: 'AI時代における倫理（ETHICS IN THE AI AGE ',
+        type: 'カンファレンスレポート',
+        imageURL: 'article--report2017.jpg',
+        linkURL: 'https://uxdaystokyo.com/articles/ethics-ai-age/'
+      },
     ]
   };
 
@@ -165,7 +209,7 @@ export default class Articles extends React.Component {
           <h2>Articles</h2>
         </Heading>
         <Content>
-          <h3>Note</h3>
+          <h3>BLOG</h3>
           <CardWrapper>
             {this.state.note.map((data, i) => {
               return (
