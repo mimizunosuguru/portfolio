@@ -114,7 +114,7 @@ const Recommend = (props) => {
           <Link href="/personalWorks/hotpepperBeauty">
             <Card left>
               <Thumnail src="/static/image/work/personalWork_hotpepperBeauty2.jpg"/>
-              <p className="title">Hotpepper Beauty リデザイン</p>
+              <p className="title">Hotpepper Beauty Redesign</p>
               <p className="type">リデザインチャレンジ</p>
             </Card>
           </Link>
@@ -159,7 +159,7 @@ const Recommend = (props) => {
           <Link href="/personalWorks/hotpepperBeauty">
             <Card right>
               <Thumnail src="/static/image/work/personalWork_hotpepperBeauty2.jpg"/>
-              <p className="title">Hotpepper Beauty リデザイン</p>
+              <p className="title">Hotpepper Beauty Redesign</p>
               <p className="type">リデザインチャレンジ</p>
             </Card>
           </Link>

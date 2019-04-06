@@ -114,7 +114,7 @@ export default class PersonalWork extends React.Component {
           <Link href="/personalWorks/hotpepperBeauty">
             <Card>
               <Thumbnail src="/static/image/work/personalWork_hotpepperBeauty2.jpg"/>
-              <p className="title">Hotpepper Beauty リデザイン</p>
+              <p className="title">Hotpepper Beauty Redesign</p>
               <span className="type">リデザインチャレンジ</span>
             </Card>
           </Link>

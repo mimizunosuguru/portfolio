@@ -5,11 +5,13 @@ import Section from "../../components/styledComponents/section";
 import ArticleRecommend from "../../components/ArticleRecommend";
 
 const TopImage = styled.div`
+  position: relative;
   width: 100%;
   height: 600px;
   background-image: url( ${props => (props.src)} );
   background-size: cover;
   background-position: center;
+  
 
   @media (max-width: 1020px) and (min-width: 768px) {
     height: 400px;
@@ -19,78 +21,95 @@ const TopImage = styled.div`
     height: 300px;
   }
 `;
+
+const Top = styled.div`
+  .inner {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    border-bottom: 1px solid #B5B6B7;
+`;
+
 const Title = styled.div`
-  background: #F0F1F5;
-  text-align: center;
-  
   h2 {
-      font-size: 32px;
-      font-weight: bold;
-      margin-bottom: 20px;
-      
-      //テスト
-      margin: 0 auto;
-      text-align: left;
-      max-width: 800px;
       font-size: 40px;
-    }
-  
-    a {
-      font-size: 18px;
-      color: #999999;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 25px;
     }
     
-    a:visited {
-      color: #999999;
+    @media (max-width: 767px) {
+    //mobile
+      h2 {
+        font-size: 30px;
+      }
     }
     
     p {
-      margin: 40px auto 40px;
-      text-align: left;
-      max-width: 800px;
+      margin-bottom: 30px;
     }
-      
-    @media (max-width: 767px) {
-    //スマホ以下
-      h2 {
-        font-size: 26px;
-      }
+`;
+
+//プロジェクト説明
+const Desc = styled.ul`
+  padding-bottom: 50px;
+  
+  li {
+    margin-bottom: 30px;
+  }
+  
+  li:last-child {
+    margin-bottom: 0
+  }
+  
+  li p {
+    line-height: 1;
+  }
+  
+  li .title {
+    margin-bottom: 15px;
+    color: #999999;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+
+
+  @media (max-width: 767px) {
+    //mobile
+    li {
+      width: 100%;
+      padding: 0;
     }
+
+    li:nth-child(even),
+    li:nth-child(odd) {
+      padding: 0;
+    }
+  }
 `;
 
 const Content = styled.div`
   h3 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-align: center;
-    
-    //テスト
-    margin: 0 auto;
-    margin-bottom: 30px;
-    text-align: left;
     max-width: 800px;
+    margin: 0 auto 25px;;
     font-size: 36px;
-  }
-
-  h3 span {
-    display: inline-block;
-    padding: 0 25px 20px;
-    border-bottom: 4px solid #2DC1AF;
+    font-weight: bold;
+    text-align: left;
   }
   
+  @media (max-width: 767px) {
+    h3 {
+      font-size: 30px;
+    }
+  }
+
   h4 {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-align: left;
     font-size: 20px;
     font-weight: bold;
-    margin: 0 0 40px;
-    text-align: center;
-    
-    //テスト
-    margin: 0 auto;
-    text-align: left;
-    max-width: 800px;
-    font-size: 24px;
-    margin-bottom: 20px;
   }
 
   h5 {
@@ -144,10 +163,7 @@ const Image = styled.div`
     text-align: center;
     margin: 30px auto;
   }
-  
-  p { 
-  }
-`
+`;
 
 const Button = styled.a`
   display: inline-block;
@@ -170,48 +186,11 @@ const Button = styled.a`
     color: #fff;
     cursor: pointer;
   }
-`
+`;
 
 const ButtonWrapper = styled.div`
   text-align: center;
-`
-
-//プロジェクト説明
-const Desc = styled.ul`
-  
-  li {
-    margin-bottom: 30px;
-  }
-  
-  li:last-child {
-    margin-bottom: 0
-  }
-  
-  li p {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  li .title {
-    margin-bottom: 10px;
-    // font-weight: bold;
-    color: #999999;
-  }
-
-
-  @media (max-width: 767px) {
-    //スマホ以下
-    li {
-      width: 100%;
-      padding: 0;
-    }
-
-    li:nth-child(even),
-    li:nth-child(odd) {
-      padding: 0;
-    }
-  }
-  `;
+`;
 
 export default class LIST extends React.Component {
   state = {
@@ -222,29 +201,29 @@ export default class LIST extends React.Component {
     return (
       <Layout>
         <TopImage src="/static/image/work/baseconnect-list.jpg"/>
-        <Section grey border>
-          <Title>
-            <h2>Baseconnect LIST</h2>
-            {/*<a href="https://sales.baseconnect.in/" target="blank">https://sales.baseconnect.in/</a>*/}
-            <p className="page__desc">
-              「Baseconnect LIST」は法人営業におけるターゲティングや見込み客となりうる企業のリスト作成を圧倒的に効率化できるクラウドサービスです。リリースから1年で約10,000社に導入いただいています。
-            </p>
-          </Title>
-          <Desc>
-            <li>
-              <p className="title">URL</p>
-              <p className="cont">https://sales.baseconnect.in/</p>
-            </li>
-            <li>
-              <p className="title">役割</p>
-              <p className="cont">UI/UXデザイン/コーディング（React.js / SCSS）</p>
-            </li>
-
-          </Desc>
-        </Section>
-
-        <Content>
-          <Section grey>
+        <Section grey>
+          <Top>
+            <div className="inner">
+              <Title>
+                <h2>Baseconnect LIST</h2>
+                {/*<a href="https://sales.baseconnect.in/" target="blank">https://sales.baseconnect.in/</a>*/}
+                <p className="page__desc">
+                  「Baseconnect LIST」は法人営業におけるターゲティングや見込み客となりうる企業のリスト作成を圧倒的に効率化できるクラウドサービスです。リリースから1年で約10,000社に導入いただいています。
+                </p>
+              </Title>
+              <Desc>
+                <li>
+                  <p className="title">URL</p>
+                  <a href="https://sales.baseconnect.in/" target="_blank" className="cont">https://sales.baseconnect.in/</a>
+                </li>
+                <li>
+                  <p className="title">役割</p>
+                  <p className="cont">UI/UXデザイン/コーディング（React.js / SCSS）</p>
+                </li>
+              </Desc>
+            </div>
+          </Top>
+          <Content>
             <h3>アウトプット</h3>
             <p>インハウスのデザイナーとして約1年間、本サービスの開発を担当しました。</p>
             <h5>担当箇所</h5>
@@ -268,10 +247,8 @@ export default class LIST extends React.Component {
               <img src="/static/image/work/list/list-output3.png" alt=""/>
               <span>MOBILE</span>
             </Image>
-          </Section>
-          {/* コンテンツ1 */}
-          <Section grey>
 
+            {/* 1 */}
             <h3>ケーススタディー</h3>
             <p>以下３点をケーススタディーとしてご紹介します</p>
             <ul>
@@ -297,10 +274,9 @@ export default class LIST extends React.Component {
               <img src="/static/image/work/list/list-capture2.png" alt=""/>
               <span>（階層に意味を持たせたデザイン）</span>
             </Image>
-          </Section>
 
-          {/* コンテンツ2 */}
-          <Section grey>
+
+            {/* 2 */}
             <h4>2. 都道府県選択のUX改善</h4>
             <p>企業情報を探す検索軸の一つ、「都道府県選択」のUX改善を行いました。</p>
 
@@ -345,10 +321,9 @@ export default class LIST extends React.Component {
               <img src="/static/image/work/list/list-capture7.png" alt=""/>
               <span>（レスポンシブデザインに対応させ、なるべく一覧性を欠かないように）</span>
             </Image>
-          </Section>
 
-          {/* コンテンツ3 */}
-          <Section grey>
+
+            {/* 3 */}
             <h4>3. モバイル対応</h4>
             <p>Baseconnect LISTはPC環境のみの提供になっており、アプリ化の案も出ていましたが、デザイナーが対応できる範囲で実装を行いました。
               ワイヤーからデザイン、コーディングまで1人で対応し、最終段階はエンジニアと共働して開発を行いました。</p>
@@ -364,7 +339,7 @@ export default class LIST extends React.Component {
 
 
 
-   <Image large>
+            <Image large>
               <img src="/static/image/work/list/list-output3.png" alt=""/>
               <span>アウトプット</span>
             </Image>
@@ -375,8 +350,8 @@ export default class LIST extends React.Component {
                 プロトタイプを見てみる
               </Button>
             </ButtonWrapper>
-          </Section>
-        </Content>
+          </Content>
+        </Section>
         <ArticleRecommend page={this.state.page}/>
       </Layout>
     )

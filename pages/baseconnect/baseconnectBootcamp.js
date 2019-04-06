@@ -1,17 +1,17 @@
 import React from "react";
-import styled from "styled-components";
-
 import Layout from "../../components/Layout";
+import styled from "styled-components";
 import Section from "../../components/styledComponents/section";
-
 import ArticleRecommend from "../../components/ArticleRecommend";
 
 const TopImage = styled.div`
+  position: relative;
   width: 100%;
   height: 600px;
   background-image: url( ${props => (props.src)} );
   background-size: cover;
   background-position: center;
+  
 
   @media (max-width: 1020px) and (min-width: 768px) {
     height: 400px;
@@ -22,78 +22,94 @@ const TopImage = styled.div`
   }
 `;
 
+const Top = styled.div`
+  .inner {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    border-bottom: 1px solid #B5B6B7;
+`;
+
 const Title = styled.div`
-  background: #F0F1F5;
-  text-align: center;
-  
   h2 {
-      font-size: 32px;
-      font-weight: bold;
-      margin-bottom: 20px;
-      
-      //テスト
-      margin: 0 auto;
-      text-align: left;
-      max-width: 800px;
       font-size: 40px;
-    }
-  
-    a {
-      font-size: 18px;
-      color: #999999;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 25px;
     }
     
-    a:visited {
-      color: #999999;
+    @media (max-width: 767px) {
+    //mobile
+      h2 {
+        font-size: 30px;
+      }
     }
     
     p {
-      margin: 40px auto 40px;
-      text-align: left;
-      max-width: 800px;
+      margin-bottom: 30px;
     }
-      
-    @media (max-width: 767px) {
-    //スマホ以下
-      h2 {
-        font-size: 26px;
-      }
+`;
+
+//プロジェクト説明
+const Desc = styled.ul`
+  padding-bottom: 50px;
+  
+  li {
+    margin-bottom: 30px;
+  }
+  
+  li:last-child {
+    margin-bottom: 0
+  }
+  
+  li p {
+    line-height: 1;
+  }
+  
+  li .title {
+    margin-bottom: 15px;
+    color: #999999;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+
+
+  @media (max-width: 767px) {
+    //mobile
+    li {
+      width: 100%;
+      padding: 0;
     }
+
+    li:nth-child(even),
+    li:nth-child(odd) {
+      padding: 0;
+    }
+  }
 `;
 
 const Content = styled.div`
   h3 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-align: center;
-    
-    //テスト
-    margin: 0 auto;
-    margin-bottom: 30px;
-    text-align: left;
     max-width: 800px;
+    margin: 0 auto 25px;;
     font-size: 36px;
-  }
-
-  h3 span {
-    display: inline-block;
-    padding: 0 25px 20px;
-    border-bottom: 4px solid #2DC1AF;
+    font-weight: bold;
+    text-align: left;
   }
   
+  @media (max-width: 767px) {
+    h3 {
+      font-size: 30px;
+    }
+  }
+
   h4 {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-align: left;
     font-size: 20px;
     font-weight: bold;
-    margin: 0 0 40px;
-    text-align: center;
-    
-    //テスト
-    margin: 0 auto;
-    text-align: left;
-    max-width: 800px;
-    font-size: 24px;
-    margin-bottom: 20px;
   }
 
   h5 {
@@ -147,10 +163,7 @@ const Image = styled.div`
     text-align: center;
     margin: 30px auto;
   }
-  
-  p { 
-  }
-`
+`;
 
 const Button = styled.a`
   display: inline-block;
@@ -173,48 +186,12 @@ const Button = styled.a`
     color: #fff;
     cursor: pointer;
   }
-`
+`;
 
 const ButtonWrapper = styled.div`
   text-align: center;
-`
+`;
 
-//プロジェクト説明
-const Desc = styled.ul`
-  
-  li {
-    margin-bottom: 30px;
-  }
-  
-  li:last-child {
-    margin-bottom: 0
-  }
-  
-  li p {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  li .title {
-    margin-bottom: 10px;
-    // font-weight: bold;
-    color: #999999;
-  }
-
-
-  @media (max-width: 767px) {
-    //スマホ以下
-    li {
-      width: 100%;
-      padding: 0;
-    }
-
-    li:nth-child(even),
-    li:nth-child(odd) {
-      padding: 0;
-    }
-  }
-  `;
 
 export default class Bootcamp extends React.Component {
   state = {
@@ -225,32 +202,33 @@ export default class Bootcamp extends React.Component {
     return (
       <Layout>
         <TopImage src="/static/image/work/baseconnect-bootcamp.png"/>
-        <Section grey border>
-          <Title>
-            <h2>Design Bootcamp</h2>
-            {/*<a href="https://baseconnect.in/" target="blank">https://baseconnect.in/</a>*/}
-            <p>Design Bootcampは未経験からデザイナーを目指すプログラムです。潜在的に優秀な人材をインターンとして採用することを目標に、月に２回ほど説明会を開催しています。</p>
-          </Title>
-          <Desc>
-            <li>
-              <p className="title">URL</p>
-              <p className="cont">http://company.baseconnect.in/</p>
-            </li>
-          </Desc>
-        </Section>
-
-        <Content>
-          {/* コンテンツ1 */}
-          <Section grey>
+        <Section grey>
+          <Top>
+            <div className="inner">
+              <Title>
+                <h2>Design Bootcamp</h2>
+                {/*<a href="https://baseconnect.in/" target="blank">https://baseconnect.in/</a>*/}
+                <p>Design Bootcampは未経験からデザイナーを目指すプログラムです。潜在的に優秀な人材をインターンとして採用することを目標に、月に２回ほど説明会を開催しています。</p>
+              </Title>
+              <Desc>
+                <li>
+                  <p className="title">URL</p>
+                  <a href="http://company.baseconnect.in/design-bootcamp/" target="_blank" className="cont">http://company.baseconnect.in/design-bootcamp/</a>
+                </li>
+              </Desc>
+            </div>
+          </Top>
+          <Content>
+            <h3>チャレンジ</h3>
             <p>自身が未経験からデザイナーとして活動できている経験を生かし、運営から面接、課題へのFB等全てを担当しました。</p>
 
-            <Image large>
+            <Image>
               <img src="/static/image/work/bootcamp/bootcamp-capture1.png" alt=""/>
             </Image>
-            <Image large>
+            <Image>
               <img src="/static/image/work/bootcamp/bootcamp-capture2.png" alt=""/>
             </Image>
-            <Image large>
+            <Image>
               <img src="/static/image/work/bootcamp/bootcamp-capture3.png" alt=""/>
               <span>説明会で使用した資料の一部</span>
             </Image>
@@ -268,9 +246,10 @@ export default class Bootcamp extends React.Component {
               <li>・道具の使い方はなるべく教えない</li>
               <li>・デザインする際の視点、わからないことの調べ方、作業のプロセスに関して助言する</li>
             </ul>
+          </Content>
+        </Section>
 
-          </Section>
-        </Content>
+
         <ArticleRecommend page={this.state.page}/>
       </Layout>
     )

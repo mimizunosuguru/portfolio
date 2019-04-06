@@ -1,17 +1,17 @@
 import React from "react";
 import styled from 'styled-components'
-
 import Layout from "../../components/Layout";
 import Section from '../../components/styledComponents/section'
-
 import ArticleRecommend from "../../components/ArticleRecommend";
 
 const TopImage = styled.div`
+  position: relative;
   width: 100%;
   height: 600px;
   background-image: url( ${props => (props.src)} );
   background-size: cover;
   background-position: center;
+  
 
   @media (max-width: 1020px) and (min-width: 768px) {
     height: 400px;
@@ -22,78 +22,94 @@ const TopImage = styled.div`
   }
 `;
 
+const Top = styled.div`
+  .inner {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    border-bottom: 1px solid #B5B6B7;
+`;
+
 const Title = styled.div`
-  background: #F0F1F5;
-  text-align: center;
-  
   h2 {
-      font-size: 32px;
-      font-weight: bold;
-      margin-bottom: 20px;
-      
-      //テスト
-      margin: 0 auto;
-      text-align: left;
-      max-width: 800px;
       font-size: 40px;
-    }
-  
-    a {
-      font-size: 18px;
-      color: #999999;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 25px;
     }
     
-    a:visited {
-      color: #999999;
+    @media (max-width: 767px) {
+    //mobile
+      h2 {
+        font-size: 30px;
+      }
     }
     
     p {
-      margin: 40px auto 40px;
-      text-align: left;
-      max-width: 800px;
-    }
-      
-    @media (max-width: 767px) {
-    //スマホ以下
-      h2 {
-        font-size: 26px;
-      }
+      margin-bottom: 30px;
     }
 `;
 
-const Content = styled.div`
-  h3 {
-    font-size: 24px;
-    font-weight: bold;
+//プロジェクト説明
+const Desc = styled.ul`
+  padding-bottom: 50px;
+  
+  li {
     margin-bottom: 30px;
-    text-align: center;
-    
-    //テスト
-    margin: 0 auto;
-    margin-bottom: 30px;
-    text-align: left;
-    max-width: 800px;
-    font-size: 36px;
-  }
-
-  h3 span {
-    display: inline-block;
-    padding: 0 25px 20px;
-    border-bottom: 4px solid #2DC1AF;
   }
   
+  li:last-child {
+    margin-bottom: 0
+  }
+  
+  li p {
+    line-height: 1;
+  }
+  
+  li .title {
+    margin-bottom: 15px;
+    color: #999999;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+
+
+  @media (max-width: 767px) {
+    //mobile
+    li {
+      width: 100%;
+      padding: 0;
+    }
+
+    li:nth-child(even),
+    li:nth-child(odd) {
+      padding: 0;
+    }
+  }
+`
+
+const Content = styled.div`
+  h3 {
+    max-width: 800px;
+    margin: 0 auto 25px;;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  @media (max-width: 767px) {
+    h3 {
+      font-size: 30px;
+    }
+  }
+
   h4 {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-align: left;
     font-size: 20px;
     font-weight: bold;
-    margin: 0 0 40px;
-    text-align: center;
-    
-    //テスト
-    margin: 0 auto;
-    margin-bottom: 50px;
-    text-align: left;
-    max-width: 800px;
-    font-size: 20px;
   }
 
   h5 {
@@ -146,13 +162,10 @@ const Image = styled.div`
     text-align: center;
     margin: 30px auto;
   }
-  
-  p { 
-  }
-`
+`;
 
-const Button = styled.button`
-  display: block;
+const Button = styled.a`
+  display: inline-block;
   margin: 0 auto 20px;
   padding: 20px 50px 20px 50px;
   border: 2px solid #999999;
@@ -162,50 +175,21 @@ const Button = styled.button`
   font-size: 18px;
   font-weight: bold;
   line-height: 1;
-    
+  
+  &:visited {
+    color: #999999;
+  }
+  
   &:hover {
     background: #999999;
     color: #fff;
     cursor: pointer;
   }
-`
+`;
 
-//プロジェクト説明
-const Desc = styled.ul`
-  
-  li {
-    margin-bottom: 30px;
-  }
-  
-  li:last-child {
-    margin-bottom: 0
-  }
-  
-  li p {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  li .title {
-    margin-bottom: 10px;
-    // font-weight: bold;
-    color: #999999;
-  }
-
-
-  @media (max-width: 767px) {
-    //スマホ以下
-    li {
-      width: 100%;
-      padding: 0;
-    }
-
-    li:nth-child(even),
-    li:nth-child(odd) {
-      padding: 0;
-    }
-  }
-`
+const ButtonWrapper = styled.div`
+  text-align: center;
+`;
 
 export default class LP extends React.Component {
   state = {
@@ -216,63 +200,66 @@ export default class LP extends React.Component {
     return (
       <Layout>
         <TopImage src="/static/image/work/baseconnect-lp.jpg"/>
-        <Section grey border>
-          <Title>
-            <h2>Baseconnect LIST ランディングページ</h2>
-            {/*<a href="https://sales.baseconnect.in/" target="blank">https://sales.baseconnect.in/</a>*/}
-            <p>
-              法人営業を支援する企業情報データベース「Baseconnect LIST」のLP（ランディングページ）です。
-              クラウドサービスのBaseconnecct LISTはアプリのダウンロードも必要なく、登録後すぐにサービスの利用を開始できます。
-            </p>
-          </Title>
-          <Desc>
-            <li>
-              <p className="title">URL</p>
-              <p target="blank" className="cont">https://sales.baseconnect.in/</p>
-            </li>
-            <li>
-              <p className="title">担当</p>
-              <p className="cont">UIデザイン / コーディング（HTML / CSS/ jQuery）</p>
-            </li>
-          </Desc>
-        </Section>
-        <Content>
           <Section grey>
-            <h3>アウトプット</h3>
-            <p>ランディングページのリニューアルにあたり、デザインを元にHTML/CSS/jQueryでのコーディングを担当しました。一部デザインの追加も担当しました。</p>
-            <h4>担当したコーディング</h4>
-            <Image>
-              <img src="/static/image/work/lp/output1.png" alt=""/>
-            </Image>
-            <h4>担当したデザイン</h4>
-            <Image>
-              <img src="/static/image/work/lp/output2.png" alt=""/>
-            </Image>
+            <Top>
+              <div className="inner">
+                <Title>
+                  <h2>Baseconnect LIST LP</h2>
+                  {/*<a href="https://sales.baseconnect.in/" target="blank">https://sales.baseconnect.in/</a>*/}
+                  <p>
+                    法人営業を支援する企業情報データベース「Baseconnect LIST」のLP（ランディングページ）です。
+                    クラウドサービスのBaseconnecct LISTはアプリのダウンロードも必要なく、登録後すぐにサービスの利用を開始できます。
+                  </p>
+                </Title>
+                <Desc>
+                  <li>
+                    <p className="title">URL</p>
+                    <a href="https://sales.baseconnect.in/" target="blank" className="cont">https://sales.baseconnect.in/</a>
+                  </li>
+                  <li>
+                    <p className="title">担当</p>
+                    <p className="cont">UIデザイン / コーディング（HTML / CSS/ jQuery）</p>
+                  </li>
+                </Desc>
+              </div>
+            </Top>
 
-            <h3>デザインプロセス</h3>
-            <p>企業情報のデータベースとなる「Baseconnect LIST」は担当した当時β版でのリリースになっていたため、サービスの肝となる企業情報の数が十分ではなかったのが大きな課題の1つでした。</p>
+            <Content>
+              <h3>アウトプット</h3>
+              <p>ランディングページのリニューアルにあたり、デザインを元にHTML/CSS/jQueryでのコーディングを担当しました。一部デザインの追加も担当しました。</p>
+              <h4>担当したコーディング</h4>
+              <Image>
+                <img src="/static/image/work/lp/output1.png" alt=""/>
+              </Image>
+              <h4>担当したデザイン</h4>
+              <Image>
+                <img src="/static/image/work/lp/output2.png" alt=""/>
+              </Image>
 
-            <p>この問題を解決するために「リアルタイムで企業情報のデータを作成していることをユーザーに知らせる」ことが要件として挙げられ、<b>「ダッシュボード・掲示板」を想起させるグラフィック</b>を取り入れることで、この課題の解決にアプローチしました。</p>
-            <Image>
-              <img src="/static/image/work/lp/lp-capture1.png" alt=""/>
-              <span>（「ダッシュボード・掲示板」を想起させるグラフィックで表現）</span>
-            </Image>
+              <h3>デザインプロセス</h3>
+              <p>企業情報のデータベースとなる「Baseconnect LIST」は担当した当時β版でのリリースになっていたため、サービスの肝となる企業情報の数が十分ではなかったのが大きな課題の1つでした。</p>
+
+              <p>この問題を解決するために「リアルタイムで企業情報のデータを作成していることをユーザーに知らせる」ことが要件として挙げられ、<b>「ダッシュボード・掲示板」を想起させるグラフィック</b>を取り入れることで、この課題の解決にアプローチしました。</p>
+              <Image>
+                <img src="/static/image/work/lp/lp-capture1.png" alt=""/>
+                <span>（「ダッシュボード・掲示板」を想起させるグラフィックで表現）</span>
+              </Image>
 
 
-            <p>もう1つサービスの課題として、企業情報のデータ作成は主に関西と関東を中心としているため、地域によってはデータの数にばらつきがあるという問題が挙げられていました。</p>
-            <p>そのため、サービスの導入を検討するユーザーが懸念するポイントの一つである「自分が営業したい会社の情報はあるか？」という疑問に答えるため、<b>企業情報が多い都道府県をランキング形式で一覧表示</b>しました。</p>
+              <p>もう1つサービスの課題として、企業情報のデータ作成は主に関西と関東を中心としているため、地域によってはデータの数にばらつきがあるという問題が挙げられていました。</p>
+              <p>そのため、サービスの導入を検討するユーザーが懸念するポイントの一つである「自分が営業したい会社の情報はあるか？」という疑問に答えるため、<b>企業情報が多い都道府県をランキング形式で一覧表示</b>しました。</p>
 
-            <Image>
-              <img src="/static/image/work/lp/lp-capture2.png" alt=""/>
-              <span>企業情報が多い都道府県をランキング形式で一覧表示</span>
-            </Image>
+              <Image>
+                <img src="/static/image/work/lp/lp-capture2.png" alt=""/>
+                <span>企業情報が多い都道府県をランキング形式で一覧表示</span>
+              </Image>
 
-            <p>モバイルでの表示は、グリッドレイアウトでレスポンシブに対応しています</p>
-            <Image>
-              <img src="/static/image/work/lp/lp-capture4.png" alt=""/>
-            </Image>
+              <p>モバイルでの表示は、グリッドレイアウトでレスポンシブに対応しています</p>
+              <Image>
+                <img src="/static/image/work/lp/lp-capture4.png" alt=""/>
+              </Image>
+            </Content>
           </Section>
-        </Content>
         <ArticleRecommend page={this.state.page}/>
       </Layout>
     )
