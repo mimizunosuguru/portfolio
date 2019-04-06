@@ -526,7 +526,7 @@ export default class About extends React.Component {
                   <div className="item--place">大阪&東京 / 2017 - 2018</div>
                 </li>
                 <li className="bio__listItem flex">
-                  <div className="item--title"><a href="https://framgia.com/" target="_blank">Framgia</a></div>
+                  <div className="item--title"><a href="https://sun-asterisk.com/" target="_blank">Sun*</a></div>
                   <div className="item--position">Design & Marketing Intern</div>
                   <div className="item--place">ベトナム / 2017/4 - 9</div>
                 </li>
