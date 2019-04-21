@@ -229,13 +229,6 @@ export default class HotpepperBeauty extends React.Component {
               <p>
                 「自分にあったサロンがすぐ見つかる」をコンセプトに、本アプリの機能の一つである「サロン検索」にフォーカスを当てリデザインを行いました。
               </p>
-              <h5>（リデザイン画面）</h5>
-              <ul>
-                <li>1. サロン検索</li>
-                <li>2. サロン検索結果</li>
-                <li>3. サロン詳細（Top）</li>
-                <li>4. サロン詳細（Scroll）</li>
-              </ul>
               <h4>1. サロン検索</h4>
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/BA/hotpepper__BA1.jpg" alt=""/>
@@ -269,7 +262,7 @@ export default class HotpepperBeauty extends React.Component {
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/Q1/hottpepper__Q1.jpg" alt=""/>
               </Image>
-              <h4>Before</h4>
+              <h5>Before</h5>
                 <p>「1. サロン検索」の旧デザインは、「サロンのジャンル選択」（ヘア / ネイル / まつげ / リラク / エステ）を最上部でタブ切り替えできるUIでした。</p>
                 <p>タブを採用するメリットの一つは、切り替え可能にすることで、それぞれの情報を隠せることにあります。</p>
                 <p>しかし、アプリを研究してみると、このタブ切り替えを行なっても、コンテンツ内容にほとんど差がないことに気がつきました。</p>
@@ -278,7 +271,7 @@ export default class HotpepperBeauty extends React.Component {
                 <span>画面下部の「広告」「検索履歴」のみ、タブごとで表示が変わる</span>
               </Image>
 
-              <h4>After</h4>
+              <h5>After</h5>
               <p>
                 非常に悩みどころではありましたが、最上部タブを採用しない代わりに、階層を大きく「1. アカウント情報」「2. 検索条件の指定」の二つに分けました。「サロンのジャンル選択」は、「2. 検索条件の指定」の一部にしています。
               </p>
@@ -294,7 +287,7 @@ export default class HotpepperBeauty extends React.Component {
                 <span>ユーザーにタップさせたい領域は白色で目立たせるように統一</span>
               </Image>
               {/*</Image>*/}
-              <h4>Compare</h4>
+              <h5>Compare</h5>
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/BA/hotpepper__BA1.jpg" alt=""/>
               </Image>
@@ -303,7 +296,7 @@ export default class HotpepperBeauty extends React.Component {
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/Q2/hottpepper__Q2.jpg" alt=""/>
               </Image>
-              <h4>Before</h4>
+              <h5>Before</h5>
               <p>「2. サロン検索結果」の旧デザインで気にかかったのは、ヘッダーの右上の「<i className="fas fa-search"/>」アイコンでした。</p>
               <p>このボタンをタップすると「検索条件の詳細項目」を指定することができます。つまり、検索条件の「絞り込み / フィルター」機能です。</p>
               <Image>
@@ -312,7 +305,7 @@ export default class HotpepperBeauty extends React.Component {
               </Image>
               <p>しかし、これは実際に使ってみると、アイコンを押した後の挙動が直感的にわかりずらい印象を抱きました。</p>
               <p>またこのUIのデメリットは、どのような検索条件を指定しているかは、「<i className="fas fa-search"/>」アイコンを押してその都度確認する必要がある点が挙げられます。</p>
-              <h4>After</h4>
+              <h5>After</h5>
               <p>リデザインでは、画面上部に「選択中の検索条件」と、その他の条件を指定する「フィルターボタン」を追加しました。</p>
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/Q2/hottpepper__Q2-2.jpg" alt=""/>
@@ -320,7 +313,7 @@ export default class HotpepperBeauty extends React.Component {
               <p>その他のリデザインのポイントとして、全体の配色に、サブカラーとして「水色」を追加しました。</p>
 
               <p>サロン情報にある3つの項目「駅からの距離」「口コミ」「料金（カット）」は、ユーザーが美容院を比較する際に特に注目するポイントになると考え、サブカラーを取り入れることでコントラストを高めました。</p>
-              <h4>Compare</h4>
+              <h5>Compare</h5>
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/BA/hotpepper__BA2.jpg" alt=""/>
               </Image>
@@ -329,7 +322,7 @@ export default class HotpepperBeauty extends React.Component {
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/Q3/hottpepper__Q3.jpg" alt=""/>
               </Image>
-              <h4>Before</h4>
+              <h5>Before</h5>
               <p>「3. サロン詳細」画面のリデザインで一番苦しんだのは、ナビゲーションの情報設計でした。</p>
               <p>旧デザインでは、上部に「クーポン・メニュー」「こだわり」「スタイリスト」「ヘアスタイル」「ブログ」「口コミ」の６つのボタンを配置し、タップすると各項目の詳細に移ります。</p>
               <p>タップせずにそのままスクロールすると、サロンの情報と、先ほどの各６項目の一部の情報が一覧で確認できます。</p>
@@ -349,7 +342,7 @@ export default class HotpepperBeauty extends React.Component {
                 <span>WEB版は、タブが最大３つ入り込むUIでなかなか複雑</span>
               </Image>
 
-              <h4>After</h4>
+              <h5>After</h5>
               <p><a href="https://uxdaystokyo.com/articles/glossary/hicks-hymans-law/" target="_blank">ヒックの法則</a>にあるように、人は提供される情報が多ければ多いほど、判断力が低下します。</p>
               <p>リデザインではユーザーが求めている情報は、大きく「サロン情報」「クーポン・メニュー」「口コミ」「マップ」の４つに絞られると仮説を立て、タブ形式で表示切り替えできるデザインを採用しました。</p>
               <Image>
@@ -367,7 +360,7 @@ export default class HotpepperBeauty extends React.Component {
                 <span>4つの情報をユーザーにリードとして提示し、詳細画面では同じタブ形式で提示</span>
               </Image>
 
-              <h4>Compare</h4>
+              <h5>Compare</h5>
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/BA/hotpepper__BA3.jpg" alt=""/>
               </Image>
