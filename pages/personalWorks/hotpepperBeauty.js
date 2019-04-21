@@ -364,7 +364,7 @@ export default class HotpepperBeauty extends React.Component {
 
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/Q3/hottpepper__Q3-5.jpg" alt=""/>
-                <span>4つの情報をユーザーにリードとして提示し、詳細画面ではタブ形式で提示</span>
+                <span>4つの情報をユーザーにリードとして提示し、詳細画面では同じタブ形式で提示</span>
               </Image>
 
               <h4>Compare</h4>

@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Section from './styledComponents/section'
 
 const Heading = styled.p`
-  font-size: 30px;
+  font-size: 38px;
   color: #999999;
   font-weight: bold;
   text-align: center;
@@ -70,7 +70,7 @@ const Recommend = (props) => {
   // work / page / storyで条件分岐
   return (
     <Section>
-      <Heading>他にも見てみる</Heading>
+      <Heading>Other works</Heading>
         {props.page === 'lp' ?  (
           <CardList>
             <Link href="/baseconnect/baseconnectList">

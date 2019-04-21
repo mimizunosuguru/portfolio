@@ -1,55 +1,31 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_0a5735af42686c2a38b2.js"
+  ],
   "pages": {
-    "/about": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.b6de1277f0ef545ef590.js",
-      "static/runtime/main-0c8ccc0c610a006b3d55.js"
-    ],
-    "/baseconnect/baseconnectBootcamp": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.b6de1277f0ef545ef590.js",
-      "static/runtime/main-0c8ccc0c610a006b3d55.js"
-    ],
-    "/baseconnect/baseconnectDashboard": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.b6de1277f0ef545ef590.js",
-      "static/runtime/main-0c8ccc0c610a006b3d55.js"
-    ],
-    "/baseconnect/baseconnectList": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.b6de1277f0ef545ef590.js",
-      "static/runtime/main-0c8ccc0c610a006b3d55.js"
-    ],
-    "/baseconnect/baseconnectLp": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.b6de1277f0ef545ef590.js",
-      "static/runtime/main-0c8ccc0c610a006b3d55.js"
-    ],
-    "/index": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.b6de1277f0ef545ef590.js",
-      "static/runtime/main-0c8ccc0c610a006b3d55.js"
-    ],
-    "/personalWorks/hotpepperBeauty": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.b6de1277f0ef545ef590.js",
-      "static/runtime/main-0c8ccc0c610a006b3d55.js"
-    ],
     "/_app": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.b6de1277f0ef545ef590.js",
-      "static/runtime/main-0c8ccc0c610a006b3d55.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.b6de1277f0ef545ef590.js",
-      "static/runtime/main-0c8ccc0c610a006b3d55.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/baseconnect/baseconnectLp": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/baseconnect/baseconnectList": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.b6de1277f0ef545ef590.js",
-      "static/runtime/main-0c8ccc0c610a006b3d55.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }
