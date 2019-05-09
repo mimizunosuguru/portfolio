@@ -107,7 +107,7 @@ export default class PersonalWork extends React.Component {
     return (
       <Section grey border>
         <Heading>
-          <h2>Personal works</h2>
+          <h2>Personal work</h2>
           {/*<h4>2017/10 - 2019/現在</h4>*/}
         </Heading>
         <CardList>

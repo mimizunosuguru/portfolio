@@ -219,7 +219,7 @@ export default class Bootcamp extends React.Component {
             </div>
           </Top>
           <Content>
-            <h3>チャレンジ</h3>
+            <h3>アウトプット</h3>
             <p>自身が未経験からデザイナーとして活動できている経験を生かし、運営から面接、課題へのFB等全てを担当しました。</p>
 
             <Image>
