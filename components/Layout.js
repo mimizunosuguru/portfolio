@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import  Header from './Header'
 import Head from 'next/head'
 import Socials from './Socials'
+import Sidebar from './Sidebar'
 
 
 const Layout = (props) => (
@@ -10,6 +11,8 @@ const Layout = (props) => (
       <title>mimizunoDesign</title>
     </Head>
     <Header page={props.page} />
+    <Sidebar/>
+
     {props.children}
     <Socials/>
     {/*<Footer/>*/}
