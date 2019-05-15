@@ -8,6 +8,24 @@ import PersonalWork from  '../components/work/personalWork';
 import Section from '../components/styledComponents/section'
 import Link from 'next/link'
 
+const ContentWrapper = styled.div`
+  animation-name: fadein;
+  animation-duration: 1s;
+  //animation-iteration-count: infinite;
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translateY(0px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+`;
+
 const Top = styled.div`
   padding-top: 50px;
   height: 400px;
@@ -47,18 +65,19 @@ export default class Work extends React.Component {
   render () {
     return (
       <Layout page="index">
-        <Section grey border>
-          <Top>
-            <p>
-              I’m <Link href="/about"><a href="">Sugu Mizuno</a></Link>, UI/UX Designer,<br/>
-              currently intern at Baseconnect in Kyoto
-            </p>
-          </Top>
-        </Section>
-        <Baseconnect/>
-        <PersonalWork/>
-        <Articles/>
-        {/*<Recommend pageStatus={this.state.pageStatus}/>*/}
+        <ContentWrapper>
+          <Section grey border>
+            <Top>
+              <p>
+                I’m <Link href="/about"><a href="">Sugu Mizuno</a></Link>, UI/UX Designer,<br/>
+                currently intern at Baseconnect in Kyoto
+              </p>
+            </Top>
+          </Section>
+          <Baseconnect/>
+          <PersonalWork/>
+          <Articles/>
+        </ContentWrapper>
       </Layout>
     )
   }

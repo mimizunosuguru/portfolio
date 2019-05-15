@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Socials from './Socials'
 import Sidebar from './Sidebar'
 import { createGlobalStyle, ThemeProvider } from "styled-components";
+import styled from "styled-components";
 
 const GlobalStyle = createGlobalStyle` 
   body {
@@ -56,6 +57,24 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+  const ContentWrapper = styled.div`
+    animation-name: fadein;
+    animation-duration: 1s;
+    //animation-iteration-count: infinite;
+  
+    @keyframes fadein {
+      from {
+        opacity: 0;
+        transform: translateY(0px);
+      }
+  
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  `;
+
 const Layout = (props) => (
   <Fragment>
     <GlobalStyle />
@@ -65,7 +84,10 @@ const Layout = (props) => (
     <Header page={props.page} />
     <Sidebar/>
 
-    {props.children}
+    <ContentWrapper>
+      {props.children}
+    </ContentWrapper>
+
     <Socials/>
     {/*<Footer/>*/}
     {/* TODO font-familyでエラーが出る*/}
