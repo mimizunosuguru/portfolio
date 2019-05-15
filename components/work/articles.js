@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import styled from 'styled-components'
 
 import Section from "../styledComponents/section";
+import LazyLoad from 'react-lazyload';
 
 //article.jsと共通化可能
 const Heading = styled.div`
@@ -28,11 +29,11 @@ const Content = styled.div`
     line-height: 40px;
     margin-bottom: 30px;
   }
-`
+`;
 
 const CardWrapper = styled.ul`
   //margin-top: 30px;
-`
+`;
 
 const Card = styled.li`
   display: inline-block;
@@ -56,6 +57,21 @@ const Card = styled.li`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    animation-name: fadein;
+    animation-duration: 1s;  
+    transition: all .75s ease;
+    
+    @keyframes fadein {
+      from {
+        opacity: 0;
+        transform: translateY(0px);
+      }
+  
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
   }
 
   .title{
@@ -80,7 +96,7 @@ const Card = styled.li`
       font-size: 15px;
     }
   }
-`
+`;
 
 const ShowMore = styled.div `
   display: flex;
@@ -91,7 +107,7 @@ const ShowMore = styled.div `
     font-size: 24px;
     font-weight: bold;
   }
-`
+`;
 
 export default class Articles extends React.Component {
   state = {
@@ -217,7 +233,11 @@ export default class Articles extends React.Component {
                 <Card key={i}>
                   <a href={data.linkURL} target="_blank">
                     <div className="thumbnail">
-                      <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                      <LazyLoad>
+                        <LazyLoad>
+                          <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                        </LazyLoad>
+                      </LazyLoad>
                     </div>
                     <p className="title">{data.title}</p>
                     <span className="type">{data.type}</span>
@@ -236,7 +256,9 @@ export default class Articles extends React.Component {
                   <Card key={i}>
                     <a href={data.linkURL} target="_blank">
                       <div className="thumbnail">
-                        <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                        <LazyLoad>
+                          <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                        </LazyLoad>
                       </div>
                       <p className="title">{data.title}</p>
                     </a>
@@ -252,7 +274,9 @@ export default class Articles extends React.Component {
                   <Card key={i}>
                     <a href={data.linkURL} target="_blank">
                       <div className="thumbnail">
-                        <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                        <LazyLoad>
+                          <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                        </LazyLoad>
                       </div>
                       <p className="title">{data.title}</p>
                       <span className="type">{data.type}</span>

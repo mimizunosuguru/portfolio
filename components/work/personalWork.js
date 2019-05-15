@@ -3,6 +3,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 
 import Section from '../styledComponents/section'
+import LazyLoad from 'react-lazyload';
 
 const Heading = styled.div`
   //padding-top: 20px;
@@ -87,14 +88,33 @@ const Card = styled.li`
   }
 `;
 
-const Thumbnail = styled.div `
+const ThumbnailWrapper = styled.div `
   height: 350px;
+  background: #d8d8d8;
   margin-bottom: 15px;
-  background: url(${props => props.src}) center;
-  background-size: cover;
   
   @media (max-width: 767px) {
     height: 200px;
+  }
+`;
+
+const Thumbnail = styled.div `
+  height: 100%;
+  background: url(${props => props.src}) center;
+  background-size: cover;
+  animation-name: fadein;
+  animation-duration: .75s;  
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translateY(0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 `;
 
@@ -113,7 +133,12 @@ export default class PersonalWork extends React.Component {
         <CardList>
           <Link href="/personalWorks/hotpepperBeauty">
             <Card>
-              <Thumbnail src="/static/image/work/personalWork_hotpepperBeauty2.jpg"/>
+              <ThumbnailWrapper>
+                <LazyLoad>
+                  <Thumbnail src="/static/image/work/personalWork_hotpepperBeauty2.jpg"/>
+                </LazyLoad>
+              </ThumbnailWrapper>
+
               <p className="title">Hotpepper Beauty Redesign</p>
               <span className="type">リデザインチャレンジ</span>
             </Card>

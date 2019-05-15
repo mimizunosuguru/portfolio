@@ -15,7 +15,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/about": [
+    "/baseconnect/baseconnectDashboard": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

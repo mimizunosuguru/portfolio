@@ -7,9 +7,13 @@
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/work/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/work/articles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/work/baseconnect.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/work/baseconnect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/work/personalWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/work/personalWork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/development_instance_0_79abd8fc32aa0c41bc093b2296736a6b/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/development_instance_0_79abd8fc32aa0c41bc093b2296736a6b/stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/package.json.hash" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/autodll-webpack-plugin/package.json.hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,52 +25,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.52098763">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/components/ArticleRecommend.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="60" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#0#40#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/components/Layout.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="259">
-                  <caret line="85" selection-start-line="85" selection-end-line="85" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/work/personalWork.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="105" column="2" selection-start-line="105" selection-start-column="2" selection-end-line="105" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Content</find>
-      <find>Title</find>
-      <find>Desc</find>
-      <find>Top</find>
-      <find>border</find>
-      <find>Baseconnect LIST ランディング</find>
-      <find>inner</find>
-      <find>title</find>
-      <find>&lt;Image</find>
       <find>ユーザーは自分が一番知りたい情報にたどりつけるように設計しました。</find>
       <find>サロン検索結果</find>
       <find>検索結果一覧</find>
@@ -88,6 +63,15 @@
       <find>@media</find>
       <find>twitter</find>
       <find>back</find>
+      <find>&lt;Card&gt;</find>
+      <find>Thumbnail</find>
+      <find>&lt;img</find>
+      <find>thumbnail</find>
+      <find>&lt;Thumbnail</find>
+      <find>&lt;ThumbnailWrapper&gt;</find>
+      <find>&lt;LazyLoad&gt;</find>
+      <find>duta</find>
+      <find>key</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,14 +100,10 @@
         <option value="$PROJECT_DIR$/pages/work.js" />
         <option value="$PROJECT_DIR$/components/styledComponents/section.js" />
         <option value="$PROJECT_DIR$/.next/static/development/pages/baseconnect/baseconnectList.js" />
-        <option value="$PROJECT_DIR$/components/work/baseconnect.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
         <option value="$PROJECT_DIR$/pages/_document.js" />
-        <option value="$PROJECT_DIR$/components/work/articles.js" />
         <option value="$PROJECT_DIR$/components/Recommend.js" />
-        <option value="$PROJECT_DIR$/components/ArticleRecommend.js" />
         <option value="$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js" />
-        <option value="$PROJECT_DIR$/components/work/personalWork.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
@@ -133,6 +113,10 @@
         <option value="$PROJECT_DIR$/pages/about.js" />
         <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/components/Layout.js" />
+        <option value="$PROJECT_DIR$/components/ArticleRecommend.js" />
+        <option value="$PROJECT_DIR$/components/work/articles.js" />
+        <option value="$PROJECT_DIR$/components/work/personalWork.js" />
+        <option value="$PROJECT_DIR$/components/work/baseconnect.js" />
       </list>
     </option>
   </component>
@@ -181,6 +165,12 @@
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
@@ -271,12 +261,12 @@
       <workItem from="1557370403884" duration="3596000" />
       <workItem from="1557459685994" duration="600000" />
       <workItem from="1557658464540" duration="3898000" />
-      <workItem from="1557826330359" duration="5627000" />
+      <workItem from="1557826330359" duration="9654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288319000" />
+    <option name="totallyTimeSpent" value="292346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,10 +278,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49873418" visible="true" weight="0.15625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49873418" visible="true" weight="0.15625" />
       <window_info id="Structure" order="1" sideWeight="0.5012658" side_tool="true" weight="0.11111111" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -305,7 +295,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34683543" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34683543" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -315,7 +305,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/stylesheet/styles.scss" />
     <entry file="file://$PROJECT_DIR$/pages/loading.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
@@ -380,16 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/work/baseconnect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="116" column="54" selection-start-line="116" selection-start-column="54" selection-end-line="116" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="599">
@@ -434,16 +413,6 @@
     <entry file="file://$PROJECT_DIR$/static/image/article/article--uxLearn.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/work/articles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="161" column="7" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Recommend.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -460,16 +429,6 @@
           <caret line="362" column="17" selection-start-line="362" selection-start-column="17" selection-end-line="362" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/work/personalWork.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="100" column="55" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -566,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="259">
+          <caret line="76" column="14" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -576,20 +535,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="219">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="11" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/ArticleRecommend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="60" selection-end-column="25" />
+        <state relative-caret-position="-482">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/work/articles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/work/baseconnect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/work/personalWork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="105" column="2" selection-start-line="105" selection-start-column="2" selection-end-line="105" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>

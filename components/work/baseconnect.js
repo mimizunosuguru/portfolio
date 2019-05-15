@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
-
 import Section from '../styledComponents/section'
+
+import LazyLoad from 'react-lazyload';
 
 const Heading = styled.div`
   //padding-top: 20px;
@@ -85,14 +86,33 @@ const Card = styled.li`
   }
 `;
 
-const Thumbnail = styled.div `
+const ThumbnailWrapper = styled.div `
   height: 270px;
+  background: #d8d8d8;
   margin-bottom: 15px;
-  background: url(${props => props.src}) center;
-  background-size: cover;
   
   @media (max-width: 767px) {
     height: 200px;
+  }
+`;
+
+const Thumbnail = styled.div `
+  height: 100%;
+  background: url(${props => props.src}) center;
+  background-size: cover;
+  animation-name: fadein;
+  animation-duration: .75s;
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translateY(0px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 `;
 
@@ -112,34 +132,55 @@ export default class Baseconnecct extends React.Component {
         </Heading>
         <CardList>
           <Link href="/baseconnect/baseconnectLp">
-            <Card>
-              <Thumbnail src="/static/image/work/baseconnect-lp.jpg"/>
-              <p className="title">Baseconnect LIST LP</p>
-              <span className="type">UIデザイン、コーディング</span>
-            </Card>
+              <Card>
+                <ThumbnailWrapper>
+                  <LazyLoad>
+                    <Thumbnail src="/static/image/work/baseconnect-lp.jpg"/>
+                  </LazyLoad>
+                </ThumbnailWrapper>
+                <p className="title">Baseconnect LIST LP</p>
+                <span className="type">UIデザイン、コーディング</span>
+              </Card>
           </Link>
 
           <Link href="/baseconnect/baseconnectList">
-            <Card>
-              <Thumbnail src="/static/image/work/baseconnect-list.jpg"/>
-              <p className="title">Baseconnect LIST</p>
-              <span className="type">UI/UXデザイン、コーディング</span>
-            </Card>
+              <Card>
+                  <ThumbnailWrapper>
+                    <LazyLoad>
+                      <Thumbnail src="/static/image/work/baseconnect-list.jpg"/>
+                    </LazyLoad>
+                  </ThumbnailWrapper>
+
+                <p className="title">Baseconnect LIST</p>
+                <span className="type">UI/UXデザイン、コーディング</span>
+              </Card>
           </Link>
 
           <Link href="/baseconnect/baseconnectBootcamp">
-            <Card>
-              <Thumbnail src="/static/image/work/baseconnect-bootcamp.png"/>
-              <p className="title">DesignBootcamp</p>
-              <span className="type">企画、採用</span>
-            </Card>
+
+              <Card>
+                  <ThumbnailWrapper>
+                    <LazyLoad>
+                      <Thumbnail src="/static/image/work/baseconnect-bootcamp.png"/>
+                      </LazyLoad>
+                  </ThumbnailWrapper>
+                <p className="title">DesignBootcamp</p>
+                <span className="type">企画、採用</span>
+              </Card>
+
           </Link>
           <Link href="/baseconnect/baseconnectDashboard">
-            <Card>
-              <Thumbnail src="/static/image/work/baseconnect-dashboard.jpg"/>
-              <p className="title">Dashboard</p>
-              <span className="type">ブランディング</span>
-            </Card>
+
+              <Card>
+                  <ThumbnailWrapper>
+                    <LazyLoad>
+                      <Thumbnail src="/static/image/work/baseconnect-dashboard.jpg"/>
+                      </LazyLoad>
+                  </ThumbnailWrapper>
+                <p className="title">Dashboard</p>
+                <span className="type">ブランディング</span>
+              </Card>
+
           </Link>
         </CardList>
       </Section>
