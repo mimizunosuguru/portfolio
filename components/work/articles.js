@@ -98,6 +98,37 @@ const Card = styled.li`
   }
 `;
 
+const ThumbnailWrapper = styled.div `
+  height: 200px;
+  margin-bottom: 15px;
+  background: #d8d8d8;
+ 
+  
+  @media (max-width: 767px) {
+    height: 200px;
+  }
+`;
+
+const Thumbnail = styled.div `
+  height: 100%;
+  background: url(${props => props.src}) center;
+  background-size: cover;
+  animation-name: fadein;
+  animation-duration: .75s;
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translateY(0px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+`;
+
 const ShowMore = styled.div `
   display: flex;
   justify-content: center;
@@ -224,6 +255,7 @@ export default class Articles extends React.Component {
         <Heading>
           <h2>Articles</h2>
         </Heading>
+
         <Content>
           <h3>BLOG</h3>
           <CardWrapper>
@@ -232,13 +264,11 @@ export default class Articles extends React.Component {
                 //TODO key降る必要あり
                 <Card key={i}>
                   <a href={data.linkURL} target="_blank">
-                    <div className="thumbnail">
+                    <ThumbnailWrapper>
                       <LazyLoad>
-                        <LazyLoad>
-                          <img src={"/static/image/article/" + data.imageURL} alt=""/>
-                        </LazyLoad>
+                        <Thumbnail src={"/static/image/article/" + data.imageURL} />
                       </LazyLoad>
-                    </div>
+                    </ThumbnailWrapper>
                     <p className="title">{data.title}</p>
                     <span className="type">{data.type}</span>
                   </a>
@@ -255,14 +285,14 @@ export default class Articles extends React.Component {
                 return (
                   <Card key={i}>
                     <a href={data.linkURL} target="_blank">
-                      <div className="thumbnail">
+                      <ThumbnailWrapper>
                         <LazyLoad>
-                          <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                          <Thumbnail src={"/static/image/article/" + data.imageURL} alt=""/>
                         </LazyLoad>
-                      </div>
+                      </ThumbnailWrapper>
                       <p className="title">{data.title}</p>
+                      <span className="type">{data.type}</span>
                     </a>
-                    <span className="type">{data.type}</span>
                   </Card>
                 )
               })}
@@ -273,11 +303,11 @@ export default class Articles extends React.Component {
                 return (
                   <Card key={i}>
                     <a href={data.linkURL} target="_blank">
-                      <div className="thumbnail">
+                      <ThumbnailWrapper>
                         <LazyLoad>
-                          <img src={"/static/image/article/" + data.imageURL} alt=""/>
+                          <Thumbnail src={"/static/image/article/" + data.imageURL} alt=""/>
                         </LazyLoad>
-                      </div>
+                      </ThumbnailWrapper>
                       <p className="title">{data.title}</p>
                       <span className="type">{data.type}</span>
                     </a>
