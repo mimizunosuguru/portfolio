@@ -446,9 +446,7 @@ export default class About extends React.Component {
                   <h2>STORYTELLING</h2>
                   <span>SUGU MIZUNO UI/UX Designer</span>
                 </div>
-                <div className="box--background">
-                  {/*<img src="/static/image/index/heroImage.png" alt="heroImage"/>*/}
-                </div>
+                <div className="box--background"/>
               </li>
               {/*<li className="box right">*/}
               {/*</li>*/}
