@@ -6,6 +6,7 @@ const Navigation = styled.nav `
   margin-left: auto;
   font-family: 'Avenir', serif;
   font-weight: bold;
+  padding: 36px 30px 0;
   
   @media (max-width: 767px) {
     display: none; 

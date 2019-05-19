@@ -24,7 +24,10 @@ const Head = styled.header `
 
   //ホーム   
   .header__home {
-    padding: 36px 30px 0;
+    position: fixed;
+    top: 36px;
+    left: 30px;
+    z-index: 10000;
   }
   
   .header__home a {
@@ -33,16 +36,17 @@ const Head = styled.header `
     font-weight: bold;
   }
  
-  //ハンバーガーメニュー  
-  .mobileMenu {
-    margin-left: auto;
+  //ハンバーガーメニュー   
+  .hamburgerMenu {
+    display: none;
+    z-index: 10000;
+    position: fixed;
+    top: 27px;
+    right: 20px;
   }
   
-  .mobileMenu div {
-    z-index: 100000;
-  }
-  
-  .navigation.open {
+  //ハンバーガーメニューコンテンツ
+  .hamburgerMenuCont.open {
     opacity: 1;
     visibility: visible;
     transition: opacity 0.5s;
@@ -51,76 +55,63 @@ const Head = styled.header `
     width: 100%;
     height: 100%;
     background: #fff;
-    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  .navigation.close {
+  .hamburgerMenuCont.close {
     opacity: 0;
     visibility: hidden;
     width: 100%;
     height: 100%;
     position: fixed;
     display: table;
-    background: black;
-    transition: 0.5s;
+    background: #fff;
   }
   
-  .pcNav {
-    margin-left: auto;
-    font-family: 'Avenir', serif;
+  /*コンテンツ*/
+  .hamburgerMenuCont nav {
+    color: #fff;
     font-weight: bold;
+    width: 100%;
   }
   
-  .mobileMenu {
+  .hamburgerMenuCont.close nav {
     display: none;
-    z-index: 10000;
-    position: fixed;
-    top: 27px;
-    right: 20px;
   }
+  
+  .hamburgerMenuCont.open nav {
+    display: block;
+  }
+  
+  .hamburgerMenuCont a,
+  .hamburgerMenuCont p {
+    display: block;
+    color: #000000;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+  
 
   @media (max-width: 767px) {
     background: rgba(255, 255, 255, 0.4);
+    height: 66px;
     
     .header__home {
-      padding: 20px 20px 16px;
+      position: fixed;
+      top: 20px;
+      left: 20px;
     }
     
     .header__home a {
       font-size: 22px;
     }
     
-    .pcNav {
-      display: none;
-    } 
-    
-    .mobileMenu {
+    .hamburgerMenu {
       display: block;
     }
-  }
-  
-  /*コンテンツ*/
-  .navigation nav {
-    color: #fff;
-    font-weight: bold;
-  }
-  
-  .navigation.close nav {
-    display: none;
-  }
-  
-  .navigation.open nav {
-    display: block;
-  }
-   
-  a {
-    color: #000000;
-    margin-left: 20px;
-    font-size: 16px;
-  }
-
-  a.current {
-    border-bottom: 1px solid #000000;
   }
 `;
 
@@ -141,9 +132,13 @@ export default class Header extends React.Component {
           <div className="header__home">
           <Link href="/index">Sugu Mizuno</Link>
           </div>
-          <div className="mobileMenu">
+
+          {/* PC */}
+          <HeaderNavPC page={this.props.page}/>
+
+          {/* Mobile */}
+          <div className="hamburgerMenu">
             <HamburgerMenu
-              className="hamburger"
               isOpen={this.state.isMenuOpen}
               menuClicked={this.closeMenu}
               width={18}
@@ -156,54 +151,26 @@ export default class Header extends React.Component {
             />
           </div>
 
-          {/* PC */}
-          <HeaderNavPC page={this.props.page}/>
-
-          {/* Mobile */}
-          <div className={this.state.isMenuOpen ? 'navigation open' : 'navigation close'}>
+          <div className={this.state.isMenuOpen ? 'hamburgerMenuCont open' : 'hamburgerMenuCont close'}>
             <nav>
-              <Link href="/index">
-                <a>Work</a>
-              </Link>
+                { this.props.page == 'index' ? (
+                  <p onClick={this.closeMenu}>WORK</p>
+                  ) : (
+                    <Link href="/index"><p>WORK</p></Link>
+                  )
+                }
 
-              <Link href="/about">
-                <a>About</a>
-              </Link>
-              <a href="https://drive.google.com/file/d/1YJ_eICop4KHvrZxQ86Yu-Rxlnc4OtDmj/view?usp=sharing" target="_blank">Resume</a>
+              { this.props.page == 'about' ? (
+                <p onClick={this.closeMenu}>ABOUT</p>
+              ) : (
+                <Link href="/about"><p onClick={this.closeMenu}>ABOUT</p></Link>
+              )
+              }
+              <a href="https://drive.google.com/file/d/1YJ_eICop4KHvrZxQ86Yu-Rxlnc4OtDmj/view?usp=sharing" target="_blank">RESUME</a>
             </nav>
           </div>
         </div>
-        {/*<div className="header__inner">*/}
-          {/*<div className="header__home">*/}
-            {/*<Link href="/index">Sugu Mizuno</Link>*/}
-          {/*</div>*/}
 
-          {/*/!* Mobileナビゲーション *!/*/}
-          {/*<div className="mobileMenu">*/}
-            {/*<HamburgerMenu*/}
-              {/*className="hamburger"*/}
-              {/*isOpen={this.state.isMenuOpen}*/}
-              {/*menuClicked={this.closeMenu}*/}
-              {/*width={18}*/}
-              {/*height={15}*/}
-              {/*strokeWidth={1}*/}
-              {/*rotate={0}*/}
-              {/*color={this.state.isMenuOpen ? 'white' : 'black'}*/}
-              {/*borderRadius={0}*/}
-              {/*animationDuration={0.5}*/}
-            {/*/>*/}
-          {/*</div>*/}
-
-          {/*/!*navigation*!/*/}
-          {/*<div className={this.state.isMenuOpen ? 'navigation open' : 'navigation close'}>*/}
-            {/*<nav>*/}
-              {/*<p>メニュー１</p>*/}
-              {/*<p>メニュー２</p>*/}
-              {/*<p>メニュー３</p>*/}
-            {/*</nav>*/}
-          {/*</div>*/}
-
-        {/*</div>*/}
       </Head>
     )
   }

@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="12cdee44-9f15-4803-b4c9-6877fc818a3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/heder/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/heder/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/heder/HeaderNavPC.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/heder/HeaderNavPC.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/heder/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="165" column="13" selection-start-line="162" selection-start-column="10" selection-end-line="165" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -36,10 +35,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>back</find>
-      <find>&lt;Card&gt;</find>
-      <find>Thumbnail</find>
-      <find>&lt;img</find>
       <find>thumbnail</find>
       <find>&lt;Thumbnail</find>
       <find>&lt;ThumbnailWrapper&gt;</find>
@@ -61,11 +56,15 @@
       <find>page</find>
       <find>headerTest</find>
       <find>home</find>
-      <find>mobileMenu</find>
       <find>header__home</find>
       <find>mobile</find>
-      <find>nav</find>
       <find>black</find>
+      <find>hamburger</find>
+      <find>mobileMenu</find>
+      <find>navigation</find>
+      <find>nav</find>
+      <find>?</find>
+      <find>inner</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,6 +110,7 @@
         <option value="$PROJECT_DIR$/components/Header.js" />
         <option value="$PROJECT_DIR$/components/ArticleRecommend.js" />
         <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/components/heder/HeaderNavMobile.js" />
         <option value="$PROJECT_DIR$/components/heder/HeaderNavPC.js" />
         <option value="$PROJECT_DIR$/components/heder/Header.js" />
       </list>
@@ -260,12 +260,12 @@
       <workItem from="1557826330359" duration="10156000" />
       <workItem from="1557969999680" duration="4745000" />
       <workItem from="1558016127658" duration="1717000" />
-      <workItem from="1558151093569" duration="8968000" />
+      <workItem from="1558151093569" duration="12526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308278000" />
+    <option name="totallyTimeSpent" value="311836000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -278,6 +278,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49873418" visible="true" weight="0.15833333" />
       <window_info id="Structure" order="1" sideWeight="0.5012658" side_tool="true" weight="0.11111111" />
@@ -303,7 +304,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/Socials" />
     <entry file="file://$PROJECT_DIR$/.next/static/development/pages/baseconnect/baseconnectList.js" />
     <entry file="file://$PROJECT_DIR$/.next/server/static/development/pages/about.js" />
     <entry file="file://$PROJECT_DIR$/pages/animation.json">
@@ -538,16 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -568,10 +558,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/heder/HeaderNavMobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/heder/HeaderNavPC.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="180">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -580,8 +590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/heder/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="165" column="13" selection-start-line="162" selection-start-column="10" selection-end-line="165" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
