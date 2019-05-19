@@ -4,9 +4,14 @@
     <list default="true" id="12cdee44-9f15-4803-b4c9-6877fc818a3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/react-loadable-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/react-loadable-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/heder/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/heder/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,12 +25,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/heder/Header.js">
+        <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+            <state relative-caret-position="222">
+              <caret line="216" column="68" selection-start-line="216" selection-start-column="68" selection-end-line="216" selection-end-column="68" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,8 +40,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>thumbnail</find>
-      <find>&lt;Thumbnail</find>
       <find>&lt;ThumbnailWrapper&gt;</find>
       <find>duta</find>
       <find>key</find>
@@ -65,6 +68,8 @@
       <find>nav</find>
       <find>?</find>
       <find>inner</find>
+      <find>という</find>
+      <find>こと</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,13 +98,8 @@
         <option value="$PROJECT_DIR$/pages/work.js" />
         <option value="$PROJECT_DIR$/components/styledComponents/section.js" />
         <option value="$PROJECT_DIR$/.next/static/development/pages/baseconnect/baseconnectList.js" />
-        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
         <option value="$PROJECT_DIR$/pages/_document.js" />
         <option value="$PROJECT_DIR$/components/Recommend.js" />
-        <option value="$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js" />
-        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
-        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js" />
-        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
         <option value="$PROJECT_DIR$/components/Socials.js" />
         <option value="$PROJECT_DIR$/components/Sidebar.js" />
         <option value="$PROJECT_DIR$/components/Layout.js" />
@@ -113,6 +113,11 @@
         <option value="$PROJECT_DIR$/components/heder/HeaderNavMobile.js" />
         <option value="$PROJECT_DIR$/components/heder/HeaderNavPC.js" />
         <option value="$PROJECT_DIR$/components/heder/Header.js" />
+        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
+        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
+        <option value="$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js" />
+        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
+        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js" />
       </list>
     </option>
   </component>
@@ -172,6 +177,18 @@
               <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
               <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="baseconnect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mimizunoDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimizunoDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="personalWorks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,12 +277,12 @@
       <workItem from="1557826330359" duration="10156000" />
       <workItem from="1557969999680" duration="4745000" />
       <workItem from="1558016127658" duration="1717000" />
-      <workItem from="1558151093569" duration="13832000" />
+      <workItem from="1558151093569" duration="16074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313142000" />
+    <option name="totallyTimeSpent" value="315384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -278,6 +295,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49873418" visible="true" weight="0.15833333" />
       <window_info id="Structure" order="1" sideWeight="0.5012658" side_tool="true" weight="0.11111111" />
@@ -351,16 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/image/work/personarWork/hotpepper/BA/hotpepper__BA2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -394,46 +402,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/image/article/article--uxLearn.jpeg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="362" column="17" selection-start-line="362" selection-start-column="17" selection-end-line="362" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="240" lean-forward="true" selection-start-line="240" selection-end-line="240" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="216" column="41" selection-start-line="216" selection-start-column="41" selection-end-line="216" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="212" column="20" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/styledComponents/section.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -589,10 +557,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/heder/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        <state relative-caret-position="396">
+          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="246" column="37" lean-forward="true" selection-start-line="246" selection-start-column="37" selection-end-line="246" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="246" column="14" selection-start-line="246" selection-start-column="14" selection-end-line="246" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="266" column="58" selection-start-line="266" selection-start-column="58" selection-end-line="266" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="345" column="69" selection-start-line="345" selection-start-column="69" selection-end-line="345" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="216" column="68" selection-start-line="216" selection-start-column="68" selection-end-line="216" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

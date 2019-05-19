@@ -258,10 +258,10 @@ export default class LIST extends React.Component {
             </ul>
 
             <h4>1. 検索条件の保存機能追加</h4>
-            <p>ユーザーのヒアリングより、「検索条件の保存機能」が欲しいという要望が多かったため、機能実装に伴い一部デザインの変更を行いました。</p>
+            <p>ユーザーのヒアリングより、「検索条件の保存機能」の要望が多かったため、機能実装に伴い一部デザインの変更を行いました。</p>
 
             <h5>Before</h5>
-            <p>元々は、左のサイドバーから検索条件を指定すると、「該当者数」が瞬時にヘッダー下の領域に反映されるという仕様です（画像左：Before）。</p>
+            <p>元々は、左のサイドバーから検索条件を指定すると、「該当者数」が瞬時にヘッダー下の領域に反映される仕様です（画像左：Before）。</p>
 
             <h5>After</h5>
             <p>新しい機能を追加するにあたって、「保存した検索条件の選択 / 編集」をナビゲーショバー下のコンポーネントに配置し、「該当社数」は一つ下の階層に下げました（画像右：After）。</p>
@@ -269,7 +269,7 @@ export default class LIST extends React.Component {
             <Image large>
               <img src="/static/image/work/list/list-capture1.png" alt=""/>
             </Image>
-            <p>結果的に、第1階層では「条件の指定」、一つ下の第2階層では、「指定した条件での検索結果」を表示する機能に分け、階層に意味を持たせたデザインにすることができました。</p>
+            <p>結果的に、第1階層では「条件の指定」、一つ下の第2階層では、「指定した条件での検索結果」を表示する機能に分け、階層に意味を持たせたデザインにできました。</p>
             <Image>
               <img src="/static/image/work/list/list-capture2.png" alt=""/>
               <span>（階層に意味を持たせたデザイン）</span>
@@ -293,7 +293,7 @@ export default class LIST extends React.Component {
             </Image>
 
             <h5>After</h5>
-            <p>ユーザーからも地域選択がしづらいといいう声が多かったため、「都道府県選択」はモーダルの別画面で表示させました。都道府県の地図を表示し、選択した都道府県の地域をさらに絞るという仕様です</p>
+            <p>ユーザーからも地域選択がしづらいといいう声が多かったため、「都道府県選択」はモーダルの別画面で表示させました。都道府県の地図を表示し、選択した都道府県の地域をさらに絞る仕様です</p>
             {/* TODO Gif入れる*/}
             <Image>
               <img src="/static/image/work/list/areaSelect.gif" width="100" height="30" alt="都道府県選択アニメーション" />
@@ -343,7 +343,7 @@ export default class LIST extends React.Component {
               <img src="/static/image/work/list/list-output3.png" alt=""/>
               <span>アウトプット</span>
             </Image>
-            <p>PC版のデザインは、モバイルの表示を踏まえていなかったものの、1画面 / 1機能に絞ることで、モバイルの表示に対応することができました。</p>
+            <p>PC版のデザインは、モバイルの表示を踏まえていなかったものの、1画面 / 1機能に絞り、モバイルの表示に対応できました。</p>
 
             <ButtonWrapper>
               <Button href="https://invis.io/RBQJWD3HCNG#/347234578_--------- " target="_blank">

@@ -264,8 +264,8 @@ export default class HotpepperBeauty extends React.Component {
               </Image>
               <h5>Before</h5>
                 <p>「1. サロン検索」の旧デザインは、「サロンのジャンル選択」（ヘア / ネイル / まつげ / リラク / エステ）を最上部でタブ切り替えできるUIでした。</p>
-                <p>タブを採用するメリットの一つは、切り替え可能にすることで、それぞれの情報を隠せることにあります。</p>
-                <p>しかし、アプリを研究してみると、このタブ切り替えを行なっても、コンテンツ内容にほとんど差がないことに気がつきました。</p>
+                <p>タブを採用するメリットの一つは、画面表示を切り替え式にし、不要な情報を隠せる点です。</p>
+                <p>しかし、アプリを研究してみると、このタブ切り替えを行なっても、コンテンツ内容にほとんど差がありませんでした。</p>
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/Q1/hottpepper__Q1-1.jpg" alt=""/>
                 <span>画面下部の「広告」「検索履歴」のみ、タブごとで表示が変わる</span>
@@ -279,7 +279,7 @@ export default class HotpepperBeauty extends React.Component {
                 <img src="/static/image/work/personarWork/hotpepper/Q1/hottpepper__Q1-2.jpg" alt=""/>
               </Image>
 
-              <p>情報のまとまりにメリハリをつけることで、どこに視線をフォーカスすれば良いか分かりやすいUIにできたと思います。これは白黒にするとよりわかりやすいです。背景がグレーントーンの時、白色は目立ちやすくなり、ユーザーにタップさせたい領域は白色で統一させています。</p>
+              <p>情報のまとまりにメリハリをつけ、どこに視線をフォーカスすれば良いか分かりやすいUIにできたと思います。これは白黒にするとよりわかりやすいです。背景がグレーントーンの時、白色は目立ちやすくなり、ユーザーにタップさせたい領域は白色で統一させています。</p>
               <p>（参考：<a href="https://goodpatch.com/blog/uicrunch-13/" target="_blank">任天堂のUI/UXデザイナーが語るデザイン思想 [Goodpatch Blog]</a>）</p>
               {/*<Image>*/}
               <Image>
@@ -298,7 +298,7 @@ export default class HotpepperBeauty extends React.Component {
               </Image>
               <h5>Before</h5>
               <p>「2. サロン検索結果」の旧デザインで気にかかったのは、ヘッダーの右上の「<i className="fas fa-search"/>」アイコンでした。</p>
-              <p>このボタンをタップすると「検索条件の詳細項目」を指定することができます。つまり、検索条件の「絞り込み / フィルター」機能です。</p>
+              <p>このボタンをタップすると「検索条件の詳細項目」を指定できます。つまり、検索条件の「絞り込み / フィルター」機能です。</p>
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/Q2/hottpepper__Q2-1.jpg" alt=""/>
                 <span>アイコンをタップで、「検索条件の詳細項目」を指定できる</span>
@@ -312,7 +312,7 @@ export default class HotpepperBeauty extends React.Component {
               </Image>
               <p>その他のリデザインのポイントとして、全体の配色に、サブカラーとして「水色」を追加しました。</p>
 
-              <p>サロン情報にある3つの項目「駅からの距離」「口コミ」「料金（カット）」は、ユーザーが美容院を比較する際に特に注目するポイントになると考え、サブカラーを取り入れることでコントラストを高めました。</p>
+              <p>サロン情報にある3つの項目「駅からの距離」「口コミ」「料金（カット）」は、ユーザーが美容院を比較する際に特に注目するポイントになると考え、サブカラーを取り入れコントラストを高めました。</p>
               <h5>Compare</h5>
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/BA/hotpepper__BA2.jpg" alt=""/>
@@ -353,7 +353,7 @@ export default class HotpepperBeauty extends React.Component {
 
               <p>「2. サロンの検索結果」で、４つの情報（基本情報 / 料金 / 評判 / 場所）をユーザーにリードとして提示し、サロンを比較させます。</p>
 
-              <p>その後、詳細画面では同じ項目を４つのタブで提示することで、ユーザーは自分が知りたい情報にすぐたどり着くことができます。（「<a href="https://uxdaystokyo.com/articles/glossary/inverted-pyramid/" target="_blank">逆ピラミッド</a>」と呼ばれるを情報提示方法を応用）</p>
+              <p>その後、詳細画面では同じ項目を４つのタブで提示し、ユーザーは自分が知りたい情報にすぐたどり着けます。（「<a href="https://uxdaystokyo.com/articles/glossary/inverted-pyramid/" target="_blank">逆ピラミッド</a>」と呼ばれるを情報提示方法を応用）</p>
 
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/Q3/hottpepper__Q3-5.jpg" alt=""/>
