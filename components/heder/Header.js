@@ -4,36 +4,36 @@ import React from "react";
 import HamburgerMenu from 'react-hamburger-menu'
 import HeaderNavPC from './HeaderNavPC'
 
-const Head = styled.header `
-  .headerTest {
-    position: fixed;
-    top: 0;
-    padding: 36px 30px 0;
-    width: 100%;
-    height: 30px;
-    z-index: 10;
-  }
+const Head = styled.header `  
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
   
   .inner {
     display: flex;
   }
-
-  //ホーム   
-  .header__home a {
-    font-size: 26px;
-    font-weight: bold;
-    margin: 0;
-  }
- 
-  //ハンバーガーメニュー
-  .headerTest.open .inner {
+  
+  .open.inner {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
   }
+
+  //ホーム   
+  .header__home {
+    padding: 36px 30px 0;
+  }
   
+  .header__home a {
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+  }
+ 
+  //ハンバーガーメニュー  
   .mobileMenu {
     margin-left: auto;
   }
@@ -50,7 +50,7 @@ const Head = styled.header `
     position: absolute;
     width: 100%;
     height: 100%;
-    background: black;
+    background: #fff;
     display: table;
   }
   
@@ -73,11 +73,22 @@ const Head = styled.header `
   
   .mobileMenu {
     display: none;
+    z-index: 10000;
+    position: fixed;
+    top: 27px;
+    right: 20px;
   }
 
   @media (max-width: 767px) {
-    height: 60px;
     background: rgba(255, 255, 255, 0.4);
+    
+    .header__home {
+      padding: 20px 20px 16px;
+    }
+    
+    .header__home a {
+      font-size: 22px;
+    }
     
     .pcNav {
       display: none;
@@ -125,42 +136,41 @@ export default class Header extends React.Component {
 
   render() {
     return (
-      <Head>
-        <div className={this.state.isMenuOpen ? 'headerTest open' : 'headerTest'}>
-          <div className="inner">
-            <div className="header__home">
-            <Link href="/index">Sugu Mizuno</Link>
-            </div>
-            <div className="mobileMenu">
-              <HamburgerMenu
-                className="hamburger"
-                isOpen={this.state.isMenuOpen}
-                menuClicked={this.closeMenu}
-                width={18}
-                height={15}
-                strokeWidth={1}
-                rotate={0}
-                color={this.state.isMenuOpen ? 'white' : 'black'}
-                borderRadius={0}
-                animationDuration={0.5}
-              />
-            </div>
+      <Head >
+        <div className={this.state.isMenuOpen ? 'inner open' : 'inner'}>
+          <div className="header__home">
+          <Link href="/index">Sugu Mizuno</Link>
+          </div>
+          <div className="mobileMenu">
+            <HamburgerMenu
+              className="hamburger"
+              isOpen={this.state.isMenuOpen}
+              menuClicked={this.closeMenu}
+              width={18}
+              height={15}
+              strokeWidth={1}
+              rotate={0}
+              color={this.state.isMenuOpen ? 'black' : 'black'}
+              borderRadius={0}
+              animationDuration={0.5}
+            />
+          </div>
 
-            <HeaderNavPC page={this.props.page}/>
+          {/* PC */}
+          <HeaderNavPC page={this.props.page}/>
 
-            {/*navigation*/}
-            <div className={this.state.isMenuOpen ? 'navigation open' : 'navigation close'}>
-              <nav>
-                <Link href="/index">
-                  <a>Work</a>
-                </Link>
+          {/* Mobile */}
+          <div className={this.state.isMenuOpen ? 'navigation open' : 'navigation close'}>
+            <nav>
+              <Link href="/index">
+                <a>Work</a>
+              </Link>
 
-                <Link href="/about">
-                  <a>About</a>
-                </Link>
-                <a href="https://drive.google.com/file/d/1YJ_eICop4KHvrZxQ86Yu-Rxlnc4OtDmj/view?usp=sharing" target="_blank">Resume</a>
-              </nav>
-            </div>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
+              <a href="https://drive.google.com/file/d/1YJ_eICop4KHvrZxQ86Yu-Rxlnc4OtDmj/view?usp=sharing" target="_blank">Resume</a>
+            </nav>
           </div>
         </div>
         {/*<div className="header__inner">*/}
