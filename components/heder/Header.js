@@ -68,6 +68,7 @@ const Head = styled.header `
     position: fixed;
     display: table;
     background: #fff;
+    transition: 0.5s;
   }
   
   /*コンテンツ*/
