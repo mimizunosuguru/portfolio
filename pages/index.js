@@ -58,10 +58,6 @@ const Top = styled.div`
 `
 
 export default class Work extends React.Component {
-  state = {
-    pageStatus: 'top'
-  }
-
   render () {
     return (
       <Layout page="index">
