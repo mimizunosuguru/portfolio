@@ -7,8 +7,10 @@
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/runtime/webpack.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
+        <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="255" column="52" selection-start-line="255" selection-start-column="52" selection-end-line="255" selection-end-column="52" />
+            <state relative-caret-position="176">
+              <caret line="244" column="42" selection-start-line="244" selection-start-column="42" selection-end-line="244" selection-end-column="42" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -37,19 +39,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>key</find>
-      <find>box--background</find>
-      <find>&lt;LazyLoad&gt;</find>
-      <find>ThumnailWrapper</find>
-      <find>onC</find>
-      <find>onClick</find>
-      <find>Thumnail</find>
-      <find>show</find>
-      <find>fade</find>
-      <find>headerTestWrapper</find>
-      <find>wrapper</find>
-      <find>pcNav</find>
-      <find>menuWrap</find>
       <find>props</find>
       <find>page</find>
       <find>headerTest</find>
@@ -67,6 +56,19 @@
       <find>こと</find>
       <find>に大きく目立たせています。</find>
       <find>企業情報のデータベースとなる「Baseconnect LIST」は担当した当時β版でのリリースになっていたため、サービスの肝となる企業情報の数が十分ではありませんでした。</find>
+      <find>年で約10,000社に導入いただいています。</find>
+      <find>見込み客</find>
+      <find>新サービスリリース準備</find>
+      <find>検索条件はサイドバーから全て指定可能で、</find>
+      <find>ユーザーからも地域選択がしづらいといいう声が多かったため</find>
+      <find>なるべく一覧性を欠かないように</find>
+      <find>Baseconnect LISTはPC環境のみの提供になっており、アプリ化の案も出ていましたが、デザイナーが対応できる範囲で実装を行いました。</find>
+      <find>ダッシュボードを作る際の1番の危惧は、見た目のかっこよさだけを重視し、作った後にただの飾りになることでした。そのためデザインの際は、まず数値が1番に目に入るように大きく目立たせています。また、基本的に３つの色に絞り、情報にまとまりをまとまりをもたせました。</find>
+      <find>URL</find>
+      <find>スクロール</find>
+      <find>デザインを採用しました。</find>
+      <find>この前の画面となる</find>
+      <find>思った以上に学びがありました。</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,11 +112,11 @@
         <option value="$PROJECT_DIR$/components/heder/HeaderNavMobile.js" />
         <option value="$PROJECT_DIR$/components/heder/HeaderNavPC.js" />
         <option value="$PROJECT_DIR$/components/heder/Header.js" />
-        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
-        <option value="$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js" />
+        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectList.js" />
         <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js" />
-        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js" />
+        <option value="$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js" />
+        <option value="$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js" />
       </list>
     </option>
   </component>
@@ -285,12 +287,12 @@
       <workItem from="1557826330359" duration="10156000" />
       <workItem from="1557969999680" duration="4745000" />
       <workItem from="1558016127658" duration="1717000" />
-      <workItem from="1558151093569" duration="17405000" />
+      <workItem from="1558151093569" duration="20548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316715000" />
+    <option name="totallyTimeSpent" value="319858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,7 +307,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49873418" visible="true" weight="0.15833333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49873418" visible="true" weight="0.15833333" />
       <window_info id="Structure" order="1" sideWeight="0.5012658" side_tool="true" weight="0.11111111" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -319,7 +321,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2658228" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2658228" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -572,10 +574,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
+    <entry file="file://$PROJECT_DIR$/.next/static/webpack/static/development/pages/baseconnect/baseconnectDashboard.js.875135bf251da7b0bbf5.hot-update.js.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="246" column="37" lean-forward="true" selection-start-line="246" selection-start-column="37" selection-end-line="246" selection-end-column="37" />
+        <state>
+          <caret column="4384" selection-start-column="4384" selection-end-column="4384" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="255" column="52" selection-start-line="255" selection-start-column="52" selection-end-line="255" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="330" column="68" selection-start-line="330" selection-start-column="68" selection-end-line="330" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3416">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -585,45 +615,17 @@
     <entry file="file://$PROJECT_DIR$/pages/personalWorks/hotpepperBeauty.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="266" column="58" selection-start-line="266" selection-start-column="58" selection-end-line="266" selection-end-column="58" />
+          <caret line="363" column="54" selection-start-line="363" selection-start-column="54" selection-end-line="363" selection-end-column="54" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectList.js">
+    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectBootcamp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="345" column="69" selection-start-line="345" selection-start-column="69" selection-end-line="345" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.next/static/webpack/static/development/pages/baseconnect/baseconnectDashboard.js.875135bf251da7b0bbf5.hot-update.js.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4384" selection-start-column="4384" selection-end-column="4384" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectDashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="220" column="20" lean-forward="true" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/baseconnect/baseconnectLp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="255" column="52" selection-start-line="255" selection-start-column="52" selection-end-line="255" selection-end-column="52" />
+          <caret line="244" column="42" selection-start-line="244" selection-start-column="42" selection-end-line="244" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
