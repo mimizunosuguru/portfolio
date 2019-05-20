@@ -11,11 +11,15 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/baseconnect/baseconnectLp": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/baseconnect/baseconnectDashboard": [
+    "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
