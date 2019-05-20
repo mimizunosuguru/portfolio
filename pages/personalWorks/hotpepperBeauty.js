@@ -231,7 +231,7 @@ export default class HotpepperBeauty extends React.Component {
             <Content>
               <h3>アウトプット</h3>
               <p>
-                「自分にあったサロンがすぐ見つかる」をコンセプトに、本アプリの機能の一つである「サロン検索」にフォーカスを当てリデザインを行いました。
+                「自分にあったサロンがすぐ見つかる」をコンセプトに、本アプリの一機能「サロン検索」にフォーカスを当てリデザインを行いました。
               </p>
               <h4>1. サロン検索</h4>
               <Image>
@@ -277,7 +277,7 @@ export default class HotpepperBeauty extends React.Component {
 
               <h5>After</h5>
               <p>
-                非常に悩みどころではありましたが、最上部タブを採用しない代わりに、階層を大きく「1. アカウント情報」「2. 検索条件の指定」の二つに分けました。最上部にあった「サロンのジャンル選択」は、「2. 検索条件の指定」の一部にしています。
+                非常に悩みどころではありましたが、最上部タブを採用しない代わりに、階層を大きく「1. アカウント情報」「2. 検索条件の指定」の二つに分けました。元々最上部にあった「サロンのジャンル選択」は、「2. 検索条件の指定」の一部にしています。
               </p>
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/Q1/hottpepper__Q1-2.jpg" alt=""/>
@@ -353,11 +353,11 @@ export default class HotpepperBeauty extends React.Component {
                 <img src="/static/image/work/personarWork/hotpepper/Q3/hottpepper__Q3-4.jpg" alt=""/>
                 <span>ユーザーが求める4つの情報を、タブ形式で提示</span>
               </Image>
-              <p>４タブは、この前画面となる「2. サロン検索結果」で表示されている情報を踏まえ設計しました。</p>
+              <p>この４タブは、この前画面の「2. サロン検索結果」で表示される情報を踏まえ設計しました。</p>
 
-              <p>「2. サロンの検索結果」で、４つの情報（基本情報 / 料金 / 評判 / 場所）をユーザーにリードとして提示し、サロンを比較させます。</p>
+              <p>「2. サロンの検索結果」では、４つの情報（基本情報 / 料金 / 評判 / 場所）をユーザーにリードとして提示し、サロンを比較させます。</p>
 
-              <p>その後、詳細画面では同じ項目を４つのタブで提示することで、ユーザーは自分が知りたい情報にすぐたどり着けます。（「<a href="https://uxdaystokyo.com/articles/glossary/inverted-pyramid/" target="_blank">逆ピラミッド</a>」と呼ばれるを情報提示方法を応用）</p>
+              <p>その後、「3. サロン詳細」では同じ項目を４つのタブで提示することで、ユーザーは自分が知りたい情報にすぐアクセスできます。（「<a href="https://uxdaystokyo.com/articles/glossary/inverted-pyramid/" target="_blank">逆ピラミッド</a>」と呼ばれるを情報提示方法を応用）</p>
 
               <Image>
                 <img src="/static/image/work/personarWork/hotpepper/Q3/hottpepper__Q3-5.jpg" alt=""/>
