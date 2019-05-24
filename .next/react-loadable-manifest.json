@@ -31,7 +31,7 @@
       "publicPath": "static/chunks/commons.68449205130214485e85.js"
     }
   ],
-  "../components/styledComponents/section": [
+  "../../components/styledComponents/section": [
     {
       "id": 4,
       "name": "./components/styledComponents/section.js",
@@ -79,7 +79,7 @@
       "publicPath": "static/chunks/commons.68449205130214485e85.js"
     }
   ],
-  "../components/Layout": [
+  "../../components/Layout": [
     {
       "id": 10,
       "name": "./components/Layout.js",
@@ -247,7 +247,7 @@
       "publicPath": "static/chunks/commons.68449205130214485e85.js"
     }
   ],
-  "../lib/utils": [
+  "./utils": [
     {
       "id": 31,
       "name": "./node_modules/next/dist/lib/utils.js",
@@ -415,10 +415,16 @@
       "publicPath": "static/chunks/commons.68449205130214485e85.js"
     }
   ],
-  "../lib/router": [
+  "./router": [
     {
       "id": 52,
       "name": "./node_modules/next/dist/lib/router/index.js",
+      "file": "static/chunks/commons.68449205130214485e85.js",
+      "publicPath": "static/chunks/commons.68449205130214485e85.js"
+    },
+    {
+      "id": 177,
+      "name": "./node_modules/next/dist/lib/router/router.js",
       "file": "static/chunks/commons.68449205130214485e85.js",
       "publicPath": "static/chunks/commons.68449205130214485e85.js"
     }
@@ -439,7 +445,7 @@
       "publicPath": "static/chunks/commons.68449205130214485e85.js"
     }
   ],
-  "@babel/runtime-corejs2/helpers/assertThisInitialized": [
+  "./assertThisInitialized": [
     {
       "id": 55,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js",
@@ -527,7 +533,7 @@
       "publicPath": "static/chunks/commons.68449205130214485e85.js"
     }
   ],
-  "./_wks-ext": [
+  "../../modules/_wks-ext": [
     {
       "id": 66,
       "name": "./node_modules/core-js/library/modules/_wks-ext.js",
@@ -655,7 +661,7 @@
       "publicPath": "static/chunks/commons.68449205130214485e85.js"
     }
   ],
-  "@babel/runtime-corejs2/core-js/object/assign": [
+  "../core-js/object/assign": [
     {
       "id": 82,
       "name": "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js",
@@ -1379,14 +1385,6 @@
     {
       "id": 176,
       "name": "./node_modules/core-js/library/modules/_set-proto.js",
-      "file": "static/chunks/commons.68449205130214485e85.js",
-      "publicPath": "static/chunks/commons.68449205130214485e85.js"
-    }
-  ],
-  "./router": [
-    {
-      "id": 177,
-      "name": "./node_modules/next/dist/lib/router/router.js",
       "file": "static/chunks/commons.68449205130214485e85.js",
       "publicPath": "static/chunks/commons.68449205130214485e85.js"
     }
