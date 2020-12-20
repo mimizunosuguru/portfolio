@@ -1,6 +1,5 @@
+.idea/
 .next/
+.vercel
 node_modules
 *.log
-.idea/
-
-.vercel
