@@ -66,7 +66,7 @@ export default class Work extends React.Component {
             <Top>
               <p>
                 I’m <Link href="/about"><a href="">Sugu Mizuno</a></Link>, UI/UX Designer,<br/>
-                currently intern at Baseconnect in Kyoto
+                at Yahoo! JAPAN in Tokyo
               </p>
             </Top>
           </Section>

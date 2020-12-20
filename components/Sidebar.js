@@ -49,7 +49,7 @@ export default class Sidebar extends React.Component {
       <Bar>
         <li className="title">Follow</li>
         <li className="item"><a href="https://twitter.com/mimizunosuguru" target="_blank">Twitter</a></li>
-        <li className="item"><a href="https://www.wantedly.com/users/17780119" target="_blank" >Wantedlly</a></li>
+        <li className="item"><a href="https://www.wantedly.com/users/17780119" target="_blank" >Wantedly</a></li>
       </Bar>
     )
   }

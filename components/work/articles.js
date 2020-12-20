@@ -152,16 +152,16 @@ export default class Articles extends React.Component {
         linkURL: 'https://note.mu/mimizunomizuno/n/n4d2f0feff8af'
       },
       {
-        title: 'デザイナーが10日間100時間の瞑想から学び得たもの',
-        type: 'デザインブログ',
-        imageURL: 'article--meditate.png',
-        linkURL: 'https://note.mu/mimizunomizuno/n/n219585e8e4a9'
-      },
-      {
         title: '英語を身につけるためにUXが教えてくれたこと',
         type: '翻訳',
         imageURL: 'article--uxLearn.jpeg',
         linkURL: 'https://link.medium.com/mRXiGzyKEV'
+      },
+      {
+        title: '知っていると役立つ行動経済学 - おとり効果',
+        type: 'デザインブログ',
+        imageURL: 'article--behavial.jpg',
+        linkURL: 'https://note.mu/mimizunomizuno/n/n4320dd178edc'
       }
     ],
     uxTimes: [

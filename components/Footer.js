@@ -99,7 +99,6 @@ const Footer = () => (
         <div className="icon__circle"/>
       </a>
       <p>Thank you for reading!</p>
-      {/*<button>お問い合わせはこちら</button>*/}
       <p>feel free to contact me or follow me on</p>
       <div className="sns__box">
         <a href="https://github.com/mimizunosuguru" target="_blank" className="github"/>
